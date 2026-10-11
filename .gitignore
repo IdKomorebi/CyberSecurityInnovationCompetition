@@ -1,0 +1,26 @@
+secrets/
+__pycache__/
+*.pyc
+node_modules/
+runtime/
+*.pt
+*.npz
+*.npy
+data/raw/
+
+# Local credentials and environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Editor and operating-system settings
+.vscode/
+.idea/
+.DS_Store
+
+# Runtime logs and process identifiers
+*.log
+*.pid
+*.pids
