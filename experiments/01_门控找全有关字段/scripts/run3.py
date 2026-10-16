@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); sys.path.ins
 from gate import train_masked
 ap = argparse.ArgumentParser(); ap.add_argument("--seed", type=int); ap.add_argument("--gpu", type=int); ap.add_argument("--crime_dir")
 a = ap.parse_args(); dev = f"cuda:{a.gpu}"; ND = 30
-GNN = "/data1/duhaocun/projects/GNN_Aggresvation"; E06 = GNN + "/reports/南网/南网claude/实验/06_PJM五级动态分级"
+E06 = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "prior")      # 前期工作的窗口数据与处理代码，随实验保存
 res = []; t0 = time.time()
 
 
@@ -22,11 +22,11 @@ def run(data, task, Xreal, Xb, y, truth):
                             decoy=[False] * n + [True] * ND, gate=s.tolist(), sel=sel.tolist(), r2=None, th=float(th)))
 
 
-sys.path.insert(0, E06 + "/src"); import data6 as D
+sys.path.insert(0, E06); import data6 as D
 df = pd.read_csv(D.CSV); cols = D.BASE + D.CAND + D.TARG; df[cols] = df[cols].interpolate().ffill().bfill()
 _, keys = D.sets(); kid = {k: r for r, k in enumerate(keys)}; n = len(D.CAND)
 for w in (0, 4, 8):
-    V = np.load(f"{E06}/outputs/windows/w{w}.npz")["V"]; d = df.iloc[D.window_rows(w)]
+    V = np.load(f"{E06}/windows/w{w}.npz")["V"]; d = df.iloc[D.window_rows(w)]
     for t, tn in enumerate(D.TARG):
         M = np.zeros(n)
         for i in range(n):

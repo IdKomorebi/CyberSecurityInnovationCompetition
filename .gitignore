@@ -1,12 +1,10 @@
-secrets/
+secrets/*
+!secrets/deepseek.env.example
 __pycache__/
 *.pyc
 node_modules/
-runtime/
 *.pt
-*.npz
-*.npy
-data/raw/
+runtime/shots/
 
 # Local credentials and environments
 .env
@@ -24,3 +22,9 @@ env/
 *.log
 *.pid
 *.pids
+runtime/*/回收站/
+V*/runtime/回收站/
+V*/submission/*/build/fonts/
+V*/submission/*/build/_pdf/
+V*/submission/*/build/previews/
+V*/submission/*/build/img/

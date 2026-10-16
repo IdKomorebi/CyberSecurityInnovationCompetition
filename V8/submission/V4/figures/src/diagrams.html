@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><title>示意图</title>
+<style>
+:root{--ink:#0f1a2e;--ink2:#334155;--sub:#64748b;--blue:#2563eb;--blue2:#dbeafe;--red:#e5484d;--red2:#fee2e2;--amber:#d97706;--amber2:#fef3c7;--green:#0f9f6e;--green2:#d1fae5;--violet:#7c3aed;--violet2:#ede9fe;--line:#cbd5e1}
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--ink)}
+.fig{width:1600px;padding:36px 40px;background:linear-gradient(160deg,#f8fbff,#f3f6fc);margin-bottom:40px;border-radius:0}
+.ttl{font-size:26px;font-weight:800;margin:0 0 6px}.cap{font-size:16px;color:var(--sub);margin-bottom:24px}
+.row{display:flex;gap:18px;align-items:stretch}.col{display:flex;flex-direction:column;gap:12px}
+.box{background:#fff;border:1.5px solid var(--line);border-radius:14px;padding:14px 16px;font-size:16px;line-height:1.55;box-shadow:0 2px 8px rgba(15,26,46,.05)}
+.box b{font-size:17px}.box .s{font-size:14px;color:var(--sub)}
+.stage{flex:1;border-radius:18px;padding:16px;background:#fff;border:2px solid var(--line);display:flex;flex-direction:column;gap:10px}
+.stage h3{margin:0 0 4px;font-size:20px;display:flex;align-items:center;gap:8px}.num{display:inline-flex;width:30px;height:30px;border-radius:50%;align-items:center;justify-content:center;color:#fff;font-size:16px;font-weight:800}
+.stage .it{border-radius:10px;padding:9px 12px;font-size:15px;line-height:1.5}
+.b .num{background:var(--blue)}.b{border-color:#93c5fd}.b .it{background:var(--blue2)}
+.v .num{background:var(--violet)}.v{border-color:#c4b5fd}.v .it{background:var(--violet2)}
+.a .num{background:var(--amber)}.a{border-color:#fcd34d}.a .it{background:var(--amber2)}
+.r .num{background:var(--red)}.r{border-color:#fca5a5}.r .it{background:var(--red2)}
+.g .num{background:var(--green)}.g{border-color:#6ee7b7}.g .it{background:var(--green2)}
+.arrow{display:flex;align-items:center;justify-content:center;font-size:30px;color:#94a3b8;font-weight:700;min-width:22px}
+.band{border-radius:14px;padding:14px 18px;display:flex;gap:14px;align-items:center;font-size:16px}
+.band .k{font-weight:800;font-size:17px;white-space:nowrap}.chip{display:inline-block;padding:5px 12px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:15px;margin:2px}
+.lv{display:inline-block;padding:2px 10px;border-radius:7px;color:#fff;font-weight:700;font-size:14px}.l1{background:#16a34a}.l2{background:#2563eb}.l3{background:#d97706}.l4{background:#ea580c}
+.down{text-align:center;font-size:26px;color:#94a3b8;line-height:1}
+.layer{display:flex;gap:16px;align-items:stretch;border-radius:16px;padding:16px;border:2px dashed var(--line)}
+.layer>.lab{writing-mode:vertical-rl;font-weight:800;font-size:18px;letter-spacing:4px;display:flex;align-items:center;justify-content:center;padding:0 6px;border-radius:10px;color:#fff}
+.mono{font-family:"Times New Roman",serif;font-size:20px}
+.bar{position:relative;height:22px;border-radius:7px;background:#e2e8f0}.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:7px}.bar b{position:absolute;top:-6px;bottom:-6px;width:3px;background:var(--ink)}
+table.mx{border-collapse:collapse;font-size:14px}table.mx td,table.mx th{border:1px solid var(--line);padding:5px 8px;text-align:center;background:#fff}table.mx th{background:#f1f5f9}
+</style></head><body>
+
+<!-- 图 1 技术路线 -->
+<div class="fig" id="f_route">
+ <div class="ttl">技术路线：从字段本身的等级，到计入聚合推断后的等级</div>
+ <div class="cap">一次定级只看字段本身；推断验证用模型实测“接收方能拿到的字段合起来能把保护对象推到多准”；二次定级把这种风险计入等级，最后用另一种模型复核效果。</div>
+ <div class="band" style="background:#eef2ff;margin-bottom:16px"><span class="k">输入</span><span class="chip">数据表（CSV / Excel）</span><span class="chip">字段目录：大模型起草，用户确认公开情况与保护对象</span><span class="chip">规则库：GB/T 43697 判定表与最低参考级别</span><span class="chip">接收方：社会公众 · 关联方 · 特定授权对象 · 内部受控</span></div>
+ <div class="row">
+  <div class="stage b"><h3><span class="num">1</span>一次定级</h3><div class="it">检索国标条文<br><span class="s">字符二元组重合度，必含判定表</span></div><div class="it">大模型判断影响对象与影响程度</div><div class="it">查判定表，套最低参考级别</div><div class="it">人工复核或另一个大模型复核，改动留痕</div></div>
+  <div class="arrow">→</div>
+  <div class="stage v"><h3><span class="num">2</span>推断验证</h3><div class="it">按字段组合训练推断模型<br><span class="s">遮挡输入、成批并行训练</span></div><div class="it">留出数据上的拟合优度 R² 作为推断精度 V(S)</div><div class="it">字段多时：快速估计排序 → 重新训练核对</div></div>
+  <div class="arrow">→</div>
+  <div class="stage a"><h3><span class="num">3</span>风险分析</h3><div class="it">单字段推断风险<br><span class="s">判定线 0.7</span></div><div class="it">字段推断敏感度 M<br><span class="s">已有至多 K 个背景字段时的最大提升</span></div><div class="it">最小越线组合<br><span class="s">接收方凑得齐、且超过判定线</span></div></div>
+  <div class="arrow">→</div>
+  <div class="stage r"><h3><span class="num">4</span>二次定级</h3><div class="it">直接定级<br><span class="s">M ≥ 0.7，与保护对象同级</span></div><div class="it">联合评估：强化学习求整套等级方案<br><span class="s">安全收益 · 可用性成本 · 聚合推断惩罚</span></div><div class="it">整体核对：合并全部可见字段重新训练</div></div>
+  <div class="arrow">→</div>
+  <div class="stage g"><h3><span class="num">5</span>效果复核</h3><div class="it">各接收方调级前后的推断精度</div><div class="it">换模型复测<br><span class="s">梯度提升树，两种模型取高</span></div><div class="it">调级依据：降回原级会重新成立的越线组合与效用差</div></div>
+ </div>
+ <div class="band" style="background:#ecfdf5;margin-top:16px"><span class="k">输出</span><span class="chip">二次等级与定级台账（CSV）</span><span class="chip">每次调级的依据</span><span class="chip">越线组合、各接收方推断能力的前后对比</span><span class="chip">可调参数，改后在线重算</span></div>
+</div>
+
+<!-- 图 2 系统架构 -->
+<div class="fig" id="f_arch">
+ <div class="ttl">系统架构</div>
+ <div class="cap">浏览器端只负责展示与交互；服务端管理任务与作业，按空闲显存自动选择显卡，没有显卡时用处理器；算法引擎与数据、规则分开，可独立复用。</div>
+ <div class="col" style="gap:14px">
+  <div class="layer"><div class="lab" style="background:#2563eb">界面层</div><div class="row" style="flex:1;flex-wrap:wrap;gap:10px">
+   <div class="box" style="flex:1"><b>任务管理</b><br><span class="s">新建任务向导、拖动排序、删除到回收站</span></div><div class="box" style="flex:1"><b>一次定级</b><br><span class="s">左表右依据；人工复核与大模型复核弹窗</span></div>
+   <div class="box" style="flex:1"><b>单字段 / 聚合推断风险</b><br><span class="s">精度条、敏感度 M、越线组合与推断曲线</span></div><div class="box" style="flex:1"><b>二次定级 / 定级效果</b><br><span class="s">效用与训练过程、调级原因、接收方前后对比</span></div><div class="box" style="flex:1"><b>导览与参数</b><br><span class="s">每页示意图、可调参数与重算</span></div></div></div>
+  <div class="down">⇅ HTTP 接口（JSON）</div>
+  <div class="layer"><div class="lab" style="background:#7c3aed">服务层</div><div class="row" style="flex:1;gap:10px">
+   <div class="box" style="flex:1.2"><b>接口</b><br><span class="s">上传与画像 · 起草目录 · 确认开跑 · 保存复核并重算 · 大模型复核 · 改参数重跑 · 排序与删除 · 状态</span></div>
+   <div class="box" style="flex:1"><b>作业管理</b><br><span class="s">后台线程执行，界面轮询进度与日志；同一时间一个作业</span></div>
+   <div class="box" style="flex:1"><b>设备选择</b><br><span class="s">nvidia-smi 查空闲显存，选最大的一张；不足 1.8 GB 或无显卡时用处理器</span></div></div></div>
+  <div class="down">⇅</div>
+  <div class="layer"><div class="lab" style="background:#d97706">计算层</div><div class="row" style="flex:1;gap:10px">
+   <div class="box" style="flex:1"><b>流水线</b><br><span class="s">一次定级 → 复核 → 推断验证 → 二次定级 → 整体核对与复测 → 推断曲线</span></div>
+   <div class="box" style="flex:1"><b>定级引擎</b><br><span class="s">检索与大模型初判 · 复核 · 字段目录起草 · 敏感度与越线组合 · 强化学习联合评估</span></div>
+   <div class="box" style="flex:1"><b>推断引擎</b><br><span class="s">遮挡输入的成批训练 · 稀疏门控快速估计 · 梯度提升树复测</span></div></div></div>
+  <div class="down">⇅</div>
+  <div class="layer"><div class="lab" style="background:#0f9f6e">资源层</div><div class="row" style="flex:1;gap:10px">
+   <div class="box" style="flex:1"><b>大语言模型</b><br><span class="s">初判：DeepSeek-V4.1-Flash<br>复核：Qwen3.8-Max（可替换）</span></div>
+   <div class="box" style="flex:1"><b>规则库</b><br><span class="s">GB/T 43697 条文、判定表、最低参考级别</span></div>
+   <div class="box" style="flex:1"><b>数据</b><br><span class="s">上传表格、字段目录、推断缓存、任务结果</span></div>
+   <div class="box" style="flex:1"><b>算力</b><br><span class="s">显卡或处理器，自动选择</span></div></div></div>
+ </div>
+</div>
+
+<!-- 图 3 聚合推断示例（PJM 实际网损） -->
+<div class="fig" id="f_aggr">
+ <div class="ttl">聚合推断与背景增益：PJM 区域电网的“实际网损”</div>
+ <div class="cap">实际网损定为 2 级，社会公众只能获取 1 级字段，判定线 0.7。左：三个公开字段的全部子集对实际网损的推断精度，任何真子集都不过线，三项合起来 0.736 越线。右：日前节点边际电价单独只有 0.274，接收方已掌握两个背景字段时，再拿到它，推断精度提高 0.472。</div>
+ <div class="row" style="gap:34px;align-items:stretch">
+  <div class="box" style="flex:1.25;padding:18px 20px">
+   <b>① 集合函数 V(S)：三个公开字段的全部子集</b>
+   <div style="position:relative;height:470px;margin-top:10px">
+    <svg width="100%" height="470" viewBox="0 0 760 470" style="position:absolute;left:0;top:0"><g stroke="#cbd5e1" stroke-width="2.5"><line x1="380" y1="96" x2="160" y2="150"/><line x1="380" y1="96" x2="380" y2="150"/><line x1="380" y1="96" x2="600" y2="150"/><line x1="160" y1="232" x2="160" y2="290"/><line x1="160" y1="232" x2="380" y2="290"/><line x1="380" y1="232" x2="160" y2="290"/><line x1="380" y1="232" x2="600" y2="290"/><line x1="600" y1="232" x2="380" y2="290"/><line x1="600" y1="232" x2="600" y2="290"/><line x1="160" y1="372" x2="380" y2="410"/><line x1="380" y1="372" x2="380" y2="410"/><line x1="600" y1="372" x2="380" y2="410"/></g></svg>
+    <div style="position:absolute;left:255px;top:4px;width:250px;text-align:center;border-color:#fca5a5;background:#fff7f7" class="box"><b style="color:#c02127">三项合起来</b><div class="mono" style="color:#c02127;font-size:26px;font-weight:800">0.736</div></div>
+    <div style="position:absolute;left:55px;top:150px;width:210px;text-align:center;border-color:#86efac" class="box"><b>负荷预测 + 节点电价</b><div class="mono">0.528</div></div>
+    <div style="position:absolute;left:275px;top:150px;width:210px;text-align:center;border-color:#86efac" class="box"><b>负荷预测 + 网损电价</b><div class="mono">0.609</div></div>
+    <div style="position:absolute;left:495px;top:150px;width:210px;text-align:center;border-color:#86efac" class="box"><b>节点电价 + 网损电价</b><div class="mono">0.509</div></div>
+    <div style="position:absolute;left:75px;top:290px;width:170px;text-align:center;border-color:#86efac" class="box"><b>最新负荷预测</b><div class="mono">0.476</div></div>
+    <div style="position:absolute;left:295px;top:290px;width:170px;text-align:center;border-color:#86efac" class="box"><b>实时节点边际电价</b><div class="mono">0.200</div></div>
+    <div style="position:absolute;left:515px;top:290px;width:170px;text-align:center;border-color:#86efac" class="box"><b>实时网损电价分量</b><div class="mono">0.335</div></div>
+    <div style="position:absolute;left:325px;top:410px;width:110px;text-align:center;padding:6px" class="box"><b>∅</b> <span class="mono">0</span></div>
+   </div>
+   <div class="s" style="margin-top:4px">绿框为不过线，红框为越线；线段表示“多一个字段”。网损大致随负荷的平方增长，网损电价分量反映网损对负荷的灵敏度，三者合起来能较准地还原网损。</div>
+  </div>
+  <div class="box" style="flex:1;padding:18px 20px">
+   <b>② 字段推断敏感度 M：日前节点边际电价</b>
+   <div class="s" style="margin:6px 0 14px">背景 T = {日前同步备用出清价，日前三十分钟备用出清总量}</div>
+   <div class="col" style="gap:14px">
+    <div><div style="display:flex;justify-content:space-between"><span>单独（K = 0）：V({i})</span><span class="mono">0.274</span></div><div class="bar" style="margin-top:6px"><i style="width:27.4%;background:linear-gradient(90deg,#93c5fd,#f59e0b)"></i></div></div>
+    <div><div style="display:flex;justify-content:space-between"><span>只有背景：V(T)</span><span class="mono">0.133</span></div><div class="bar" style="margin-top:6px"><i style="width:13.3%;background:#cbd5e1"></i></div></div>
+    <div><div style="display:flex;justify-content:space-between"><span>背景 + 该字段：V(T ∪ {i})</span><span class="mono">0.605</span></div>
+     <div style="display:flex;height:22px;border-radius:7px;background:#e2e8f0;margin-top:6px;overflow:hidden"><div style="width:13.3%;background:#cbd5e1"></div><div style="width:27.4%;background:linear-gradient(90deg,#93c5fd,#f59e0b)"></div><div style="width:19.8%;background:repeating-linear-gradient(135deg,#8b5cf6 0 7px,#b197fc 7px 11px)"></div></div>
+     <div style="display:flex;font-size:13px;color:var(--sub);margin-top:3px"><span style="width:13.3%">背景</span><span style="width:27.4%">单独作用 0.274</span><span style="width:20%">背景增益 0.198</span></div></div>
+   </div>
+   <div class="box" style="margin-top:16px;background:#f5f3ff;border-color:#c4b5fd"><div class="mono" style="font-size:19px">M<sup>(2)</sup> = V(T ∪ {i}) − V(T) = 0.605 − 0.133 = 0.472</div><div class="s" style="margin-top:6px">比单独作用高出 0.198，这部分就是背景增益。它来自与“三十分钟备用出清总量”的超可加交互：V({i, j}) − V({i}) − V({j}) = 0.554 − 0.274 − 0.088 = 0.192。</div></div>
+  </div>
+ </div>
+</div>
+
+<!-- 图 7 M 与聚合的关系 -->
+<div class="fig" id="f_theory">
+ <div class="ttl">字段推断敏感度 M 与聚合推断的关系</div>
+ <div class="cap">聚合推断风险定义在字段集合上，等级却要落到单个字段上。M 把集合上的风险折算到字段上：它是字段在至多 K 个背景字段上的最大边际，与最小越线组合有如下对应关系（V 取单调闭包）。</div>
+ <div class="row" style="gap:16px">
+  <div class="box" style="flex:1;border-color:#93c5fd"><b>性质一　组合受成员 M 之和约束</b><div class="mono" style="margin:12px 0;font-size:19px">V(A) − V(∅) ≤ Σ<sub>i∈A</sub> M<sub>i</sub><sup>(K)</sup>,  |A| ≤ K+1</div><div class="s">按任意顺序逐个加入字段，每一步的增量都是某个字段在不超过 K 个背景上的边际，不超过它的 M。所以成员 M 都很小的组合不可能越线；要越线，成员的 M 之和至少达到判定线。</div></div>
+  <div class="box" style="flex:1;border-color:#fca5a5"><b>性质二　关键字段 ⇔ 属于最小越线组合</b><div class="mono" style="margin:12px 0;font-size:17px">∃ |T| ≤ K: V(T) ≤ θ < V(T ∪ {i})  ⇔  i ∈ 某个 |E| ≤ K+1 的最小越线组合</div><div class="s">字段 i 能把某个不越线的背景推过判定线 θ，当且仅当它属于某个规模不超过 K+1 的最小越线组合。左图中三个字段都是关键字段。</div></div>
+  <div class="box" style="flex:1;border-color:#c4b5fd"><b>性质三　组合的增量不超过成员的 M</b><div class="mono" style="margin:12px 0;font-size:19px">V(E) − max<sub>E′⊊E</sub> V(E′) ≤ min<sub>j∈E</sub> M<sub>j</sub><sup>(|E|−1)</sup></div><div class="s">一个组合比它任何真子集多出的推断能力，不超过其中每个成员的 M。强协同组合的每个成员都会有较大的 M。</div></div>
+ </div>
+ <div class="row" style="gap:16px;margin-top:16px;align-items:center">
+  <div class="box" style="flex:1;background:#eff6ff"><b>M（字段视角）</b><div class="s" style="margin-top:4px">直接定级：M ≥ 0.7 的字段与保护对象同级；<br>安全收益：M 越大，留在低等级扣分越多</div></div>
+  <div class="arrow">+</div>
+  <div class="box" style="flex:1;background:#fef2f2"><b>最小越线组合（集合视角）</b><div class="s" style="margin-top:4px">聚合推断惩罚：调整后仍成立的组合按超出判定线的幅度扣分</div></div>
+  <div class="arrow">→</div>
+  <div class="box" style="flex:1.2;background:#f0fdf4"><b>强化学习求整套等级方案</b><div class="s" style="margin-top:4px">一个字段只有一个等级，同时影响多个组合、多个保护对象；在安全收益、可用性成本与聚合推断惩罚之间整体权衡</div></div>
+ </div>
+</div>
+
+<!-- 图 8 强化学习的策略与训练 -->
+<div class="fig" id="f_grpo">
+ <div class="ttl">联合评估的强化学习：策略、采样与更新</div>
+ <div class="cap">把“为全部字段定级”看作一步决策。策略网络按字段输出等级分布，每一步采样一组完整方案，用组内相对优势更新；同一套效用下用穷举或整数规划求精确最优作参照。</div>
+ <div class="row" style="gap:12px;align-items:stretch">
+  <div class="stage b" style="flex:1.1"><h3><span class="num">1</span>字段特征</h3><div class="it">一次等级 L<sub>i</sub> / 4</div><div class="it">等级下限（直接定级）/ 4</div><div class="it">M<sub>i</sub>（对各保护对象取最大）</div><div class="it">所在越线组合的罚分占比</div><div class="it">字段权重 w<sub>i</sub></div></div>
+  <div class="arrow">→</div>
+  <div class="stage v" style="flex:1.3"><h3><span class="num">2</span>策略网络</h3><div class="it">共享网络 f<sub>θ</sub>：5 → 64 → 64 → 4（tanh）<br>加字段偏置 b<sub>i</sub></div><div class="it mono" style="font-size:16px">π<sub>θ</sub>(a<sub>i</sub>=l) ∝ exp(f<sub>θ</sub>(s<sub>i</sub>)<sub>l</sub> + b<sub>il</sub>)，l ∈ [low<sub>i</sub>, high<sub>i</sub>]</div><div class="it">整套方案 π<sub>θ</sub>(a) = Π<sub>i</sub> π<sub>θ</sub>(a<sub>i</sub>)</div></div>
+  <div class="arrow">→</div>
+  <div class="stage a" style="flex:1.1"><h3><span class="num">3</span>采样与打分</h3><div class="it">采样 G = 128 套方案 a<sub>1</sub>…a<sub>G</sub></div><div class="it">逐套计算 U(a<sub>k</sub>)：安全收益 + 可用性成本 − 聚合推断惩罚</div><div class="it">记录训练中出现的最好方案</div></div>
+  <div class="arrow">→</div>
+  <div class="stage r" style="flex:1.3"><h3><span class="num">4</span>组相对更新</h3><div class="it mono" style="font-size:16px">Â<sub>k</sub> = (U<sub>k</sub> − mean U) / std U</div><div class="it mono" style="font-size:15px">L(θ) = −(1/G) Σ Â<sub>k</sub> log π<sub>θ</sub>(a<sub>k</sub>) − γ<sub>t</sub> H(π<sub>θ</sub>)</div><div class="it">不需要价值网络；熵奖励 γ<sub>t</sub> 随训练线性减小；共 400 步</div></div>
+  <div class="arrow">→</div>
+  <div class="stage g" style="flex:1"><h3><span class="num">5</span>精确参照</h3><div class="it">方案数 ≤ 30 万：穷举</div><div class="it">否则：整数线性规划（每字段 3 个“等级 ≤ c”变量，每个越线组合 1 个松弛变量）</div><div class="it">报告两者的效用差距</div></div>
+ </div>
+</div>
+
+<!-- 图 4 一次定级 -->
+<div class="fig" id="f_grade1">
+ <div class="ttl">一次定级：依据国标，由大模型初判、人工或另一个大模型复核</div>
+ <div class="cap">影响对象 × 影响程度查判定表得到等级，个人信息与公共数据再按最低参考级别抬高；复核不同意时以复核为准，初判与理由都保留。</div>
+ <div class="row">
+  <div class="box" style="flex:1"><b>字段</b><div class="s" style="margin-top:6px">中文名、说明、类别、公开情况<br>例：实际网损 · 行业数据 · 未公开</div></div><div class="arrow">→</div>
+  <div class="box" style="flex:1.1"><b>检索条文</b><div class="s" style="margin-top:6px">按字符二元组重合度取最相关的 4 条，判定表（6.5 表 1）必定入选</div></div><div class="arrow">→</div>
+  <div class="box" style="flex:1.3;border-color:#93c5fd"><b>大模型初判</b><div class="s" style="margin-top:6px">输出影响对象、影响程度、个人信息类型、依据条文、理由；已公开的数据影响程度取“无危害”</div></div><div class="arrow">→</div>
+  <div class="box" style="flex:1"><b>查判定表</b><div class="s" style="margin-top:6px">再套最低参考级别<br>（敏感个人信息不低于 4 级等）</div></div><div class="arrow">→</div>
+  <div class="box" style="flex:1.2;border-color:#6ee7b7"><b>复核</b><div class="s" style="margin-top:6px">人工逐条修改；或另一个大模型逐条给意见，人工采纳。来源与理由留痕</div></div>
+ </div>
+ <div class="row" style="margin-top:22px;gap:30px;align-items:flex-start">
+  <div><div style="font-weight:800;margin-bottom:8px">判定表（节选）</div><table class="mx"><tr><th></th><th>一般危害</th><th>严重危害</th><th>特别严重危害</th></tr>
+   <tr><th>经济运行</th><td><span class="lv l4">4 级</span></td><td>重要</td><td>核心</td></tr><tr><th>组织权益</th><td><span class="lv l2">2 级</span></td><td><span class="lv l3">3 级</span></td><td><span class="lv l4">4 级</span></td></tr>
+   <tr><th>个人权益</th><td><span class="lv l2">2 级</span></td><td><span class="lv l3">3 级</span></td><td><span class="lv l4">4 级</span></td></tr><tr><th>无危害</th><td colspan="3"><span class="lv l1">1 级</span></td></tr></table></div>
+  <div style="flex:1"><div style="font-weight:800;margin-bottom:8px">等级决定谁能拿到</div>
+   <div class="col" style="gap:8px"><div class="box" style="padding:8px 14px"><span class="lv l1">1 级</span>　社会公众、关联方、特定授权对象</div><div class="box" style="padding:8px 14px"><span class="lv l2">2 级</span>　关联方、特定授权对象</div><div class="box" style="padding:8px 14px"><span class="lv l3">3 级</span>　特定授权对象</div><div class="box" style="padding:8px 14px"><span class="lv l4">4 级</span>　仅内部受控范围</div></div></div>
+ </div>
+</div>
+
+<!-- 图 5 推断验证与敏感度 -->
+<div class="fig" id="f_infer">
+ <div class="ttl">推断验证与字段推断敏感度</div>
+ <div class="cap">用遮挡输入的方式，把许多字段组合放进同一批网络并行训练；每个组合在留出数据上的 R² 就是它对保护对象的推断精度。</div>
+ <div class="row" style="gap:26px;align-items:stretch">
+  <div class="col" style="flex:1.1">
+   <div class="box"><b>① 成批训练</b><div class="s" style="margin:6px 0 10px">每个组合 S 对应一个遮挡向量 m<sub>S</sub>，网络第一层权重乘以 m<sub>S</sub>，看不到组合以外的字段；几百上千个组合在一张显卡上同时训练</div>
+    <div style="display:grid;grid-template-columns:repeat(8,1fr);gap:4px;font-size:13px;text-align:center">
+     <div style="background:#bfdbfe;border-radius:4px;padding:6px 0">x₁</div><div style="background:#e2e8f0;border-radius:4px;padding:6px 0;color:#94a3b8">x₂</div><div style="background:#bfdbfe;border-radius:4px;padding:6px 0">x₃</div><div style="background:#e2e8f0;border-radius:4px;padding:6px 0;color:#94a3b8">x₄</div><div style="background:#e2e8f0;border-radius:4px;padding:6px 0;color:#94a3b8">x₅</div><div style="background:#bfdbfe;border-radius:4px;padding:6px 0">x₆</div><div style="background:#e2e8f0;border-radius:4px;padding:6px 0;color:#94a3b8">x₇</div><div style="background:#e2e8f0;border-radius:4px;padding:6px 0;color:#94a3b8">x₈</div></div>
+    <div class="s" style="margin-top:8px">蓝色为组合 S = {x₁, x₃, x₆} 可见的字段</div></div>
+   <div class="box"><b>② 推断精度</b><div class="mono" style="margin-top:8px">V(S) = R²<sub>留出</sub>( y, f<sub>S</sub>(x ⊙ m<sub>S</sub>) )</div><div class="s" style="margin-top:6px">三个随机种子取平均；整体核对时另用梯度提升树复测，两者取高</div></div>
+   <div class="box"><b>③ 字段多时</b><div class="s" style="margin-top:6px">先训练一个带稀疏门控与诱饵字段的估计网络，给组合打分、圈出作用强的字段；再对可能越线的组合重新训练核对，并随机抽查</div></div>
+  </div>
+  <div class="col" style="flex:1">
+   <div class="box" style="border-color:#c4b5fd"><b>④ 字段推断敏感度</b>
+    <div class="mono" style="margin:12px 0;font-size:22px">M<sub>i</sub><sup>(K)</sup> = max<sub>|T| ≤ K</sub> [ V(T ∪ {i}) − V(T) ]</div>
+    <div class="s">T 是接收方已掌握的背景字段（至多 K 个）。M 衡量“再拿到字段 i，推断能力最多提高多少”。</div>
+    <div style="display:flex;height:30px;border-radius:9px;background:#e2e8f0;margin:16px 0 6px;overflow:hidden"><div style="width:22%;background:#cbd5e1"></div><div style="width:34%;background:linear-gradient(90deg,#93c5fd,#f59e0b)"></div><div style="width:16%;background:repeating-linear-gradient(135deg,#8b5cf6 0 7px,#b197fc 7px 11px)"></div></div>
+    <div style="display:flex;font-size:13px;color:var(--sub)"><span style="width:22%">只有背景 V(T)</span><span style="width:34%">字段单独作用</span><span style="width:16%">背景增益</span></div>
+   </div>
+   <div class="box"><b>⑤ 最小越线组合</b><div class="s" style="margin-top:6px">接收方 c 能凑齐（各字段等级 ≤ c）、无权获取保护对象（等级 &gt; c），推断精度超过判定线，且去掉任何一个字段就不再越线。社会公众判定线 0.7，其他接收方 0.8。</div></div>
+   <div class="box"><b>⑥ 直接定级</b><div class="s" style="margin-top:6px">M ≥ 0.7 的字段几乎相当于保护对象本身，直接定为与保护对象同级。</div></div>
+  </div>
+ </div>
+</div>
+
+<!-- 图 6 二次定级与强化学习 -->
+<div class="fig" id="f_regrade">
+ <div class="ttl">二次定级：直接定级、强化学习联合评估、整体核对</div>
+ <div class="cap">每个字段只能有一个等级，各保护对象、各接收方的风险要一起权衡，所以把整套等级方案作为一个决策，用组相对策略优化求解；再对每类接收方合并全部可见字段重新训练核对。</div>
+ <div class="row" style="gap:16px">
+  <div class="stage r" style="flex:.8"><h3><span class="num">1</span>直接定级</h3><div class="it">M ≥ 0.7 的字段直接定为与对应保护对象同级，作为下限</div><div class="it">其余字段的允许范围：一次等级至最高等级</div></div>
+  <div class="arrow">→</div>
+  <div class="stage b" style="flex:2"><h3><span class="num">2</span>联合评估（组相对策略优化）</h3>
+   <div class="row" style="gap:8px;align-items:center">
+    <div class="it" style="flex:1;text-align:center">策略 π<sub>θ</sub><br><span class="s">每个字段在允许等级上的分布</span></div><div class="arrow" style="font-size:22px">→</div>
+    <div class="it" style="flex:1;text-align:center">一次采样 G = 128 套完整方案 a<sub>1</sub>…a<sub>G</sub></div><div class="arrow" style="font-size:22px">→</div>
+    <div class="it" style="flex:1;text-align:center">逐套计算综合效用 U(a<sub>k</sub>)</div><div class="arrow" style="font-size:22px">→</div>
+    <div class="it" style="flex:1;text-align:center">组内优势<br><span class="mono" style="font-size:16px">Â<sub>k</sub> = (U<sub>k</sub> − 均值) / 标准差</span></div></div>
+   <div class="it" style="text-align:center">按 Â<sub>k</sub> 提高好方案的概率、降低差方案的概率，重复 400 步；同一套效用下用穷举或整数规划求精确最优作参照</div>
+   <div class="it mono" style="font-size:17px;text-align:center;background:#fff;border:1px dashed #93c5fd">U(a) = − Σ β M<sub>i</sub> e<sup>−λ(a<sub>i</sub>−L<sub>i</sub>)</sup> − Σ η (e<sup>σ(a<sub>i</sub>−L<sub>i</sub>)</sup> − 1) − Σ<sub>越线组合</sub> ρ · max(v − 判定线, 0.02) / 0.1</div>
+   <div class="row" style="gap:8px"><div class="it" style="flex:1;background:#dbeafe">安全收益：M 越大的字段留在低等级，扣分越多</div><div class="it" style="flex:1;background:#fef3c7">可用性成本：等级越高，可共享的接收方越少</div><div class="it" style="flex:1;background:#fee2e2">聚合推断惩罚：仍成立的越线组合</div></div>
+  </div>
+  <div class="arrow">→</div>
+  <div class="stage a" style="flex:1"><h3><span class="num">3</span>整体核对</h3><div class="it">每类接收方合并全部可见字段，用神经网络与梯度提升树重新训练，取高</div><div class="it">仍越线：沿“逐个撤出”的路径走完，取综合效用最高的位置，再逐个尝试放回</div><div class="it">换模型复测，结果写入定级效果页</div></div>
+ </div>
+</div>
+</body></html>
