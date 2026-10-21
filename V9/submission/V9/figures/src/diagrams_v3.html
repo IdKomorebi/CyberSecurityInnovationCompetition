@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><title>原理图（报告版心）</title>
+<style>
+:root{--ink:#0f1a2e;--ink2:#334155;--sub:#64748b;--line:#cbd5e1;--blue:#2563eb;--blue2:#dbeafe;--violet:#7c3aed;--violet2:#ede9fe;--amber:#b45309;--amber2:#fef3c7;--red:#dc2626;--red2:#fee2e2;--green:#047857;--green2:#d1fae5;--gray2:#f1f5f9}
+*{box-sizing:border-box}body{margin:0;background:#fff;font-family:"Noto Sans CJK SC","Microsoft YaHei",sans-serif;color:var(--ink)}
+.fig{width:1000px;padding:26px 28px;background:#fff;margin-bottom:30px}
+.part{border:2px solid var(--line);border-radius:16px;padding:16px 18px;position:relative}
+.part+.part{margin-top:22px}
+.ptag{position:absolute;top:-15px;left:18px;background:#fff;padding:0 10px;font-size:20px;font-weight:800;color:var(--ink2)}
+.row{display:flex;align-items:center;gap:12px}
+.bx{border-radius:12px;padding:10px 14px;font-size:21px;line-height:1.45;text-align:center;border:2px solid transparent}
+.bx small{display:block;font-size:17px;color:var(--ink2);font-weight:400}
+.b{background:var(--blue2);border-color:#93c5fd}.v{background:var(--violet2);border-color:#c4b5fd}.a{background:var(--amber2);border-color:#fcd34d}.r{background:var(--red2);border-color:#fca5a5}.g{background:var(--green2);border-color:#6ee7b7}.n{background:var(--gray2);border-color:var(--line)}
+.ar{font-size:30px;color:#94a3b8;font-weight:800;flex:none}
+.mono{font-family:"Times New Roman","Noto Serif CJK SC",serif;font-style:italic}
+.note{font-size:18px;color:var(--ink2);margin-top:12px;line-height:1.5}
+.mask{display:inline-flex;gap:3px;vertical-align:middle}.mask i{width:16px;height:22px;border-radius:3px;background:#e2e8f0;border:1px solid #cbd5e1}.mask i.on{background:var(--blue);border-color:var(--blue)}
+.grid3{display:grid;grid-template-columns:150px 30px 1fr 30px 190px;row-gap:12px;align-items:center}
+.lane{display:flex;align-items:center;gap:10px}
+.bars{display:flex;flex-direction:column;gap:7px;width:100%}.bars div{display:flex;align-items:center;gap:8px;font-size:18px}.bars span{width:96px;text-align:right}.bars i{height:16px;border-radius:5px;display:block}
+.loop{position:relative}
+</style></head><body>
+
+<!-- 成批训练 -->
+<div class="fig" id="f_batch">
+ <div class="part"><span class="ptag">每个组合一个独立模型</span>
+  <div class="grid3">
+   <div class="bx n">组合 S₁ <span class="mask"><i class="on"></i><i></i><i class="on"></i><i></i><i></i></span></div><div class="ar">→</div>
+   <div class="bx b">网络 f₁：参数 W₁<small>只看见 S₁ 中的字段（其余输入列为 0）</small></div><div class="ar">→</div><div class="bx g">V(S₁)</div>
+   <div class="bx n">组合 S₂ <span class="mask"><i></i><i class="on"></i><i></i><i class="on"></i><i class="on"></i></span></div><div class="ar">→</div>
+   <div class="bx b">网络 f₂：参数 W₂<small>结构相同，参数互不共享</small></div><div class="ar">→</div><div class="bx g">V(S₂)</div>
+   <div class="bx n">组合 S₃ <span class="mask"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></div><div class="ar">→</div>
+   <div class="bx b">网络 f₃：参数 W₃</div><div class="ar">→</div><div class="bx g">V(S₃)</div>
+  </div>
+ </div>
+ <div class="part"><span class="ptag">实际计算：参数沿新的一维堆叠，一次完成</span>
+  <div class="row">
+   <div class="bx b" style="flex:1">堆叠参数 [W₁, W₂, W₃]<small>形状：组合数 × 输入维 × 隐层宽度</small></div><div class="ar">→</div>
+   <div class="bx v" style="flex:1">一次批量矩阵乘法<small>同时完成全部组合的前向与反向</small></div><div class="ar">→</div>
+   <div class="bx g" style="flex:1">总损失 = 各组合损失之和<small>每组参数的梯度只来自自身损失</small></div>
+  </div>
+  <div class="note">结论：与逐个训练在数学上等价，但一张显卡可同时训练数百至上千个组合。</div>
+ </div>
+</div>
+
+<!-- 门控网络 -->
+<div class="fig" id="f_gate">
+ <div class="part"><span class="ptag">输入：真实字段 + 诱饵字段</span>
+  <div class="row">
+   <div class="bx b" style="flex:1">真实字段 x₁ … xₙ</div>
+   <div class="bx n" style="flex:1">诱饵字段：真实字段按行打乱的副本<small>分布相同，但与保护对象无关</small></div>
+   <div class="ar">→</div>
+   <div class="bx v" style="flex:1.2">门控网络<small>第一层权重 = Ωᵢ × 门控之积<br>平方惩罚使无关字段整体收缩为 0</small></div>
+  </div>
+ </div>
+ <div class="part"><span class="ptag">输出：作用强度排序与无关门槛</span>
+  <div class="row" style="align-items:stretch">
+   <div style="flex:1.4">
+    <div class="bars">
+     <div><span>字段 7</span><i style="width:300px;background:var(--blue)"></i></div>
+     <div><span>字段 2</span><i style="width:240px;background:var(--blue)"></i></div>
+     <div><span>字段 11</span><i style="width:170px;background:var(--blue)"></i></div>
+     <div><span>诱饵 3</span><i style="width:92px;background:#94a3b8"></i></div>
+     <div style="border-top:3px dashed var(--red);padding-top:6px;color:var(--red);font-weight:700"><span></span>诱饵强度的 90% 分位数 = 门槛</div>
+     <div><span>字段 5</span><i style="width:60px;background:#93c5fd"></i></div>
+     <div><span>诱饵 8</span><i style="width:40px;background:#94a3b8"></i></div>
+    </div>
+   </div>
+   <div class="ar" style="align-self:center">→</div>
+   <div class="col" style="flex:1;display:flex;flex-direction:column;gap:10px;justify-content:center">
+    <div class="bx g">门槛以上：保留<small>进入组合估计（最多 45 或 22 个）</small></div>
+    <div class="bx n">门槛以下：视为无关</div>
+   </div>
+  </div>
+ </div>
+</div>
+
+<!-- 闭式读出估计器 -->
+<div class="fig" id="f_readout">
+ <div class="part"><span class="ptag">一、预训练主干（每个任务只做一次）</span>
+  <div class="row">
+   <div class="bx n" style="flex:1">随机遮挡字段<small>可见字段数 1 至 n 均匀抽取</small></div><div class="ar">→</div>
+   <div class="bx v" style="flex:1.2">主干网络 h<small>输入 [x⊙m, m]，三层 256 维</small></div><div class="ar">→</div>
+   <div class="bx a" style="flex:1.3">同时输出：保护对象 + 被遮字段<small>损失 = 预测误差 + 重建误差</small></div><div class="ar">→</div>
+   <div class="bx v" style="flex:.8">冻结 h</div>
+  </div>
+ </div>
+ <div class="part"><span class="ptag">二、逐组合读出（每个组合不到 1 毫秒）</span>
+  <div class="grid3" style="grid-template-columns:170px 30px 1.15fr 30px 1fr 30px 120px">
+   <div class="bx n">组合 S₁ <span class="mask"><i class="on"></i><i></i><i class="on"></i><i></i></span></div><div class="ar">→</div>
+   <div class="bx v">特征 φ<sub>S₁</sub> = [x⊙m, (x⊙m)², h(x⊙m, m)]</div><div class="ar">→</div>
+   <div class="bx b">岭回归闭式解 β<sub>S₁</sub></div><div class="ar">→</div><div class="bx g">Ṽ(S₁)</div>
+   <div class="bx n">组合 S₂ <span class="mask"><i></i><i class="on"></i><i class="on"></i><i class="on"></i></span></div><div class="ar">→</div>
+   <div class="bx v">特征 φ<sub>S₂</sub>（同一冻结主干）</div><div class="ar">→</div>
+   <div class="bx b">岭回归闭式解 β<sub>S₂</sub></div><div class="ar">→</div><div class="bx g">Ṽ(S₂)</div>
+  </div>
+  <div class="note">特征提取共享，所以快；每个组合有自己的线性预测器，所以准。岭回归在训练行上拟合，决定系数在留出行上计算，并有三道数值防护。</div>
+ </div>
+</div>
+
+<!-- 强化学习 -->
+<div class="fig" id="f_grpo3">
+ <div class="part"><span class="ptag">训练循环（每步采样 128 套方案，共 400 步）</span>
+  <div class="row" style="align-items:stretch">
+   <div class="bx v" style="flex:1">策略网络<small>输入每个字段的特征：一次等级、等级下限、M、罚分占比、权重</small></div><div class="ar" style="align-self:center">→</div>
+   <div class="bx b" style="flex:1">每个字段的等级概率<small>例：字段 A：1 级 0.6，2 级 0.4</small></div><div class="ar" style="align-self:center">→</div>
+   <div class="bx n" style="flex:1">采样整套方案<small>方案 1：A=1，B=2，…<br>方案 2：A=2，B=2，…</small></div>
+  </div>
+  <div class="row" style="justify-content:flex-end;margin:6px 120px 6px 0"><div class="ar">↓</div></div>
+  <div class="row" style="align-items:stretch;flex-direction:row-reverse">
+   <div class="bx a" style="flex:1">逐套计算效用 U<small>安全收益、可用性成本、聚合推断惩罚</small></div><div class="ar" style="align-self:center">←</div>
+   <div class="bx r" style="flex:1">组内比较<small>优势 = (U − 组内均值) / 组内标准差</small></div><div class="ar" style="align-self:center">←</div>
+   <div class="bx v" style="flex:1">更新策略<small>提高优于组内平均的方案的概率</small></div>
+  </div>
+  <div class="row" style="margin:6px 0 0 120px"><div class="ar">↑</div><span style="font-size:18px;color:var(--ink2)">回到策略网络，进入下一步</span></div>
+ </div>
+ <div class="part" style="border-style:dashed"><span class="ptag">对照（不参与训练）</span>
+  <div class="row">
+   <div class="bx n" style="flex:1">同一效用函数</div><div class="ar">→</div>
+   <div class="bx n" style="flex:1.3">穷举（方案数 ≤ 30 万）或整数规划</div><div class="ar">→</div>
+   <div class="bx g" style="flex:1">精确最优，用来检验学习结果</div>
+  </div>
+ </div>
+</div>
+
+<!-- 整体核对 -->
+<div class="fig" id="f_whole">
+ <div class="part"><span class="ptag">对每类接收方：逐步撤出字段</span>
+  <div class="row">
+   <div class="bx n" style="flex:1">联合评估的方案<small>接收方可见的全部字段</small></div><div class="ar">→</div>
+   <div class="bx r" style="flex:1">重新训练<small>合并全部可见字段推断</small></div><div class="ar">→</div>
+   <div class="bx a" style="flex:1.2">仍越线：估计撤出每个字段的效果<small>取前 6 个重新训练，撤出净收益最大者</small></div><div class="ar">→</div>
+   <div class="bx v" style="flex:.9">记入路径</div>
+  </div>
+  <div class="note">重复撤出，直到不再越线或只剩一个字段。路径上每个位置都记录累计上调代价和整体推断惩罚。</div>
+ </div>
+ <div class="part"><span class="ptag">选择停止位置，再尝试放回</span>
+  <div class="row">
+   <div class="bx b" style="flex:1.3">在路径上取 代价 + 惩罚 最小的位置<small>其后的撤出撤销</small></div><div class="ar">→</div>
+   <div class="bx g" style="flex:1.3">按撤出的逆序逐个尝试放回<small>放回更划算就放回</small></div><div class="ar">→</div>
+   <div class="bx v" style="flex:1">最终等级</div>
+  </div>
+  <div class="note">严格模式下，撤出持续到不再越线为止。</div>
+ </div>
+</div>
+
+</body></html>

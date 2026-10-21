@@ -1,0 +1,31 @@
+{
+  "duration": 296.5119583333333,
+  "size_mb": 39.66518,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "audio_tracks": 1,
+  "channels": 1,
+  "full_decode_ok": true,
+  "browser_errors": [],
+  "utterances": 55,
+  "subtitles": 68,
+  "max_caption_length": 39,
+  "review_frames": 60,
+  "continuous_source_ranges": 1,
+  "probe": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V8/submission/V4/video/演示视频.mp4':\n  Metadata:\n    major_brand     : isom\n    minor_version   : 512\n    compatible_brands: isomiso2avc1mp41\n    encoder         : Lavf61.1.100\n  Duration: 00:04:56.51, start: 0.000000, bitrate: 1070 kb/s\n  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt470bg/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 900 kb/s, 30 fps, 30 tbr, 15360 tbn (default)\n      Metadata:\n        handler_name    : VideoHandler\n        vendor_id       : [0][0][0][0]\n        encoder         : Lavc61.3.100 libx264\n  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 161 kb/s (default)\n      Metadata:\n        handler_name    : SoundHandler\n        vendor_id       : [0][0][0][0]\nAt least one output file must be specified\n",
+  "black_intervals": [],
+  "silences_over_1_5_seconds": [],
+  "visual_review": {
+    "completed_on": "2026-10-17",
+    "frames_reviewed": 60,
+    "passed": true,
+    "checks": [
+      "短章节导航与字幕位置",
+      "跨页滚动位置",
+      "K=0 与 K=2 对应画面",
+      "开场组合逐层揭示",
+      "关键结果标注与局部放大",
+      "结果图与结尾画面"
+    ]
+  }
+}

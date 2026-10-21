@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1408" viewBox="0 0 1000 704" role="img" aria-labelledby="title desc">
+<title id="title">系统架构：界面、服务、计算与资源</title><desc id="desc">浏览器中的三组操作通过接口连接任务与后台作业。流水线调度定级引擎与推断引擎，依托大语言模型、规则库、数据和 CPU 或 GPU 运行。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<path d="M38 64L38 142" stroke="#2463b6" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60" y="112" font-size="26" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">界面层</tspan></text>
+<path d="M38 235L38 313" stroke="#7052b5" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60" y="283" font-size="26" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">服务层</tspan></text>
+<path d="M38 403L38 481" stroke="#087e86" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60" y="451" font-size="26" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">计算层</tspan></text>
+<path d="M38 575L38 653" stroke="#b56a16" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="60" y="623" font-size="26" fill="#b56a16" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">资源层</tspan></text>
+<rect x="202" y="30" width="754" height="133" rx="8" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<path d="M203 57L955 57" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="220" cy="44" r="3" fill="#d7e0e9" stroke="#d7e0e9" stroke-width="1.5"/>
+<circle cx="234" cy="44" r="3" fill="#d7e0e9" stroke="#d7e0e9" stroke-width="1.5"/>
+<circle cx="248" cy="44" r="3" fill="#d7e0e9" stroke="#d7e0e9" stroke-width="1.5"/>
+<text x="548.5" y="49" font-size="19" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">浏览器</tspan></text>
+<path d="M236 77L416 77" stroke="#2463b6" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="276.0" y="109" font-size="25" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段本身</tspan></text>
+<text x="236.4609375" y="143" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">一次定级</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">单独推断</tspan></text>
+<path d="M488 77L668 77" stroke="#7052b5" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="503.0" y="109" font-size="25" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">聚合推断风险</tspan></text>
+<text x="468.4609375" y="143" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段推断风险</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">越线组合</tspan></text>
+<path d="M740 77L920 77" stroke="#087e86" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="767.5" y="109" font-size="25" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">定级与效果</tspan></text>
+<text x="740.4609375" y="143" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">二次定级</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">效果复核</tspan></text>
+<path d="M557 172L557 211" stroke="#52647a" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<path d="M596 211L596 172" stroke="#52647a" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<text x="627" y="199" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">请求</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> / </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">结果</tspan></text>
+<circle cx="249" cy="244" r="5" fill="white" stroke="#7052b5" stroke-width="1.6"/>
+<path d="M257 244L281 244" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="249" cy="265" r="5" fill="white" stroke="#7052b5" stroke-width="1.6"/>
+<path d="M257 265L281 265" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="249" cy="286" r="5" fill="white" stroke="#7052b5" stroke-width="1.6"/>
+<path d="M257 286L281 286" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M283 244H298V286H283" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M298 265L323 265" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<text x="343" y="260" font-size="24" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">任务接口</tspan></text>
+<text x="343" y="295" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">查询</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">配置</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">触发</tspan></text>
+<rect x="560" y="237" width="65" height="20" rx="3" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<rect x="567" y="249" width="65" height="20" rx="3" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<rect x="574" y="261" width="65" height="20" rx="3" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="651" y="260" font-size="24" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">作业管理</tspan></text>
+<text x="651" y="295" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">后台运行</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">进度</tspan></text>
+<path d="M843 241L875 241" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="865" cy="241" r="5" fill="white" stroke="#7052b5" stroke-width="2"/>
+<path d="M843 263L875 263" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="851" cy="263" r="5" fill="white" stroke="#7052b5" stroke-width="2"/>
+<text x="885.0" y="263" font-size="23" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">设备</tspan></text>
+<text x="855.0" y="295" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">自动选择</tspan></text>
+<path d="M203 325L956 325" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M577 336L577 367" stroke="#52647a" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<text x="625" y="358" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">调度计算</tspan></text>
+<text x="286.0" y="398" font-size="24" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">流水线</tspan></text>
+<circle cx="241" cy="436" r="12" fill="white" stroke="#087e86" stroke-width="2"/>
+<text x="235.0859375" y="442" font-size="17" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<path d="M256 436L277 436" stroke="#087e86" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="294" cy="436" r="12" fill="white" stroke="#087e86" stroke-width="2"/>
+<text x="288.0859375" y="442" font-size="17" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<path d="M309 436L330 436" stroke="#087e86" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="347" cy="436" r="12" fill="white" stroke="#087e86" stroke-width="2"/>
+<text x="341.0859375" y="442" font-size="17" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<path d="M362 436L383 436" stroke="#087e86" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="400" cy="436" r="12" fill="white" stroke="#087e86" stroke-width="2"/>
+<text x="394.0859375" y="442" font-size="17" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="242.0" y="499" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">组织各阶段的执行</tspan></text>
+<text x="532.0" y="398" font-size="24" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">定级引擎</tspan></text>
+<rect x="500" y="420" width="23" height="23" rx="4" fill="white" stroke="#2463b6" stroke-width="1.5"/>
+<text x="504.193359375" y="436.33" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<rect x="529" y="420" width="23" height="23" rx="4" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="533.193359375" y="436.33" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="558" y="420" width="23" height="23" rx="4" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="562.193359375" y="436.33" font-size="21" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<rect x="587" y="420" width="23" height="23" rx="4" fill="white" stroke="#b56a16" stroke-width="1.5"/>
+<text x="591.193359375" y="436.33" font-size="21" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<rect x="500" y="449" width="23" height="23" rx="4" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="504.193359375" y="465.33" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="529" y="449" width="23" height="23" rx="4" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="533.193359375" y="465.33" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="558" y="449" width="23" height="23" rx="4" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="562.193359375" y="465.33" font-size="21" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<rect x="587" y="449" width="23" height="23" rx="4" fill="white" stroke="#b56a16" stroke-width="1.5"/>
+<text x="591.193359375" y="465.33" font-size="21" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="490.4609375" y="499" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">规则定级</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">强化学习</tspan></text>
+<text x="790.0" y="398" font-size="24" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">推断引擎</tspan></text>
+<path d="M757 424.0L809 416.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 424.0L809 432.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 424.0L809 448.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 424.0L809 464.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 440.0L809 416.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 440.0L809 432.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 440.0L809 448.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 440.0L809 464.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 456.0L809 416.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 456.0L809 432.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 456.0L809 448.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M757 456.0L809 464.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 416.0L861 424.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 416.0L861 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 416.0L861 456.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 432.0L861 424.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 432.0L861 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 432.0L861 456.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 448.0L861 424.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 448.0L861 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 448.0L861 456.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 464.0L861 424.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 464.0L861 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M809 464.0L861 456.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M861 424.0L913 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M861 440.0L913 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M861 456.0L913 440.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="757" cy="424.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="757" cy="440.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="757" cy="456.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="809" cy="416.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="809" cy="432.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="809" cy="448.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="809" cy="464.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="861" cy="424.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="861" cy="440.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="861" cy="456.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<circle cx="913" cy="440.0" r="4.5" fill="white" stroke="#087e86" stroke-width="1.8"/>
+<text x="758.921875" y="499" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">训练</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">估计</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">验证</tspan></text>
+<path d="M203 513L956 513" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M577 524L577 553" stroke="#52647a" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<text x="625" y="547" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">调用资源</tspan></text>
+<path d="M230 572H295Q303 572 303 580V614Q303 622 295 622H259L242 638V622H230Q222 622 222 614V580Q222 572 230 572Z" stroke="#b56a16" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="244" cy="597" r="3.5" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="263" cy="597" r="3.5" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="282" cy="597" r="3.5" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<text x="208.0" y="675" font-size="22" fill="#182b45" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">大语言模型</tspan></text>
+<path d="M428 569H473L490 586V643H428Z" stroke="#b56a16" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M473 569V586H490" stroke="#b56a16" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 599.0L476 599.0" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 609.0L467 609.0" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 619.0L476 619.0" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 629.0L467 629.0" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="426.0" y="675" font-size="22" fill="#182b45" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">规则库</tspan></text>
+<path d="M621 583v52c0 17 72 17 72 0v-52" stroke="#b56a16" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 583c0-17 72-17 72 0s-72 17-72 0" stroke="#b56a16" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 603c0 17 72 17 72 0" stroke="#b56a16" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M621 622c0 17 72 17 72 0" stroke="#b56a16" stroke-width="1.4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="635.0" y="675" font-size="22" fill="#182b45" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">数据</tspan></text>
+<rect x="818" y="576" width="65" height="55" rx="5" fill="white" stroke="#b56a16" stroke-width="2"/>
+<path d="M830 569L830 576" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M830 631L830 638" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M844 569L844 576" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M844 631L844 638" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M858 569L858 576" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M858 631L858 638" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M872 569L872 576" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M872 631L872 638" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M811 587L818 587" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M883 587L890 587" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M811 603L818 603" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M883 603L890 603" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M811 619L818 619" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M883 619L890 619" stroke="#b56a16" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="830.5" y="610" font-size="20" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">算力</tspan></text>
+<text x="788.232421875" y="675" font-size="22" fill="#182b45" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">CPU / GPU</tspan></text>
+</svg>

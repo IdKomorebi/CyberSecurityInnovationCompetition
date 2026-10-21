@@ -1,0 +1,2302 @@
+{
+  "id": 52,
+  "section": "06 二次定级：强化学习学出整套级别",
+  "text": "三是越线惩罚：仍能凑齐的越线组合越多、超过阈值越多，惩罚越大，这一项比前两项更严厉。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.563625,
+  "events": [
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "三是越线惩罚：仍能凑齐的越线组合越多、超过阈值越多，惩罚越大，这一项比前两项更严厉。",
+        "normalized_text": "三是越线惩罚：仍能凑齐的越线组合越多、超过阈值越多，惩罚越大，这一项比前两项更严厉。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            },
+            {
+              "text": "大",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5164,
+              "end_time": 5309
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            },
+            {
+              "text": "大",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5164,
+              "end_time": 5309
+            },
+            {
+              "text": "，这",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5600,
+              "end_time": 5818
+            },
+            {
+              "text": "一",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5818,
+              "end_time": 5891
+            },
+            {
+              "text": "项",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5891,
+              "end_time": 6036
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            },
+            {
+              "text": "大",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5164,
+              "end_time": 5309
+            },
+            {
+              "text": "，这",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5600,
+              "end_time": 5818
+            },
+            {
+              "text": "一",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5818,
+              "end_time": 5891
+            },
+            {
+              "text": "项",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5891,
+              "end_time": 6036
+            },
+            {
+              "text": "比",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "前",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "项",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "更",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "严",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            },
+            {
+              "text": "大",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5164,
+              "end_time": 5309
+            },
+            {
+              "text": "，这",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5600,
+              "end_time": 5818
+            },
+            {
+              "text": "一",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5818,
+              "end_time": 5891
+            },
+            {
+              "text": "项",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5891,
+              "end_time": 6036
+            },
+            {
+              "text": "比",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "前",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "项",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "更",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "严",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            },
+            {
+              "text": "厉。",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7127,
+              "end_time": 7345
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 104,
+        "total_tokens": 146,
+        "characters": 79
+      },
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "三是越线惩罚：仍能凑齐的越线组合越多、超过阈值越多，惩罚越大，这一项比前两项更严厉。",
+        "normalized_text": "三是越线惩罚：仍能凑齐的越线组合越多、超过阈值越多，惩罚越大，这一项比前两项更严厉。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "三",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "是",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "越",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 727
+            },
+            {
+              "text": "线",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "惩",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "罚",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "：仍",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "凑",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1891,
+              "end_time": 2036
+            },
+            {
+              "text": "齐",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "越",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "线",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2400,
+              "end_time": 2545
+            },
+            {
+              "text": "组",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "合",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "越",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2909,
+              "end_time": 3055
+            },
+            {
+              "text": "多",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3491
+            },
+            {
+              "text": "、超",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3636
+            },
+            {
+              "text": "过",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3636,
+              "end_time": 3782
+            },
+            {
+              "text": "阈",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "值",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4145
+            },
+            {
+              "text": "越",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4145,
+              "end_time": 4291
+            },
+            {
+              "text": "多",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4436
+            },
+            {
+              "text": "，惩",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "罚",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "越",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5018,
+              "end_time": 5164
+            },
+            {
+              "text": "大",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5164,
+              "end_time": 5309
+            },
+            {
+              "text": "，这",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5600,
+              "end_time": 5818
+            },
+            {
+              "text": "一",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5818,
+              "end_time": 5891
+            },
+            {
+              "text": "项",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5891,
+              "end_time": 6036
+            },
+            {
+              "text": "比",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "前",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "项",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "更",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "严",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            },
+            {
+              "text": "厉。",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7127,
+              "end_time": 7345
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 104,
+        "total_tokens": 146,
+        "characters": 79
+      },
+      "request_id": "d08bbfb1-4c92-9b5d-b6fe-57b5ea6b7ad1",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

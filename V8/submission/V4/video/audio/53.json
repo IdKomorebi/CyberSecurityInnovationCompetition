@@ -1,0 +1,595 @@
+{
+  "id": 53,
+  "section": "10 结尾",
+  "text": "用强化学习，把风险计入整套等级方案。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 3.4181666666666666,
+  "events": [
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "normalized_text": "用强化学习，把风险计入整套等级方案。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "用强化学习，把风险计入整套等级方案。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "习"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "习"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，把"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "风"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "习"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，把"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "风"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1527,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "险"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "计"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "入"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "整"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "套"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "习"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，把"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "风"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1527,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "险"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "计"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "入"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "整"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "套"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "等"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "级"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "案。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 65,
+        "characters": 34,
+        "output_tokens": 47,
+        "input_tokens": 18
+      },
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "normalized_text": "用强化学习，把风险计入整套等级方案。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "化"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "习"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，把"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "风"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1527,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "险"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "计"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "入"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "整"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "套"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "等"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "级"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "案。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "用强化学习，把风险计入整套等级方案。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 65,
+        "characters": 34,
+        "output_tokens": 47,
+        "input_tokens": 18
+      },
+      "request_id": "7f39f1c8-39c7-96be-8f41-859f99351cf6",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

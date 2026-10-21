@@ -1,0 +1,521 @@
+{
+  "id": 49,
+  "section": "06 二次定级：强化学习学出整套级别",
+  "text": "为此，我们设定一个三部分的效用函数。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 2.9818333333333333,
+  "events": [
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "为此，我们设定一个三部分的效用函数。",
+        "normalized_text": "为此，我们设定一个三部分的效用函数。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "此",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "，我",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 727,
+              "end_time": 800
+            },
+            {
+              "text": "们",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "设",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "定",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1200
+            },
+            {
+              "text": "一",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1200,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "此",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "，我",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 727,
+              "end_time": 800
+            },
+            {
+              "text": "们",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "设",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "定",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1200
+            },
+            {
+              "text": "一",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1200,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "三",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "部",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1891
+            },
+            {
+              "text": "分",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1891,
+              "end_time": 1964
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "此",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "，我",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 727,
+              "end_time": 800
+            },
+            {
+              "text": "们",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "设",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "定",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1200
+            },
+            {
+              "text": "一",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1200,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "三",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "部",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1891
+            },
+            {
+              "text": "分",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1891,
+              "end_time": 1964
+            },
+            {
+              "text": "的",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "效",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "函",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "数。",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2618,
+              "end_time": 2836
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 41,
+        "total_tokens": 59,
+        "characters": 34
+      },
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "为此，我们设定一个三部分的效用函数。",
+        "normalized_text": "为此，我们设定一个三部分的效用函数。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "为",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "此",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "，我",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 727,
+              "end_time": 800
+            },
+            {
+              "text": "们",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "设",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "定",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1200
+            },
+            {
+              "text": "一",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1200,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "三",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "部",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1891
+            },
+            {
+              "text": "分",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1891,
+              "end_time": 1964
+            },
+            {
+              "text": "的",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "效",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "函",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "数。",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2618,
+              "end_time": 2836
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 18,
+        "output_tokens": 41,
+        "total_tokens": 59,
+        "characters": 34
+      },
+      "request_id": "eba739a3-d7e5-9807-890e-69465ff91e18",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

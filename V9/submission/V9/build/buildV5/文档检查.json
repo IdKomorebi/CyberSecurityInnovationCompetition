@@ -1,0 +1,20 @@
+{
+  "report_pages": 105,
+  "report_size_bytes": 6518628,
+  "abstract_characters": 404,
+  "chapters": [
+    "# 第一章 作品简介",
+    "# 第二章 设计方案",
+    "# 第三章 测试报告",
+    "# 第四章 其他文档",
+    "# 第五章 参赛作品声明"
+  ],
+  "ui_images_unchanged": true,
+  "ui_image_count": 8,
+  "svg_count": 6,
+  "pdf_replacement_characters": 0,
+  "out_of_page_text": [],
+  "pdf_author": "",
+  "signature_page": true,
+  "slides": 14
+}

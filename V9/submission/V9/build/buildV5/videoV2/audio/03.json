@@ -1,0 +1,3072 @@
+{
+  "id": 3,
+  "section": "01 为什么要考虑字段之间的关联",
+  "text": "看这个电力市场的例子。我们要保护一台燃气机组每小时的发电量，看看别人能不能从公开数据里把它推出来。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 9.163625,
+  "events": [
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "normalized_text": "看这个电力市场的例子。我们要保护一台燃气机组每小时的发电量，看看别人能不能从公开数据里把它推出来。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "看这个电力市场的例子。我们要保护一台燃气机组每小时的发电量，看看别人能不能从公开数据里把它推出来。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "别"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "人"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6691,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6982,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "不"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7055,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "别"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "人"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6691,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6982,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "不"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7055,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "从"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "公"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "开"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "别"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "人"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6691,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6982,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "不"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7055,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "从"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "公"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "开"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "数"
+            },
+            {
+              "end_time": 8073,
+              "begin_time": 7927,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "据"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 8073,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "里"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "别"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "人"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6691,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6982,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "不"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7055,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "从"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "公"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "开"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "数"
+            },
+            {
+              "end_time": 8073,
+              "begin_time": 7927,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "据"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 8073,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "里"
+            },
+            {
+              "end_time": 8364,
+              "begin_time": 8218,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "把"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8364,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "它"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "推"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "出"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8873,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "来。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 175,
+        "characters": 95,
+        "output_tokens": 126,
+        "input_tokens": 49
+      },
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "normalized_text": "看这个电力市场的例子。我们要保护一台燃气机组每小时的发电量，看看别人能不能从公开数据里把它推出来。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "看"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "力"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "市"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "场"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "的"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "例"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "子"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "。我"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "们"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "要"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2691,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "保"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2982,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "护"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "一"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "台"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3418,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "燃"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "气"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "机"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "组"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "每"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "小"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4727,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "时"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "发"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "电"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "量"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，看"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "看"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "别"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "人"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6691,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6982,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "不"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7055,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "从"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "公"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "开"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "数"
+            },
+            {
+              "end_time": 8073,
+              "begin_time": 7927,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "据"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 8073,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "里"
+            },
+            {
+              "end_time": 8364,
+              "begin_time": 8218,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "把"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8364,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "它"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "推"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "出"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8873,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "来。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "看这个电力市场的例子。我们要保护一台燃气机组每小时的发电量，看看别人能不能从公开数据里把它推出来。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 175,
+        "characters": 95,
+        "output_tokens": 126,
+        "input_tokens": 49
+      },
+      "request_id": "09d25802-7b23-9e4c-ad52-079f5373c9ab",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

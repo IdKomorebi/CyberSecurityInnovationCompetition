@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="938" viewBox="0 0 1000 469" role="img" aria-labelledby="title desc">
+<title id="title">整体核对与路径选择</title><desc id="desc">从接收方可见的全部字段出发，重新训练神经网络和梯度提升树；若仍越线，以估计筛选和重训确认逐步撤出字段，在路径上选择累计代价加惩罚最低的位置，再逆序尝试放回。曲线仅示意机制。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<circle cx="37" cy="27" r="13" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<text x="31.78125" y="33" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="60" y="34" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">合并全部可见字段</tspan></text>
+<circle cx="48" cy="81" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="42.263671875" y="87" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<circle cx="114" cy="81" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="107.916015625" y="87" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<circle cx="180" cy="81" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="174.9609375" y="87" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<circle cx="48" cy="123" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="41.916015625" y="129" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">d</tspan></text>
+<circle cx="114" cy="123" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="108.234375" y="129" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">e</tspan></text>
+<circle cx="180" cy="123" r="14" fill="#eaf2fb" stroke="#2463b6" stroke-width="1.5"/>
+<text x="176.302734375" y="129" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">f</tspan></text>
+<text x="28" y="165" font-size="18" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">按接收方权限取集合</tspan></text>
+<path d="M202 104L267 104" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<text x="287" y="82" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">重新训练</tspan></text>
+<text x="287" y="115" font-size="18" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">神经网络</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">梯度提升树</tspan></text>
+<text x="287" y="146" font-size="18" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">取较高精度，与判定线比较</tspan></text>
+<path d="M538 104L590 104" stroke="#bf4a49" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrowbf4a49)"/>
+<text x="548.0" y="83" font-size="17" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">越线</tspan></text>
+<circle cx="622" cy="27" r="13" fill="#7052b5" stroke="#7052b5" stroke-width="1.5"/>
+<text x="616.78125" y="33" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="645" y="34" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">逐步撤出字段</tspan></text>
+<text x="622" y="82" font-size="20" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">估计各字段撤出后的效果</tspan></text>
+<text x="622" y="115" font-size="18" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">前</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 6 </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">个重新训练</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> → </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">撤出净收益最大者</tspan></text>
+<circle cx="640" cy="155" r="13" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="634.791015625" y="161" font-size="17" fill="#7052b5" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<path d="M655 155L688 155" stroke="#7052b5" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<circle cx="706" cy="155" r="13" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="700.603515625" y="161" font-size="17" fill="#7052b5" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<path d="M721 155L754 155" stroke="#7052b5" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<circle cx="772" cy="155" r="13" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="767.326171875" y="161" font-size="17" fill="#7052b5" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<path d="M787 155L820 155" stroke="#7052b5" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<circle cx="838" cy="155" r="13" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="832.603515625" y="161" font-size="17" fill="#7052b5" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">d</tspan></text>
+<path d="M853 155L886 155" stroke="#7052b5" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<circle cx="904" cy="155" r="13" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="898.76953125" y="161" font-size="17" fill="#7052b5" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">e</tspan></text>
+<path d="M933 157H960V64H941" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<path d="M25 194L975 194" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="37" cy="222" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="31.78125" y="228" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<text x="60" y="229" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">沿撤出路径选停止位置</tspan></text>
+<text x="422.0" y="229" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">路径示意</tspan></text>
+<path d="M61 255L61 374" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M61 374L438 374" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<path d="M61 374L131 361L201 345L271 326L341 303L411 276" stroke="#b56a16" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="61" cy="374" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="131" cy="361" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="201" cy="345" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="271" cy="326" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="341" cy="303" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<circle cx="411" cy="276" r="3" fill="#b56a16" stroke="#b56a16" stroke-width="1.5"/>
+<path d="M61 262L131 298L201 330L271 354L341 364L411 370" stroke="#2463b6" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="61" cy="262" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<circle cx="131" cy="298" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<circle cx="201" cy="330" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<circle cx="271" cy="354" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<circle cx="341" cy="364" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<circle cx="411" cy="370" r="3" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<path d="M61 262L131 285L201 301L271 306L341 293L411 272" stroke="#087e86" stroke-width="2.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="61" cy="262" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<circle cx="131" cy="285" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<circle cx="201" cy="301" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<circle cx="271" cy="306" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<circle cx="341" cy="293" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<circle cx="411" cy="272" r="3" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<path d="M271 306L271 374" stroke="#087e86" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 4"/>
+<circle cx="271" cy="306" r="6" fill="white" stroke="#087e86" stroke-width="2.5"/>
+<text x="280" y="294" font-size="18" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">最小值</tspan></text>
+<text x="55.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0</tspan></text>
+<text x="125.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="195.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="265.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<text x="335.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="405.91015625" y="397" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">5</tspan></text>
+<text x="448" y="399" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">撤出步数</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> j</tspan></text>
+<path d="M447 267L471 267" stroke="#b56a16" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="482" y="273" font-size="17" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">累计代价</tspan></text>
+<path d="M447 298L471 298" stroke="#2463b6" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="482" y="304" font-size="17" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">整体惩罚</tspan></text>
+<path d="M447 329L471 329" stroke="#087e86" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="482" y="335" font-size="17" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">两者之和</tspan></text>
+<circle cx="648" cy="222" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="642.78125" y="228" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="671" y="229" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">逆序尝试放回</tspan></text>
+<circle cx="672" cy="283" r="21" fill="#edf7f5" stroke="#087e86" stroke-width="1.8"/>
+<text x="665.478515625" y="290" font-size="22" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<path d="M698 283L746 283" stroke="#087e86" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="775" cy="283" r="21" fill="#edf7f5" stroke="#087e86" stroke-width="1.8"/>
+<text x="767.125" y="290" font-size="22" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<path d="M801 283L849 283" stroke="#087e86" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="878" cy="283" r="21" fill="#edf7f5" stroke="#087e86" stroke-width="1.8"/>
+<text x="870.576171875" y="290" font-size="22" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<text x="638" y="337" font-size="18" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">放回节省的代价</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> &gt; </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">增加的惩罚</tspan></text>
+<text x="638" y="370" font-size="20" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">满足则放回，得到最终等级</tspan></text>
+<rect x="25" y="418" width="950" height="36" rx="5" fill="#f3f6fa" stroke="none" stroke-width="1.5"/>
+<text x="43" y="443" font-size="19" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">默认模式：按代价与风险权衡停止位置。严格模式：持续撤出至不再越线。</tspan></text>
+</svg>

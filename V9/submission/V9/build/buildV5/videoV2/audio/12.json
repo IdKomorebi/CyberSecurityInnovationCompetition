@@ -1,0 +1,2727 @@
+{
+  "id": 12,
+  "section": "03 先看字段本身",
+  "text": "大模型先判断：这个字段泄露后，会影响谁，影响有多大。然后按国家标准的判定表，查出等级。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.927291666666667,
+  "events": [
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "normalized_text": "大模型先判断：这个字段泄露后，会影响谁，影响有多大。然后按国家标准的判定表，查出等级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "大模型先判断：这个字段泄露后，会影响谁，影响有多大。然后按国家标准的判定表，查出等级。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "准"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "判"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "准"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "判"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "定"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6764,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "表"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7127,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，查"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "准"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "判"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "定"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6764,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "表"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7127,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，查"
+            },
+            {
+              "end_time": 7418,
+              "begin_time": 7273,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "出"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7418,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "等"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "准"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "判"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "定"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6764,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "表"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7127,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，查"
+            },
+            {
+              "end_time": 7418,
+              "begin_time": 7273,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "出"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7418,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "等"
+            },
+            {
+              "end_time": 7709,
+              "begin_time": 7564,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 152,
+        "characters": 80,
+        "output_tokens": 109,
+        "input_tokens": 43
+      },
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "normalized_text": "大模型先判断：这个字段泄露后，会影响谁，影响有多大。然后按国家标准的判定表，查出等级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "先"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "判"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "断"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "：这"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "个"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "字"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "段"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "泄"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "露"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "后"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，会"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "影"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "响"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "谁"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，影"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "响"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "有"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "大"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "。然"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "按"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "国"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "家"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "标"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "准"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "判"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "定"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6764,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "表"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7127,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，查"
+            },
+            {
+              "end_time": 7418,
+              "begin_time": 7273,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "出"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7418,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "等"
+            },
+            {
+              "end_time": 7709,
+              "begin_time": 7564,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "大模型先判断：这个字段泄露后，会影响谁，影响有多大。然后按国家标准的判定表，查出等级。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 152,
+        "characters": 80,
+        "output_tokens": 109,
+        "input_tokens": 43
+      },
+      "request_id": "f35f13e9-d69b-9e4b-9216-8e0394f818dc",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

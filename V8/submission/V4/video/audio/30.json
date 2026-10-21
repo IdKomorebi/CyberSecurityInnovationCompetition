@@ -1,0 +1,4329 @@
+{
+  "id": 30,
+  "section": "06 聚合推断：从集合到字段",
+  "text": "我们证明了 M 和越线组合的对应关系：成员 M 都很小的组合不可能越线，能把组合推过线的字段，一定属于某个最小越线组合。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 11.054541666666667,
+  "events": [
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "normalized_text": "我们证明了M和越线组合的对应关系：成员M都很小的组合不可能越线，能把组合推过线的字段，一定属于某个最小越线组合。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们证明了 M 和越线组合的对应关系：成员 M 都很小的组合不可能越线，能把组合推过线的字段，一定属于某个最小越线组合。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "，一"
+            },
+            {
+              "end_time": 9164,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "定"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "，一"
+            },
+            {
+              "end_time": 9164,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "定"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9164,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "属"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9382,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "于"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "某"
+            },
+            {
+              "end_time": 9745,
+              "begin_time": 9600,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "个"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "，一"
+            },
+            {
+              "end_time": 9164,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "定"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9164,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "属"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9382,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "于"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "某"
+            },
+            {
+              "end_time": 9745,
+              "begin_time": 9600,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "个"
+            },
+            {
+              "end_time": 9964,
+              "begin_time": 9745,
+              "end_index": 47,
+              "begin_index": 46,
+              "text": "最"
+            },
+            {
+              "end_time": 10255,
+              "begin_time": 9964,
+              "end_index": 48,
+              "begin_index": 47,
+              "text": "小"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "，一"
+            },
+            {
+              "end_time": 9164,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "定"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9164,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "属"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9382,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "于"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "某"
+            },
+            {
+              "end_time": 9745,
+              "begin_time": 9600,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "个"
+            },
+            {
+              "end_time": 9964,
+              "begin_time": 9745,
+              "end_index": 47,
+              "begin_index": 46,
+              "text": "最"
+            },
+            {
+              "end_time": 10255,
+              "begin_time": 9964,
+              "end_index": 48,
+              "begin_index": 47,
+              "text": "小"
+            },
+            {
+              "end_time": 10400,
+              "begin_time": 10255,
+              "end_index": 49,
+              "begin_index": 48,
+              "text": "越"
+            },
+            {
+              "end_time": 10545,
+              "begin_time": 10400,
+              "end_index": 50,
+              "begin_index": 49,
+              "text": "线"
+            },
+            {
+              "end_time": 10691,
+              "begin_time": 10545,
+              "end_index": 51,
+              "begin_index": 50,
+              "text": "组"
+            },
+            {
+              "end_time": 10909,
+              "begin_time": 10691,
+              "end_index": 52,
+              "begin_index": 51,
+              "text": "合。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 208,
+        "characters": 110,
+        "output_tokens": 152,
+        "input_tokens": 56
+      },
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "normalized_text": "我们证明了M和越线组合的对应关系：成员M都很小的组合不可能越线，能把组合推过线的字段，一定属于某个最小越线组合。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "证"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "明"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "了"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "和"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "越"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "线"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "对"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "应"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "关"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "系"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "：成"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "员"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "M"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "都"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "很"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "小"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "组"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "合"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "不"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "可"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "能"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "越"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "线"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "，能"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6909,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "把"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "组"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "合"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7491,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "推"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "过"
+            },
+            {
+              "end_time": 8218,
+              "begin_time": 7927,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "线"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8218,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "的"
+            },
+            {
+              "end_time": 8436,
+              "begin_time": 8291,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "字"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8436,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "段"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "，一"
+            },
+            {
+              "end_time": 9164,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "定"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9164,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "属"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9382,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "于"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "某"
+            },
+            {
+              "end_time": 9745,
+              "begin_time": 9600,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "个"
+            },
+            {
+              "end_time": 9964,
+              "begin_time": 9745,
+              "end_index": 47,
+              "begin_index": 46,
+              "text": "最"
+            },
+            {
+              "end_time": 10255,
+              "begin_time": 9964,
+              "end_index": 48,
+              "begin_index": 47,
+              "text": "小"
+            },
+            {
+              "end_time": 10400,
+              "begin_time": 10255,
+              "end_index": 49,
+              "begin_index": 48,
+              "text": "越"
+            },
+            {
+              "end_time": 10545,
+              "begin_time": 10400,
+              "end_index": 50,
+              "begin_index": 49,
+              "text": "线"
+            },
+            {
+              "end_time": 10691,
+              "begin_time": 10545,
+              "end_index": 51,
+              "begin_index": 50,
+              "text": "组"
+            },
+            {
+              "end_time": 10909,
+              "begin_time": 10691,
+              "end_index": 52,
+              "begin_index": 51,
+              "text": "合。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们证明了 M 和越线组合的对应关系：成员 M 都很小的组合不可能越线，能把组合推过线的字段，一定属于某个最小越线组合。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 208,
+        "characters": 110,
+        "output_tokens": 152,
+        "input_tokens": 56
+      },
+      "request_id": "19450744-467b-91e2-8476-a6f8d87b6feb",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

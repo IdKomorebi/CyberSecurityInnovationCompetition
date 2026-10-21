@@ -1,0 +1,1261 @@
+{
+  "id": 5,
+  "section": "01 开场",
+  "text": "三项合起来，推断精度达到 0.736，越过了判定线。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 5.8181666666666665,
+  "events": [
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "normalized_text": "三项合起来，推断精度达到、零点七三六，越过了判定线。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "三项合起来，推断精度达到 0.736，越过了判定线。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "七"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "三"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "七"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "三"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "六"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "，越"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "七"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "三"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "六"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "，越"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "过"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4873,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "了"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 4945,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "判"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "七"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "三"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "六"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "，越"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "过"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4873,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "了"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 4945,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "判"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "定"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "线。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 106,
+        "characters": 43,
+        "output_tokens": 80,
+        "input_tokens": 26
+      },
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "normalized_text": "三项合起来，推断精度达到、零点七三六，越过了判定线。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "三"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "项"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "合"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "来"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，推"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "精"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "达"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "到"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、零"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "点"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "七"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "三"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "六"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "，越"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "过"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4873,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "了"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 4945,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "判"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "定"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "线。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "三项合起来，推断精度达到 0.736，越过了判定线。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 106,
+        "characters": 43,
+        "output_tokens": 80,
+        "input_tokens": 26
+      },
+      "request_id": "72ec8b88-97da-921d-8e5b-d2bd4fae4c4e",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1304 @@
+{
+  "id": 33,
+  "section": "07 二次定级：强化学习整体权衡",
+  "text": "首先，M 达到 0.7 的字段几乎相当于保护对象本身，直接定为同级。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 6.1818333333333335,
+  "events": [
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "normalized_text": "首先，M达到、零点七、的字段几乎相当于保护对象本身，直接定为同级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "首先，M 达到 0.7 的字段几乎相当于保护对象本身，直接定为同级。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "相"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "当"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "相"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "当"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "于"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "保"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "护"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4145,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "象"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "本"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "相"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "当"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "于"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "保"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "护"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4145,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "象"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "本"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "身"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，直"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "相"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "当"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "于"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "保"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "护"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4145,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "象"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "本"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "身"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，直"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5164,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "接"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "为"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "同"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5745,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 118,
+        "characters": 58,
+        "output_tokens": 85,
+        "input_tokens": 33
+      },
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "normalized_text": "首先，M达到、零点七、的字段几乎相当于保护对象本身，直接定为同级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "首"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "先"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 873,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "达"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "到"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、零"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "点"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "七"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "字"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "段"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "几"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "乎"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "相"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "当"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "于"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "保"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "护"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4145,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "象"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "本"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "身"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，直"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5164,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "接"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "为"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "同"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5745,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "首先，M 达到 0.7 的字段几乎相当于保护对象本身，直接定为同级。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 118,
+        "characters": 58,
+        "output_tokens": 85,
+        "input_tokens": 33
+      },
+      "request_id": "d8a0ec7b-c8c9-92d0-ac3a-39f17a857deb",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

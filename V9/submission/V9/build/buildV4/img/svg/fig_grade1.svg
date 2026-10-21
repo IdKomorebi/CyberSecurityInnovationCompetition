@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1300" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+<title id="title">一次定级：检索、判断、查表与复核</title><desc id="desc">字段目录结合规则库检索条文，大模型给出影响对象、影响程度及依据；按判定表和最低参考级别计算等级；人工确认或参考第二模型意见，保留初判和复核依据。判定矩阵中的色块仅表示查表过程。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<circle cx="37" cy="31" r="13" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<text x="31.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="60" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">检索相关条文</tspan></text>
+<circle cx="365" cy="31" r="13" fill="#7052b5" stroke="#7052b5" stroke-width="1.5"/>
+<text x="359.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="388" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">大模型判断</tspan></text>
+<circle cx="712" cy="31" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="706.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<text x="735" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">查表并校正</tspan></text>
+<path d="M47 94H97L114 111V179H47Z" stroke="#2463b6" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M97 94V111H114" stroke="#2463b6" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 124.0L100 124.0" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 137.66666666666666L91 137.66666666666666" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 151.33333333333334L100 151.33333333333334" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M60 165.0L91 165.0" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="38.0" y="211" font-size="21" fill="#2463b6" font-weight="500" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段目录</tspan></text>
+<path d="M206 94H248L265 111V173H206Z" stroke="#8795a7" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M248 94V111H265" stroke="#8795a7" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M219 124.0L251 124.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M219 141.5L242 141.5" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M219 159.0L251 159.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M213 88H255L272 105V167H213Z" stroke="#8795a7" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M255 88V105H272" stroke="#8795a7" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M226 118.0L258 118.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M226 135.5L249 135.5" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M226 153.0L258 153.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M220 82H262L279 99V161H220Z" stroke="#8795a7" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M262 82V99H279" stroke="#8795a7" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M233 112.0L265 112.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M233 129.5L256 129.5" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M233 147.0L265 147.0" stroke="#8795a7" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.5" y="211" font-size="21" fill="#52647a" font-weight="500" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">规则库</tspan></text>
+<path d="M81 225V247H244V225" stroke="#2463b6" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M162 247L162 268" stroke="#2463b6" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<text x="47.123046875" y="303" font-size="22" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">相关条文</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">必选判定表</tspan></text>
+<path d="M304 155L354 155" stroke="#2463b6" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<path d="M377 124.0L444 111.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 124.0L444 136.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 124.0L444 161.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 124.0L444 186.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 149.0L444 111.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 149.0L444 136.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 149.0L444 161.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 149.0L444 186.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 174.0L444 111.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 174.0L444 136.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 174.0L444 161.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M377 174.0L444 186.5" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 111.5L511 124.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 111.5L511 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 111.5L511 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 136.5L511 124.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 136.5L511 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 136.5L511 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 161.5L511 124.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 161.5L511 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 161.5L511 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 186.5L511 124.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 186.5L511 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M444 186.5L511 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M511 124.0L578 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M511 149.0L578 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M511 174.0L578 149.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="377" cy="124.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="377" cy="149.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="377" cy="174.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="444" cy="111.5" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="444" cy="136.5" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="444" cy="161.5" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="444" cy="186.5" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="511" cy="124.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="511" cy="149.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="511" cy="174.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<circle cx="578" cy="149.0" r="7" fill="white" stroke="#7052b5" stroke-width="1.8"/>
+<path d="M366 218L476 218" stroke="#7052b5" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="373.0" y="253" font-size="24" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">影响对象</tspan></text>
+<path d="M521 218L631 218" stroke="#7052b5" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="528.0" y="253" font-size="24" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">影响程度</tspan></text>
+<text x="383.5" y="303" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">同时给出条文编号与理由</tspan></text>
+<path d="M636 155L690 155" stroke="#7052b5" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<text x="728.791015625" y="83" font-size="22" fill="#087e86" font-weight="500" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">影响对象</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> × </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">影响程度</tspan></text>
+<rect x="740" y="105" width="36" height="24" rx="2" fill="#eef5fb" stroke="none" stroke-width="1.5"/>
+<rect x="782" y="105" width="36" height="24" rx="2" fill="#eef5fb" stroke="none" stroke-width="1.5"/>
+<rect x="824" y="105" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="866" y="105" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="740" y="135" width="36" height="24" rx="2" fill="#eef5fb" stroke="none" stroke-width="1.5"/>
+<rect x="782" y="135" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="824" y="135" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="866" y="135" width="36" height="24" rx="2" fill="#bfdae7" stroke="none" stroke-width="1.5"/>
+<rect x="740" y="165" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="782" y="165" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="824" y="165" width="36" height="24" rx="2" fill="#bfdae7" stroke="none" stroke-width="1.5"/>
+<rect x="866" y="165" width="36" height="24" rx="2" fill="#bfdae7" stroke="none" stroke-width="1.5"/>
+<rect x="740" y="195" width="36" height="24" rx="2" fill="#dcecf4" stroke="none" stroke-width="1.5"/>
+<rect x="782" y="195" width="36" height="24" rx="2" fill="#bfdae7" stroke="none" stroke-width="1.5"/>
+<rect x="824" y="195" width="36" height="24" rx="2" fill="#bfdae7" stroke="none" stroke-width="1.5"/>
+<rect x="866" y="195" width="36" height="24" rx="2" fill="#83b9cb" stroke="none" stroke-width="1.5"/>
+<rect x="821" y="162" width="42" height="30" rx="3" fill="none" stroke="#087e86" stroke-width="2.5"/>
+<path d="M708 177L817 177" stroke="#087e86" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<path d="M842 96L842 158" stroke="#087e86" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="765.0" y="255" font-size="23" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">查表得到等级</tspan></text>
+<text x="718.5" y="303" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">满足适用的最低参考级别</tspan></text>
+<path d="M25 332L975 332" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M834 320L834 363" stroke="#087e86" stroke-width="2.2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<circle cx="522" cy="392" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="516.78125" y="398" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="545" y="399" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">人工复核并确认</tspan></text>
+<text x="42" y="399" font-size="25" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">输出：一次等级与依据</tspan></text>
+<circle cx="572" cy="449" r="11" fill="white" stroke="#087e86" stroke-width="2"/>
+<path d="M551 487v-10q0-14 21-14q21 0 21 14v10" stroke="#087e86" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="528.0" y="521" font-size="22" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">人工确认</tspan></text>
+<path d="M670 460H727" stroke="#8795a7" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow8795a7)"/>
+<rect x="758" y="437" width="65" height="55" rx="5" fill="white" stroke="#7052b5" stroke-width="2"/>
+<path d="M770 430L770 437" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M770 492L770 499" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M784 430L784 437" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M784 492L784 499" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M798 430L798 437" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M798 492L798 499" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M812 430L812 437" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M812 492L812 499" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M751 448L758 448" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M823 448L830 448" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M751 464L758 464" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M823 464L830 464" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M751 480L758 480" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M823 480L830 480" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="770.5" y="471" font-size="20" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">模型</tspan></text>
+<text x="707.0" y="521" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">第二模型提供建议</tspan></text>
+<path d="M744 475L626 475" stroke="#7052b5" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<text x="539.787109375" y="563" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">修改影响对象</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> / </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">程度后，重新查表</tspan></text>
+<path d="M930 541H960V351H907V319" stroke="#087e86" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#arrow087e86)"/>
+<path d="M488 478L435 478" stroke="#087e86" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<text x="60" y="447" font-size="21" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段</tspan></text>
+<text x="182" y="447" font-size="21" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">等级</tspan></text>
+<text x="290" y="447" font-size="21" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">依据</tspan></text>
+<path d="M48 460L411 460" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="71.240234375" y="495" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<text x="190.634765625" y="495" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">L₁</tspan></text>
+<path d="M289 489L385 489" stroke="#d7e0e9" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70.767578125" y="534" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<text x="190.634765625" y="534" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">L₂</tspan></text>
+<path d="M289 528L385 528" stroke="#d7e0e9" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="72.18359375" y="573" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<text x="190.634765625" y="573" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">L₃</tspan></text>
+<path d="M289 567L385 567" stroke="#d7e0e9" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M25 594L975 594" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="137.0" y="632" font-size="22" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">等级由判定表与参考下限计算；初判、复核意见、修改来源与理由均保留。</tspan></text>
+</svg>

@@ -1,0 +1,77 @@
+{
+  "stdlib_only": true,
+  "server_python": "/usr/bin/python3",
+  "checks": [
+    {
+      "task": "nem",
+      "page": "tasks",
+      "characters": 1011
+    },
+    {
+      "task": "nem",
+      "page": "overview",
+      "characters": 604
+    },
+    {
+      "task": "nem",
+      "page": "grade1",
+      "characters": 2558
+    },
+    {
+      "task": "nem",
+      "page": "single",
+      "characters": 1757
+    },
+    {
+      "task": "nem",
+      "page": "aggr",
+      "characters": 2501
+    },
+    {
+      "task": "nem",
+      "page": "combos",
+      "characters": 2702
+    },
+    {
+      "task": "nem",
+      "page": "regrade",
+      "characters": 2477
+    },
+    {
+      "task": "nem",
+      "page": "effect",
+      "characters": 895
+    },
+    {
+      "task": "pjm",
+      "page": "effect",
+      "loaded": true
+    },
+    {
+      "task": "ieee30",
+      "page": "effect",
+      "loaded": true
+    },
+    {
+      "task": "community",
+      "page": "effect",
+      "loaded": true
+    },
+    {
+      "task": "insurance",
+      "page": "effect",
+      "loaded": true
+    },
+    {
+      "task": "u20261015234830",
+      "page": "effect",
+      "loaded": true
+    },
+    {
+      "task": "u20261015234851",
+      "page": "effect",
+      "loaded": true
+    }
+  ],
+  "browser_errors": []
+}

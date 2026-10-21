@@ -1,0 +1,35 @@
+{
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "input": {
+    "text": "数据分级时，我们通常逐个字段判断等级，再按等级决定谁能拿到。但接收方拿到的，是一批字段。我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+    "format": "pcm",
+    "sample_rate": 48000,
+    "rate": 1.0,
+    "volume": 50,
+    "pitch": 1.0,
+    "seed": 2026,
+    "language_hints": [
+      "zh"
+    ],
+    "instruction": "用标准普通话自然地讲解科研系统演示，清楚、从容、亲切，有自然的轻重和停顿。数字和术语清晰，句子完整收尾，不使用广告腔。"
+  },
+  "request_ids": [
+    "ad483792-4932-9121-9d05-c4205a870b67"
+  ],
+  "usage": {
+    "total_tokens": 272,
+    "characters": 142,
+    "output_tokens": 197,
+    "input_tokens": 75
+  },
+  "duration_seconds": 15.76,
+  "sample_rate": 48000,
+  "comparison_processing": {
+    "gain_db": -0.040000000000000036,
+    "target_lufs": -18,
+    "original_lufs": -19.9,
+    "speed_change": false,
+    "note": "Only constant gain adjustment for level matching; no time stretch or dynamic processing."
+  }
+}

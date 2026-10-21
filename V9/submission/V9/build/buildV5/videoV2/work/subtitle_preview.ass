@@ -1,0 +1,16 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Noto Sans CJK SC,54,&H00FFFFFF,&H00FFFFFF,&H60101D35,&H00101D35,-1,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1
+Style: Label,Noto Sans CJK SC,20,&H00A8BFE4,&H00FFFFFF,&H00101D35,&H00101D35,0,0,0,0,100,100,0,0,1,0,0,7,30,30,968,1
+Style: Scope,Noto Sans CJK SC,20,&H00A8BFE4,&H00FFFFFF,&H00101D35,&H00101D35,0,0,0,0,100,100,0,0,1,0,0,9,30,30,968,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:00.00,0:00:10.00,Caption,,0,0,0,,系统用 M 表示这个字段在最有利背景下，
+Dialogue: 0,0:00:00.00,0:00:10.00,Label,,0,0,0,,04 已有背景时，一个字段能增加多少能力
+Dialogue: 0,0:00:00.00,0:00:10.00,Scope,,0,0,0,,NEM 2024 · 内置实测结果

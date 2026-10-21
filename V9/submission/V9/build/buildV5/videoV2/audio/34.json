@@ -1,0 +1,1954 @@
+{
+  "id": 34,
+  "section": "06 把风险和使用需求放在一起定级",
+  "text": "第三，还有哪些越线组合能被接收方凑齐。没有拆开的组合，需要额外扣分。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 6.836375,
+  "events": [
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "normalized_text": "第三，还有哪些越线组合能被接收方凑齐。没有拆开的组合，需要额外扣分。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "第三，还有哪些越线组合能被接收方凑齐。没有拆开的组合，需要额外扣分。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "组"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "合"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "组"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "合"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "，需"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "要"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "额"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "外"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "组"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "合"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "，需"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "要"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "额"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "外"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6255,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "组"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "合"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "，需"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "要"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "额"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "外"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6255,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "分。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 128,
+        "characters": 64,
+        "output_tokens": 94,
+        "input_tokens": 34
+      },
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "normalized_text": "第三，还有哪些越线组合能被接收方凑齐。没有拆开的组合，需要额外扣分。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "第"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "三"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，还"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "有"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "哪"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "些"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "越"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "线"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "组"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "合"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "能"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "被"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "接"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "收"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "方"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "凑"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "齐"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "。没"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "有"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "拆"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4873,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "开"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "组"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "合"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "，需"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "要"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "额"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "外"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6255,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "分。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "第三，还有哪些越线组合能被接收方凑齐。没有拆开的组合，需要额外扣分。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 128,
+        "characters": 64,
+        "output_tokens": 94,
+        "input_tokens": 34
+      },
+      "request_id": "52cf659f-dc0c-98bf-809d-c312787635c6",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

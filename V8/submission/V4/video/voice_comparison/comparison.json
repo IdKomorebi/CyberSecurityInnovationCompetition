@@ -1,0 +1,65 @@
+[
+  {
+    "model": "qwen-audio-3.0-tts-plus",
+    "voice": "longanlingxin",
+    "input": {
+      "text": "本视频演示系统的五个阶段，如何发现并处理推断型泄露风险。它指的是敏感字段本身不发布，却被更低等级字段的组合还原出来。",
+      "rate": 1.0,
+      "pitch": 1.0,
+      "volume": 50,
+      "note": "Rate, pitch and volume are SDK defaults. Seed and language_hints were not specified in the archived calls."
+    },
+    "source": "Archived original per-sentence synthesis, reused without time stretch.",
+    "source_files": [
+      "/data1/duhaocun/projects/diantan/competition_materials/09/video3_qwen_work/audio_raw/s001.mp3",
+      "/data1/duhaocun/projects/diantan/competition_materials/09/video3_qwen_work/audio_raw/s002.mp3"
+    ],
+    "source_manifest": "/data1/duhaocun/projects/diantan/competition_materials/09/video3_qwen_work/tts_manifest.json",
+    "source_generator": "/data1/duhaocun/projects/diantan/competition_materials/09/scripts/video2_tts.py",
+    "source_parameters": "Original SDK defaults; no instruction or speed modification.",
+    "reason": "New call rejected with AllocationQuota.FreeTierOnly. Account settings unchanged.",
+    "duration_seconds": 11.807354166666666,
+    "sample_rate": 48000,
+    "comparison_processing": {
+      "gain_db": 4.170000000000002,
+      "target_lufs": -18,
+      "original_lufs": -22.17,
+      "speed_change": false,
+      "note": "Only constant gain adjustment for level matching; no time stretch or dynamic processing."
+    }
+  },
+  {
+    "model": "qwen-audio-3.1-tts-flash",
+    "voice": "longanlingxin_v3.1",
+    "input": {
+      "text": "本视频演示系统的五个阶段，如何发现并处理推断型泄露风险。它指的是敏感字段本身不发布，却被更低等级字段的组合还原出来。",
+      "format": "pcm",
+      "sample_rate": 48000,
+      "rate": 1.0,
+      "volume": 50,
+      "pitch": 1.0,
+      "seed": 2026,
+      "language_hints": [
+        "zh"
+      ]
+    },
+    "request_ids": [
+      "13aeffea-ae03-92cc-a669-0565c8df3484"
+    ],
+    "usage": {
+      "total_tokens": 201,
+      "characters": 112,
+      "output_tokens": 143,
+      "input_tokens": 58
+    },
+    "duration_seconds": 11.44,
+    "sample_rate": 48000,
+    "comparison_processing": {
+      "gain_db": 1.2599999999999998,
+      "target_lufs": -18,
+      "original_lufs": -19.49,
+      "speed_change": false,
+      "note": "Only constant gain adjustment for level matching; no time stretch or dynamic processing."
+    }
+  }
+]

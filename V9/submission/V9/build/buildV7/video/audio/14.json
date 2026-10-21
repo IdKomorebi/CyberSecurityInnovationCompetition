@@ -1,0 +1,1132 @@
+{
+  "id": 14,
+  "section": "01 问题与思路",
+  "text": "综合这两点，在这个例子里调高风电预测的等级比较合适。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 4.363625,
+  "events": [
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "综合这两点，在这个例子里调高风电预测的等级比较合适。",
+        "normalized_text": "综合这两点，在这个例子里调高风电预测的等级比较合适。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "高",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "风",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2327,
+              "end_time": 2545
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "高",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "风",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "电",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "预",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "测",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2909,
+              "end_time": 3127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "高",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "风",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "电",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "预",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "测",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "的",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "等",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "比",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3564,
+              "end_time": 3709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "高",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "风",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "电",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "预",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "测",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "的",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "等",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "比",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "较",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3709,
+              "end_time": 3782
+            },
+            {
+              "text": "合",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "适",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4000,
+              "end_time": 4073
+            },
+            {
+              "text": "。",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4073,
+              "end_time": 4364
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 60,
+        "total_tokens": 86,
+        "characters": 50
+      },
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "综合这两点，在这个例子里调高风电预测的等级比较合适。",
+        "normalized_text": "综合这两点，在这个例子里调高风电预测的等级比较合适。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "综",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "合",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "这",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 509
+            },
+            {
+              "text": "两",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "点",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "，在",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1091,
+              "end_time": 1236
+            },
+            {
+              "text": "这",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1309
+            },
+            {
+              "text": "个",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "例",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1673
+            },
+            {
+              "text": "子",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1745
+            },
+            {
+              "text": "里",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1745,
+              "end_time": 1891
+            },
+            {
+              "text": "调",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "高",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "风",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "电",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "预",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "测",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "的",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "等",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "比",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "较",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3709,
+              "end_time": 3782
+            },
+            {
+              "text": "合",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 3782,
+              "end_time": 4000
+            },
+            {
+              "text": "适",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4000,
+              "end_time": 4073
+            },
+            {
+              "text": "。",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4073,
+              "end_time": 4364
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 26,
+        "output_tokens": 60,
+        "total_tokens": 86,
+        "characters": 50
+      },
+      "request_id": "49fbfa42-c43f-9d88-93f6-ded6805b3183",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

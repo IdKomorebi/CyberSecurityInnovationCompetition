@@ -1,0 +1,42 @@
+{
+  "duration_seconds": 458.07975527904927,
+  "utterances": 47,
+  "subtitles": 95,
+  "caption_text_matches_script": true,
+  "max_caption_chars": 30,
+  "min_caption_seconds": 1.542208333333349,
+  "actions_outside_narration": true,
+  "post_speed": 1.0,
+  "subtitle_font": 54,
+  "no_local_zoom": true,
+  "files": {
+    "演示视频.mp4": {
+      "bytes": 47179859,
+      "sha256": "a29fb430a8e8bb949d82d14c5c2d568710aa193414a41f1486fca5bc147c7f5e"
+    },
+    "演示视频.srt": {
+      "bytes": 9097,
+      "sha256": "7c1b6bd6428d86b99a97ddebc4df135170c0f6c0bf95f4cd5fc5027937d6e316"
+    },
+    "视频讲稿.md": {
+      "bytes": 6607,
+      "sha256": "c18025611325686ae0a0847534453fa2f9f9b94e339cde2cb0f52b4541a8f57c"
+    },
+    "制作说明.md": {
+      "bytes": 3788,
+      "sha256": "cafd0b75ed38261a07de5ec005b962937a18535623dfb3c986d897030f023560"
+    },
+    "读音核对.wav": {
+      "bytes": 3030196,
+      "sha256": "81bd57bac2b0237cdc2c52e989465c8fb8991aede217af68f06019946c8764f9"
+    },
+    "img/svg/开场案例.svg": {
+      "bytes": 3431,
+      "sha256": "babc29ed17c1a6186cf6e6950d63d83cf78e34a031f6c3e968dcc6a558e26b13"
+    },
+    "img/svg/结果汇总.svg": {
+      "bytes": 1321,
+      "sha256": "2dbf2f52e9be3cacb1b39e1e2f51bde4e890a0de7d5a35174ddfecf82e17caa7"
+    }
+  }
+}

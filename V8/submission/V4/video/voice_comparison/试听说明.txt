@@ -1,0 +1,4 @@
+两段语音使用相同的两句话，均为正常语速，没有变速、降噪、均衡器或动态压缩。MP3 仅使用固定增益匹配至约 -18 LUFS，便于比较。
+3.0 Plus 新请求返回 AllocationQuota.FreeTierOnly，故复用 diantan 项目有 manifest 记录的 longanlingxin 原始音频 s001.mp3 与 s002.mp3，完整合并两句，不删改话音；3.1 使用 longanlingxin_v3.1 本次合成，未指定风格指令。账户设置未修改。
+3.0 原始输出是 MP3；3.1 原始输出是 PCM。两段试听文件统一导出为 48 kHz 单声道、192 kbps MP3。具体来源及生成参数记录于对应 JSON。
+官方模型及音色依据：https://help.aliyun.com/zh/model-studio/qwen-audio-tts-voice-list

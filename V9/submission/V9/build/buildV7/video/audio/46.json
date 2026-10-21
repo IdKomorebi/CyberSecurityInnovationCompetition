@@ -1,0 +1,2584 @@
+{
+  "id": 46,
+  "section": "05 聚合推断风险之二：越线组合",
+  "text": "这里就不一一说明了，只需要知道，后续二次定级时，除了字段推断风险，还要尽可能切断这些越线组合。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 8.072708333333333,
+  "events": [
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "这里就不一一说明了，只需要知道，后续二次定级时，除了字段推断风险，还要尽可能切断这些越线组合。",
+        "normalized_text": "这里就不一一说明了，只需要知道，后续二次定级时，除了字段推断风险，还要尽可能切断这些越线组合。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            },
+            {
+              "text": "，还",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "要",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 5964
+            },
+            {
+              "text": "尽",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 5964,
+              "end_time": 6182
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            },
+            {
+              "text": "，还",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "要",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 5964
+            },
+            {
+              "text": "尽",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 5964,
+              "end_time": 6182
+            },
+            {
+              "text": "可",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6182,
+              "end_time": 6327
+            },
+            {
+              "text": "能",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "切",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6473,
+              "end_time": 6691
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            },
+            {
+              "text": "，还",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "要",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 5964
+            },
+            {
+              "text": "尽",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 5964,
+              "end_time": 6182
+            },
+            {
+              "text": "可",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6182,
+              "end_time": 6327
+            },
+            {
+              "text": "能",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "切",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "断",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 6836,
+              "end_time": 7055
+            },
+            {
+              "text": "些",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7055,
+              "end_time": 7127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            },
+            {
+              "text": "，还",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "要",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 5964
+            },
+            {
+              "text": "尽",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 5964,
+              "end_time": 6182
+            },
+            {
+              "text": "可",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6182,
+              "end_time": 6327
+            },
+            {
+              "text": "能",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "切",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "断",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 6836,
+              "end_time": 7055
+            },
+            {
+              "text": "些",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7055,
+              "end_time": 7127
+            },
+            {
+              "text": "越",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7127,
+              "end_time": 7345
+            },
+            {
+              "text": "线",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "组",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "合。",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 7709,
+              "end_time": 7855
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 47,
+        "output_tokens": 111,
+        "total_tokens": 158,
+        "characters": 89
+      },
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "这里就不一一说明了，只需要知道，后续二次定级时，除了字段推断风险，还要尽可能切断这些越线组合。",
+        "normalized_text": "这里就不一一说明了，只需要知道，后续二次定级时，除了字段推断风险，还要尽可能切断这些越线组合。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "这",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "里",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 364
+            },
+            {
+              "text": "就",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 364,
+              "end_time": 509
+            },
+            {
+              "text": "不",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 509,
+              "end_time": 582
+            },
+            {
+              "text": "一",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 582,
+              "end_time": 727
+            },
+            {
+              "text": "一",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 727,
+              "end_time": 873
+            },
+            {
+              "text": "说",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 873,
+              "end_time": 1091
+            },
+            {
+              "text": "明",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1091,
+              "end_time": 1164
+            },
+            {
+              "text": "了",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "，",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "只",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "需",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "要",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "知",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2109,
+              "end_time": 2182
+            },
+            {
+              "text": "道",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2182,
+              "end_time": 2400
+            },
+            {
+              "text": "，后",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2545,
+              "end_time": 2764
+            },
+            {
+              "text": "续",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 2764,
+              "end_time": 2909
+            },
+            {
+              "text": "二",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 2909,
+              "end_time": 3127
+            },
+            {
+              "text": "次",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3127,
+              "end_time": 3200
+            },
+            {
+              "text": "定",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "级",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3345,
+              "end_time": 3564
+            },
+            {
+              "text": "时",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "，除",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4073,
+              "end_time": 4291
+            },
+            {
+              "text": "了",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4291,
+              "end_time": 4364
+            },
+            {
+              "text": "字",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4364,
+              "end_time": 4509
+            },
+            {
+              "text": "段",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "推",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "断",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "风",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5091,
+              "end_time": 5309
+            },
+            {
+              "text": "险",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5309,
+              "end_time": 5455
+            },
+            {
+              "text": "，还",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "要",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 5964
+            },
+            {
+              "text": "尽",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 5964,
+              "end_time": 6182
+            },
+            {
+              "text": "可",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6182,
+              "end_time": 6327
+            },
+            {
+              "text": "能",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "切",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6473,
+              "end_time": 6691
+            },
+            {
+              "text": "断",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 6836,
+              "end_time": 7055
+            },
+            {
+              "text": "些",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7055,
+              "end_time": 7127
+            },
+            {
+              "text": "越",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7127,
+              "end_time": 7345
+            },
+            {
+              "text": "线",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "组",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "合。",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 7709,
+              "end_time": 7855
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 47,
+        "output_tokens": 111,
+        "total_tokens": 158,
+        "characters": 89
+      },
+      "request_id": "d6920952-401a-9cac-a70b-98abbb505529",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

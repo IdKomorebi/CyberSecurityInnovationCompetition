@@ -1,0 +1,746 @@
+{
+  "id": 9,
+  "section": "02 新建任务：上传一张表",
+  "text": "系统先识别每一列是数值、类别还是时间。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 4.072708333333333,
+  "events": [
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "normalized_text": "系统先识别每一列是数值、类别还是时间。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "系统先识别每一列是数值、类别还是时间。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "列"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "数"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "列"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "数"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "值"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "列"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "数"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "值"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、类"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "别"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "列"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "数"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "值"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、类"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "别"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "还"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "是"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "时"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "间。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 75,
+        "characters": 36,
+        "output_tokens": 56,
+        "input_tokens": 19
+      },
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "normalized_text": "系统先识别每一列是数值、类别还是时间。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "系"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "统"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "先"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "识"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "别"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "每"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "一"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "列"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "数"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "值"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、类"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "别"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "还"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "是"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "时"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "间。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "系统先识别每一列是数值、类别还是时间。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 75,
+        "characters": 36,
+        "output_tokens": 56,
+        "input_tokens": 19
+      },
+      "request_id": "79956a94-5a5f-9264-b30a-7ef399c024da",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

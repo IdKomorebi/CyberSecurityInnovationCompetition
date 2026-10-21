@@ -1,0 +1,2936 @@
+{
+  "id": 4,
+  "section": "01 开场",
+  "text": "负荷预测、节点电价、网损电价三个字段已经公开，单独推断网损都不到 0.5，两两组合也不到 0.61。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 9.454541666666668,
+  "events": [
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "normalized_text": "负荷预测、节点电价、网损电价三个字段已经公开，单独推断网损都不到零点五，两两组合也不到零点六一。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "负荷预测、节点电价、网损电价三个字段已经公开，单独推断网损都不到 0.5，两两组合也不到 0.61。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            },
+            {
+              "end_time": 6885,
+              "begin_time": 6764,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "到"
+            },
+            {
+              "end_time": 7006,
+              "begin_time": 6885,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "零"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7006,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "点"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "五"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            },
+            {
+              "end_time": 6885,
+              "begin_time": 6764,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "到"
+            },
+            {
+              "end_time": 7006,
+              "begin_time": 6885,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "零"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7006,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "点"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "五"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，两"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7855,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "两"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "组"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            },
+            {
+              "end_time": 6885,
+              "begin_time": 6764,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "到"
+            },
+            {
+              "end_time": 7006,
+              "begin_time": 6885,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "零"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7006,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "点"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "五"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，两"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7855,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "两"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "组"
+            },
+            {
+              "end_time": 8364,
+              "begin_time": 8145,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "合"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8364,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "也"
+            },
+            {
+              "end_time": 8582,
+              "begin_time": 8509,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "不"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8582,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "到"
+            },
+            {
+              "end_time": 8800,
+              "begin_time": 8655,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "零"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            },
+            {
+              "end_time": 6885,
+              "begin_time": 6764,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "到"
+            },
+            {
+              "end_time": 7006,
+              "begin_time": 6885,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "零"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7006,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "点"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "五"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，两"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7855,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "两"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "组"
+            },
+            {
+              "end_time": 8364,
+              "begin_time": 8145,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "合"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8364,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "也"
+            },
+            {
+              "end_time": 8582,
+              "begin_time": 8509,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "不"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8582,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "到"
+            },
+            {
+              "end_time": 8800,
+              "begin_time": 8655,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "零"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "点"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "六"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "一。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 178,
+        "characters": 86,
+        "output_tokens": 130,
+        "input_tokens": 48
+      },
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "normalized_text": "负荷预测、节点电价、网损电价三个字段已经公开，单独推断网损都不到零点五，两两组合也不到零点六一。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "负"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "荷"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "预"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "测"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "、节"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "点"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "价"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2473,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、网"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2764,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "损"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "电"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "价"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3564,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "三"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "个"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "字"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4145,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "段"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "已"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4364,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "经"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "公"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "开"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5309,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，单"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "独"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "推"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5891,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "断"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "网"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "损"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "都"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "不"
+            },
+            {
+              "end_time": 6885,
+              "begin_time": 6764,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "到"
+            },
+            {
+              "end_time": 7006,
+              "begin_time": 6885,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "零"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 7006,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "点"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "五"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，两"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7855,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "两"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "组"
+            },
+            {
+              "end_time": 8364,
+              "begin_time": 8145,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "合"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8364,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "也"
+            },
+            {
+              "end_time": 8582,
+              "begin_time": 8509,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "不"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8582,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "到"
+            },
+            {
+              "end_time": 8800,
+              "begin_time": 8655,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "零"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8800,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "点"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 8945,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "六"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "一。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "负荷预测、节点电价、网损电价三个字段已经公开，单独推断网损都不到 0.5，两两组合也不到 0.61。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 178,
+        "characters": 86,
+        "output_tokens": 130,
+        "input_tokens": 48
+      },
+      "request_id": "aa5e3e94-c696-912e-933c-9f3adc8827f7",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

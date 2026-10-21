@@ -1,0 +1,1307 @@
+{
+  "id": 12,
+  "section": "02 新建任务：上传一张表",
+  "text": "复核方式和计算设备也在这里选，没有显卡时自动用处理器。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 5.454541666666667,
+  "events": [
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "normalized_text": "复核方式和计算设备也在这里选，没有显卡时自动用处理器。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "复核方式和计算设备也在这里选，没有显卡时自动用处理器。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "选"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，没"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "选"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，没"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "有"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "显"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "卡"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "时"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "自"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "动"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "选"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，没"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "有"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "显"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "卡"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "时"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "自"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "动"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "用"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "选"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，没"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "有"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "显"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "卡"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "时"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "自"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "动"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "用"
+            },
+            {
+              "end_time": 4909,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "处"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4909,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "理"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "器。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 102,
+        "characters": 52,
+        "output_tokens": 75,
+        "input_tokens": 27
+      },
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "normalized_text": "复核方式和计算设备也在这里选，没有显卡时自动用处理器。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "复"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "核"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "方"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "式"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "和"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "计"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "算"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "设"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "备"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "也"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "在"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "这"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "里"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2764,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "选"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，没"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "有"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3564,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "显"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "卡"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "时"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "自"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "动"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "用"
+            },
+            {
+              "end_time": 4909,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "处"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4909,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "理"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "器。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "复核方式和计算设备也在这里选，没有显卡时自动用处理器。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 102,
+        "characters": 52,
+        "output_tokens": 75,
+        "input_tokens": 27
+      },
+      "request_id": "0bde238e-ff61-95d8-8b68-21c307cc0441",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

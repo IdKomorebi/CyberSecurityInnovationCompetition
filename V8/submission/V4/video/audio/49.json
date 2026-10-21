@@ -1,0 +1,2425 @@
+{
+  "id": 49,
+  "section": "09 参数与其他任务",
+  "text": "强化学习的结果在五个任务上与精确最优相同，另一个只差 0.4%。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.927291666666667,
+  "events": [
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "normalized_text": "强化学习的结果在五个任务上与精确最优相同，另一个只差百分之零点四。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "强化学习的结果在五个任务上与精确最优相同，另一个只差 0.4%。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "差"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "百"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "差"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "百"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6618,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "分"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "之"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "差"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "百"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6618,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "分"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "之"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 6982,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "零"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7273,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "点"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "差"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "百"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6618,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "分"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "之"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 6982,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "零"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7273,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "点"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "四。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 142,
+        "characters": 57,
+        "output_tokens": 109,
+        "input_tokens": 33
+      },
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "normalized_text": "强化学习的结果在五个任务上与精确最优相同，另一个只差百分之零点四。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "强"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "化"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "学"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "习"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "的"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "结"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "果"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "五"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "个"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "任"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "务"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "与"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "精"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "最"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "优"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "相"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "同"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "，另"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5600,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "个"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "只"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "差"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6400,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "百"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6618,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "分"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "之"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 6982,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "零"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7273,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "点"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "四。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "强化学习的结果在五个任务上与精确最优相同，另一个只差 0.4%。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 142,
+        "characters": 57,
+        "output_tokens": 109,
+        "input_tokens": 33
+      },
+      "request_id": "bef438fc-f51e-9233-8ad0-c941dde8a2e0",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

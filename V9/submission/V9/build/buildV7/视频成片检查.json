@@ -1,0 +1,32 @@
+{
+  "duration_seconds": 661.2656862381846,
+  "utterances": 65,
+  "subtitles": 141,
+  "caption_text_matches_script": true,
+  "full_decode_ok": true,
+  "black_intervals": [],
+  "browser_errors": [],
+  "original_files_checked": 324,
+  "original_files_changed": [],
+  "post_speed": 1.025,
+  "subtitle_font": 54,
+  "no_local_zoom": true,
+  "files": {
+    "演示视频.mp4": {
+      "bytes": 63389111,
+      "sha256": "497fbb82cc302c78b8e5531fe77350e8ae2882c3c529fcb635d095b60531f580"
+    },
+    "演示视频.srt": {
+      "bytes": 13120,
+      "sha256": "c3facc0db54dc30ac25ba69636693d64d1f5bdc5924031ba88ff05f866b73462"
+    },
+    "视频讲稿.md": {
+      "bytes": 15411,
+      "sha256": "da06ab0f95f09dcd85cdee8968435504cb0ad2b7e0d97eff6142c59dc81b5441"
+    },
+    "视频制作说明.md": {
+      "bytes": 1949,
+      "sha256": "b6365ab2655a42708f3df79b116550c9f86a25b38af016dabf8fa97dca14442e"
+    }
+  }
+}

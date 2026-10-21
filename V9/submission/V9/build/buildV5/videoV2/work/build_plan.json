@@ -1,0 +1,69 @@
+{
+  "source": "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/work/recording/page@7c231197e2e9183e01b74ccd1ffce7fc.webm",
+  "sync_offset": 0.96,
+  "continuous_ranges": [
+    [
+      0,
+      67.29718783944845
+    ],
+    [
+      76.99558861646801,
+      467.77815605606884
+    ]
+  ],
+  "cuts": [
+    {
+      "start": 67.29718783944845,
+      "end": 76.99558861646801,
+      "reason": "省略大模型起草目录的后台等待"
+    }
+  ],
+  "args": [
+    "-y",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/work/recording/page@7c231197e2e9183e01b74ccd1ffce7fc.webm",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/配音.wav",
+    "-loop",
+    "1",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/img/结果汇总.png",
+    "-filter_complex_threads",
+    "2",
+    "-filter_complex",
+    "[0:v]trim=start=0.960000:end=68.257188,setpts=PTS-STARTPTS[v0];[0:v]trim=start=77.955589:end=468.738156,setpts=PTS-STARTPTS[v1];[v0][v1]concat=n=2:v=1:a=0[vj];[vj]scale=1920:960:flags=lanczos[screen];[2:v]scale=1920:960:flags=lanczos[summary];[screen][summary]overlay=0:0:enable='gte(t,441.259902)*lt(t,448.947281)'[composed];[composed]pad=1920:1080:0:0:color=0x101D35,setsar=1,ass=/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/work/captions.ass[out]",
+    "-map",
+    "[out]",
+    "-map",
+    "1:a:0",
+    "-af",
+    "loudnorm=I=-16:TP=-1.5:LRA=9",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-crf",
+    "20",
+    "-threads",
+    "6",
+    "-r",
+    "30",
+    "-pix_fmt",
+    "yuv420p",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "160k",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-t",
+    "458.07975527904927",
+    "-movflags",
+    "+faststart",
+    "-map_metadata",
+    "-1",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV5/videoV2/演示视频.mp4"
+  ]
+}

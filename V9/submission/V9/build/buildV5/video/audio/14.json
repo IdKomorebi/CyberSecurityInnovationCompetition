@@ -1,0 +1,2921 @@
+{
+  "id": 14,
+  "section": "04 聚合推断风险之一：字段推断风险 M",
+  "text": "字段推断风险 M 则进一步考虑：攻击者已经掌握一些背景，再拿到这个字段，推断能力最多能增加多少。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 9.890916666666667,
+  "events": [
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "normalized_text": "字段推断风险、埃姆、则进一步考虑：攻击者已经掌握一些背景，再拿到这个字段，推断能力最多能增加多少。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "字段推断风险 M 则进一步考虑：攻击者已经掌握一些背景，再拿到这个字段，推断能力最多能增加多少。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7709,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，推"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "断"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8145,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7709,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，推"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "断"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8145,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8291,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "力"
+            },
+            {
+              "end_time": 8727,
+              "begin_time": 8509,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "最"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7709,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，推"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "断"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8145,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8291,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "力"
+            },
+            {
+              "end_time": 8727,
+              "begin_time": 8509,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "最"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8727,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "多"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8945,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "能"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9018,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "增"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7709,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，推"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "断"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8145,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8291,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "力"
+            },
+            {
+              "end_time": 8727,
+              "begin_time": 8509,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "最"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8727,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "多"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8945,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "能"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9018,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "增"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9236,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "加"
+            },
+            {
+              "end_time": 9527,
+              "begin_time": 9382,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "多"
+            },
+            {
+              "end_time": 9673,
+              "begin_time": 9527,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "少。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 185,
+        "characters": 89,
+        "output_tokens": 136,
+        "input_tokens": 49
+      },
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "normalized_text": "字段推断风险、埃姆、则进一步考虑：攻击者已经掌握一些背景，再拿到这个字段，推断能力最多能增加多少。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "字"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "段"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "推"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "断"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "风"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "险"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "、埃"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2036,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "姆"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2618,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "、则"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "进"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "一"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "步"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "考"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "虑"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "：攻"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "击"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "者"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "已"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "经"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "掌"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "握"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "一"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "些"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "背"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "景"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "，再"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "拿"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "到"
+            },
+            {
+              "end_time": 7018,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "这"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7018,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "个"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "字"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "段"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7709,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "，推"
+            },
+            {
+              "end_time": 8145,
+              "begin_time": 7927,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "断"
+            },
+            {
+              "end_time": 8291,
+              "begin_time": 8145,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "能"
+            },
+            {
+              "end_time": 8509,
+              "begin_time": 8291,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "力"
+            },
+            {
+              "end_time": 8727,
+              "begin_time": 8509,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "最"
+            },
+            {
+              "end_time": 8945,
+              "begin_time": 8727,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "多"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8945,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "能"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9018,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "增"
+            },
+            {
+              "end_time": 9382,
+              "begin_time": 9236,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "加"
+            },
+            {
+              "end_time": 9527,
+              "begin_time": 9382,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "多"
+            },
+            {
+              "end_time": 9673,
+              "begin_time": 9527,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "少。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "字段推断风险 M 则进一步考虑：攻击者已经掌握一些背景，再拿到这个字段，推断能力最多能增加多少。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 185,
+        "characters": 89,
+        "output_tokens": 136,
+        "input_tokens": 49
+      },
+      "request_id": "cc3ab4d4-caf5-99a8-9440-8922dcfde9df",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

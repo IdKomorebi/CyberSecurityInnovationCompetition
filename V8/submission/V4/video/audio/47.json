@@ -1,0 +1,823 @@
+{
+  "id": 47,
+  "section": "09 参数与其他任务",
+  "text": "我们在电网实测、电力仿真、社区统计、医疗保险、企业用能和楼宇传感器六个数据集上做了测试。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 9.018166666666668,
+  "events": [
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "normalized_text": "我们在电网实测、电力仿真、社区统计、医疗保险、企业用能和楼宇传感器六个数据集上做了测试。",
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们在电网实测、电力仿真、社区统计、医疗保险、企业用能和楼宇传感器六个数据集上做了测试。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 231,
+              "begin_time": 0,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 463,
+              "begin_time": 231,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 694,
+              "begin_time": 463,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "在"
+            },
+            {
+              "end_time": 925,
+              "begin_time": 694,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 1156,
+              "begin_time": 925,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "网"
+            },
+            {
+              "end_time": 1387,
+              "begin_time": 1156,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "实"
+            },
+            {
+              "end_time": 1619,
+              "begin_time": 1387,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "测"
+            },
+            {
+              "end_time": 1850,
+              "begin_time": 1619,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "、电"
+            },
+            {
+              "end_time": 2081,
+              "begin_time": 1850,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "力"
+            },
+            {
+              "end_time": 2313,
+              "begin_time": 2081,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "仿"
+            },
+            {
+              "end_time": 2544,
+              "begin_time": 2313,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "真"
+            },
+            {
+              "end_time": 2775,
+              "begin_time": 2544,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、社"
+            },
+            {
+              "end_time": 3006,
+              "begin_time": 2775,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "区"
+            },
+            {
+              "end_time": 3237,
+              "begin_time": 3006,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "统"
+            },
+            {
+              "end_time": 3468,
+              "begin_time": 3237,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "计"
+            },
+            {
+              "end_time": 3700,
+              "begin_time": 3468,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "、医"
+            },
+            {
+              "end_time": 3931,
+              "begin_time": 3700,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "疗"
+            },
+            {
+              "end_time": 4162,
+              "begin_time": 3931,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "保"
+            },
+            {
+              "end_time": 4394,
+              "begin_time": 4162,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "险"
+            },
+            {
+              "end_time": 4625,
+              "begin_time": 4394,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "、企"
+            },
+            {
+              "end_time": 4856,
+              "begin_time": 4625,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "业"
+            },
+            {
+              "end_time": 5087,
+              "begin_time": 4856,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "用"
+            },
+            {
+              "end_time": 5318,
+              "begin_time": 5087,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "能"
+            },
+            {
+              "end_time": 5550,
+              "begin_time": 5318,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "和"
+            },
+            {
+              "end_time": 5781,
+              "begin_time": 5550,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "楼"
+            },
+            {
+              "end_time": 6012,
+              "begin_time": 5781,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "宇"
+            },
+            {
+              "end_time": 6244,
+              "begin_time": 6012,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "传"
+            },
+            {
+              "end_time": 6475,
+              "begin_time": 6244,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "感"
+            },
+            {
+              "end_time": 6705,
+              "begin_time": 6475,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "器"
+            },
+            {
+              "end_time": 6937,
+              "begin_time": 6705,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "六"
+            },
+            {
+              "end_time": 7168,
+              "begin_time": 6937,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "个"
+            },
+            {
+              "end_time": 7399,
+              "begin_time": 7168,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "数"
+            },
+            {
+              "end_time": 7631,
+              "begin_time": 7399,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "据"
+            },
+            {
+              "end_time": 7862,
+              "begin_time": 7631,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "集"
+            },
+            {
+              "end_time": 8094,
+              "begin_time": 7862,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "上"
+            },
+            {
+              "end_time": 8325,
+              "begin_time": 8094,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "做"
+            },
+            {
+              "end_time": 8555,
+              "begin_time": 8325,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "了"
+            },
+            {
+              "end_time": 8787,
+              "begin_time": 8555,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "测"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8787,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "试。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 168,
+        "characters": 83,
+        "output_tokens": 124,
+        "input_tokens": 44
+      },
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "normalized_text": "我们在电网实测、电力仿真、社区统计、医疗保险、企业用能和楼宇传感器六个数据集上做了测试。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 231,
+              "begin_time": 0,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 463,
+              "begin_time": 231,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 694,
+              "begin_time": 463,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "在"
+            },
+            {
+              "end_time": 925,
+              "begin_time": 694,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "电"
+            },
+            {
+              "end_time": 1156,
+              "begin_time": 925,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "网"
+            },
+            {
+              "end_time": 1387,
+              "begin_time": 1156,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "实"
+            },
+            {
+              "end_time": 1619,
+              "begin_time": 1387,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "测"
+            },
+            {
+              "end_time": 1850,
+              "begin_time": 1619,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "、电"
+            },
+            {
+              "end_time": 2081,
+              "begin_time": 1850,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "力"
+            },
+            {
+              "end_time": 2313,
+              "begin_time": 2081,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "仿"
+            },
+            {
+              "end_time": 2544,
+              "begin_time": 2313,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "真"
+            },
+            {
+              "end_time": 2775,
+              "begin_time": 2544,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "、社"
+            },
+            {
+              "end_time": 3006,
+              "begin_time": 2775,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "区"
+            },
+            {
+              "end_time": 3237,
+              "begin_time": 3006,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "统"
+            },
+            {
+              "end_time": 3468,
+              "begin_time": 3237,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "计"
+            },
+            {
+              "end_time": 3700,
+              "begin_time": 3468,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "、医"
+            },
+            {
+              "end_time": 3931,
+              "begin_time": 3700,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "疗"
+            },
+            {
+              "end_time": 4162,
+              "begin_time": 3931,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "保"
+            },
+            {
+              "end_time": 4394,
+              "begin_time": 4162,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "险"
+            },
+            {
+              "end_time": 4625,
+              "begin_time": 4394,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "、企"
+            },
+            {
+              "end_time": 4856,
+              "begin_time": 4625,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "业"
+            },
+            {
+              "end_time": 5087,
+              "begin_time": 4856,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "用"
+            },
+            {
+              "end_time": 5318,
+              "begin_time": 5087,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "能"
+            },
+            {
+              "end_time": 5550,
+              "begin_time": 5318,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "和"
+            },
+            {
+              "end_time": 5781,
+              "begin_time": 5550,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "楼"
+            },
+            {
+              "end_time": 6012,
+              "begin_time": 5781,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "宇"
+            },
+            {
+              "end_time": 6244,
+              "begin_time": 6012,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "传"
+            },
+            {
+              "end_time": 6475,
+              "begin_time": 6244,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "感"
+            },
+            {
+              "end_time": 6705,
+              "begin_time": 6475,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "器"
+            },
+            {
+              "end_time": 6937,
+              "begin_time": 6705,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "六"
+            },
+            {
+              "end_time": 7168,
+              "begin_time": 6937,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "个"
+            },
+            {
+              "end_time": 7399,
+              "begin_time": 7168,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "数"
+            },
+            {
+              "end_time": 7631,
+              "begin_time": 7399,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "据"
+            },
+            {
+              "end_time": 7862,
+              "begin_time": 7631,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "集"
+            },
+            {
+              "end_time": 8094,
+              "begin_time": 7862,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "上"
+            },
+            {
+              "end_time": 8325,
+              "begin_time": 8094,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "做"
+            },
+            {
+              "end_time": 8555,
+              "begin_time": 8325,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "了"
+            },
+            {
+              "end_time": 8787,
+              "begin_time": 8555,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "测"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8787,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "试。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们在电网实测、电力仿真、社区统计、医疗保险、企业用能和楼宇传感器六个数据集上做了测试。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 168,
+        "characters": 83,
+        "output_tokens": 124,
+        "input_tokens": 44
+      },
+      "request_id": "5a20dd8b-9b81-93ab-a790-c097b22bd725",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

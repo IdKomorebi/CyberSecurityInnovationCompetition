@@ -1,0 +1,3141 @@
+{
+  "id": 9,
+  "section": "01 问题与思路",
+  "text": "可以借电压等于电流乘电阻来理解：只知道电流或只知道电阻，都算不出电压；两个都知道，就能算出来。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.927291666666667,
+  "events": [
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "可以借电压等于电流乘电阻来理解：只知道电流或只知道电阻，都算不出电压；两个都知道，就能算出来。",
+        "normalized_text": "可以借电压等于电流乘电阻来理解：只知道电流或只知道电阻，都算不出电压；两个都知道，就能算出来。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "；两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6255,
+              "end_time": 6400
+            },
+            {
+              "text": "个",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6400,
+              "end_time": 6545
+            },
+            {
+              "text": "都",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6545,
+              "end_time": 6691
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "；两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6255,
+              "end_time": 6400
+            },
+            {
+              "text": "个",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6400,
+              "end_time": 6545
+            },
+            {
+              "text": "都",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6545,
+              "end_time": 6691
+            },
+            {
+              "text": "知",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "道",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "，就",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7055,
+              "end_time": 7200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "；两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6255,
+              "end_time": 6400
+            },
+            {
+              "text": "个",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6400,
+              "end_time": 6545
+            },
+            {
+              "text": "都",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6545,
+              "end_time": 6691
+            },
+            {
+              "text": "知",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "道",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "，就",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7055,
+              "end_time": 7200
+            },
+            {
+              "text": "能",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7200,
+              "end_time": 7345
+            },
+            {
+              "text": "算",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "出",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7491,
+              "end_time": 7636
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "；两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6255,
+              "end_time": 6400
+            },
+            {
+              "text": "个",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6400,
+              "end_time": 6545
+            },
+            {
+              "text": "都",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6545,
+              "end_time": 6691
+            },
+            {
+              "text": "知",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "道",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "，就",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7055,
+              "end_time": 7200
+            },
+            {
+              "text": "能",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7200,
+              "end_time": 7345
+            },
+            {
+              "text": "算",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "出",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7491,
+              "end_time": 7636
+            },
+            {
+              "text": "来。",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 7636,
+              "end_time": 7782
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 47,
+        "output_tokens": 109,
+        "total_tokens": 156,
+        "characters": 89
+      },
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "可以借电压等于电流乘电阻来理解：只知道电流或只知道电阻，都算不出电压；两个都知道，就能算出来。",
+        "normalized_text": "可以借电压等于电流乘电阻来理解：只知道电流或只知道电阻，都算不出电压；两个都知道，就能算出来。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "借",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "电",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 582,
+              "end_time": 800
+            },
+            {
+              "text": "压",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 800,
+              "end_time": 945
+            },
+            {
+              "text": "等",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1164
+            },
+            {
+              "text": "于",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "电",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1455
+            },
+            {
+              "text": "流",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1455,
+              "end_time": 1600
+            },
+            {
+              "text": "乘",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1600,
+              "end_time": 1818
+            },
+            {
+              "text": "电",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 2036
+            },
+            {
+              "text": "阻",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2036,
+              "end_time": 2182
+            },
+            {
+              "text": "来",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "理",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2255,
+              "end_time": 2400
+            },
+            {
+              "text": "解",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2400,
+              "end_time": 2618
+            },
+            {
+              "text": "：只",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "知",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "道",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "电",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "流",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3564,
+              "end_time": 3782
+            },
+            {
+              "text": "或",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3782,
+              "end_time": 4073
+            },
+            {
+              "text": "只",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "知",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4218,
+              "end_time": 4364
+            },
+            {
+              "text": "道",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4364,
+              "end_time": 4436
+            },
+            {
+              "text": "电",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "阻",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4655,
+              "end_time": 4873
+            },
+            {
+              "text": "，都",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 4945,
+              "end_time": 5164
+            },
+            {
+              "text": "算",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5164,
+              "end_time": 5382
+            },
+            {
+              "text": "不",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5382
+            },
+            {
+              "text": "出",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5382,
+              "end_time": 5600
+            },
+            {
+              "text": "电",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "压",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "；两",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6255,
+              "end_time": 6400
+            },
+            {
+              "text": "个",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6400,
+              "end_time": 6545
+            },
+            {
+              "text": "都",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6545,
+              "end_time": 6691
+            },
+            {
+              "text": "知",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "道",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 6836,
+              "end_time": 6982
+            },
+            {
+              "text": "，就",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7055,
+              "end_time": 7200
+            },
+            {
+              "text": "能",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7200,
+              "end_time": 7345
+            },
+            {
+              "text": "算",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "出",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7491,
+              "end_time": 7636
+            },
+            {
+              "text": "来。",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 7636,
+              "end_time": 7782
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 47,
+        "output_tokens": 109,
+        "total_tokens": 156,
+        "characters": 89
+      },
+      "request_id": "4ac029e1-34ed-959b-9bcd-569867e269de",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

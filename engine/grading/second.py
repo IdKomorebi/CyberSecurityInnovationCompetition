@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""二次定级：字段推断敏感度 M → 直接定级 → 联合评估（GRPO）→ 每次调级的依据。
+"""二次定级：字段推断风险 M → 直接定级 → 联合评估（GRPO）→ 每次调级的依据。
 
 约定：候选字段编号 0..n-1；V 是 {frozenset(字段编号): [对各敏感数据的推断精度]}，包含空集。
 接收方按可获取的最高等级 c 区分（1 社会公众，2 关联方，3 特定授权对象，4 内部受控范围）。
@@ -28,17 +28,18 @@ def closure(V, n_t):
 
 
 def sensitivity(V, n, n_t, K=2):
-    """M[i,t] = max over |T|≤K 的 V(T∪i) − V(T)，并记下取到最大值的 T。"""
+    """M[i,t] = max over |T|≤K 的 V(T∪i) − V(T)，并记下取到最大值的 T。只遍历已核对的组合，同值时取规模小、编号靠前的 T。"""
     M = np.zeros((n, n_t)); W = [[() for _ in range(n_t)] for _ in range(n)]
-    for i in range(n):
-        for k in range(K + 1):
-            for T in itertools.combinations([j for j in range(n) if j != i], k):
-                a, b = frozenset(T) | {i}, frozenset(T)
-                if a in V and b in V:
-                    g = V[a] - V[b]
-                    for t in range(n_t):
-                        if g[t] > M[i, t]:
-                            M[i, t] = g[t]; W[i][t] = T
+    for b in sorted((k for k in V if len(k) <= K), key=lambda k: (len(k), sorted(k))):
+        T = tuple(sorted(b)); vb = V[b]
+        for i in range(n):
+            if i in b:
+                continue
+            a = b | {i}
+            if a in V:
+                g = V[a] - vb
+                for t in np.nonzero(g > M[i])[0]:
+                    M[i, t] = g[t]; W[i][t] = T
     return M, W
 
 

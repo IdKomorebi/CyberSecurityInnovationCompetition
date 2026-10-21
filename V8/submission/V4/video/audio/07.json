@@ -1,0 +1,1782 @@
+{
+  "id": 7,
+  "section": "01 开场",
+  "text": "我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 5.963625,
+  "events": [
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "normalized_text": "我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "找"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "找"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "来"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，并"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "计"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "找"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "来"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，并"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "计"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "入"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "等"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "找"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "来"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，并"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "计"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "入"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "等"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 113,
+        "characters": 59,
+        "output_tokens": 82,
+        "input_tokens": 31
+      },
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "normalized_text": "我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "系"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "统"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "，就"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "是"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "在"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1382,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "定"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1673,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "级"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "时"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "把"
+            },
+            {
+              "end_time": 2473,
+              "begin_time": 2327,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2473,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "种"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2691,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "聚"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "推"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3491,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "风"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "险"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4000,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "找"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4436,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "来"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，并"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "计"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5236,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "入"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5382,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "等"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5527,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "级。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们的系统，就是在定级时把这种聚合推断风险找出来，并计入等级。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 113,
+        "characters": 59,
+        "output_tokens": 82,
+        "input_tokens": 31
+      },
+      "request_id": "8f652252-bc0b-985b-8efe-87bffa7486fb",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

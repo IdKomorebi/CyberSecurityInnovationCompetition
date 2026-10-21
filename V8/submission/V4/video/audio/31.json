@@ -1,0 +1,1486 @@
+{
+  "id": 31,
+  "section": "06 聚合推断：从集合到字段",
+  "text": "所以，M 从字段的角度、越线组合从集合的角度，描述的是同一种风险。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 6.545458333333333,
+  "events": [
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "normalized_text": "所以，M从字段的角度、越线组合从集合的角度，描述的是同一种风险。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "所以，M 从字段的角度、越线组合从集合的角度，描述的是同一种风险。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "角"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "角"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "度"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "，描"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "角"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "度"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "，描"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "述"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "是"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "角"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "度"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "，描"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "述"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "是"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "同"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5891,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "种"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "风"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "险。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 122,
+        "characters": 60,
+        "output_tokens": 90,
+        "input_tokens": 32
+      },
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "normalized_text": "所以，M从字段的角度、越线组合从集合的角度，描述的是同一种风险。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "所"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "以"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 727,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "，M"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "从"
+            },
+            {
+              "end_time": 1673,
+              "begin_time": 1455,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "字"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1673,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 2291,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "角"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2291,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "度"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "、越"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "线"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "组"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "合"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "从"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3782,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "集"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4000,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "合"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4218,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4291,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "角"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "度"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "，描"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5091,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "述"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "的"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "是"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "同"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "一"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5891,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "种"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "风"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "险。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "所以，M 从字段的角度、越线组合从集合的角度，描述的是同一种风险。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 122,
+        "characters": 60,
+        "output_tokens": 90,
+        "input_tokens": 32
+      },
+      "request_id": "4162964f-d982-99e4-82e3-9958d3eb171c",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

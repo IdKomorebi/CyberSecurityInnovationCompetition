@@ -1,0 +1,3655 @@
+{
+  "id": 28,
+  "section": "03 字段本身：一次定级与单独推断",
+  "text": "第二步是单独推断。这里展示只用每一个 1 级字段，去推断 PPCCGT 机组出力这个 2 级字段，精度是多少。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 8.872708333333334,
+  "events": [
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "第二步是单独推断。这里展示只用每一个 1 级字段，去推断 PPCCGT 机组出力这个 2 级字段，精度是多少。",
+        "normalized_text": "第二步是单独推断。这里展示只用每一个一级字段，去推断P P C C G T机组出力这个二级字段，精度是多少。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            },
+            {
+              "text": "级",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7345
+            },
+            {
+              "text": "字",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7345,
+              "end_time": 7491
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            },
+            {
+              "text": "级",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7345
+            },
+            {
+              "text": "字",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "段",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "，精",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7927,
+              "end_time": 8073
+            },
+            {
+              "text": "度",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8073,
+              "end_time": 8218
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            },
+            {
+              "text": "级",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7345
+            },
+            {
+              "text": "字",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "段",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "，精",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7927,
+              "end_time": 8073
+            },
+            {
+              "text": "度",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8073,
+              "end_time": 8218
+            },
+            {
+              "text": "是",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 8218,
+              "end_time": 8364
+            },
+            {
+              "text": "多",
+              "begin_index": 43,
+              "end_index": 44,
+              "begin_time": 8364,
+              "end_time": 8509
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            },
+            {
+              "text": "级",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7345
+            },
+            {
+              "text": "字",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "段",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "，精",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7927,
+              "end_time": 8073
+            },
+            {
+              "text": "度",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8073,
+              "end_time": 8218
+            },
+            {
+              "text": "是",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 8218,
+              "end_time": 8364
+            },
+            {
+              "text": "多",
+              "begin_index": 43,
+              "end_index": 44,
+              "begin_time": 8364,
+              "end_time": 8509
+            },
+            {
+              "text": "少。",
+              "begin_index": 44,
+              "end_index": 45,
+              "begin_time": 8509,
+              "end_time": 8655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 49,
+        "output_tokens": 122,
+        "total_tokens": 171,
+        "characters": 92
+      },
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "第二步是单独推断。这里展示只用每一个 1 级字段，去推断 PPCCGT 机组出力这个 2 级字段，精度是多少。",
+        "normalized_text": "第二步是单独推断。这里展示只用每一个一级字段，去推断P P C C G T机组出力这个二级字段，精度是多少。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "第",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "二",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "步",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "单",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "独",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "推",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1382
+            },
+            {
+              "text": "断",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "。这",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "里",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 2182,
+              "end_time": 2255
+            },
+            {
+              "text": "展",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "示",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "只",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2691,
+              "end_time": 2982
+            },
+            {
+              "text": "用",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2982,
+              "end_time": 3055
+            },
+            {
+              "text": "每",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 3055,
+              "end_time": 3273
+            },
+            {
+              "text": "一",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3273,
+              "end_time": 3418
+            },
+            {
+              "text": "个",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3418,
+              "end_time": 3564
+            },
+            {
+              "text": "一",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3564,
+              "end_time": 3709
+            },
+            {
+              "text": "级",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "字",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4073
+            },
+            {
+              "text": "段",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4073,
+              "end_time": 4218
+            },
+            {
+              "text": "，去",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4582
+            },
+            {
+              "text": "推",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4582,
+              "end_time": 4727
+            },
+            {
+              "text": "断",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "P",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": " P",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": " C",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": " C",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5527,
+              "end_time": 5673
+            },
+            {
+              "text": " G",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5673,
+              "end_time": 5964
+            },
+            {
+              "text": " T",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5964,
+              "end_time": 6036
+            },
+            {
+              "text": "机",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6036,
+              "end_time": 6182
+            },
+            {
+              "text": "组",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6182,
+              "end_time": 6400
+            },
+            {
+              "text": "出",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6400,
+              "end_time": 6691
+            },
+            {
+              "text": "力",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6691,
+              "end_time": 6836
+            },
+            {
+              "text": "这",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6836,
+              "end_time": 6909
+            },
+            {
+              "text": "个",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6909,
+              "end_time": 7055
+            },
+            {
+              "text": "二",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7055,
+              "end_time": 7273
+            },
+            {
+              "text": "级",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7345
+            },
+            {
+              "text": "字",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7345,
+              "end_time": 7491
+            },
+            {
+              "text": "段",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7491,
+              "end_time": 7709
+            },
+            {
+              "text": "，精",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 7927,
+              "end_time": 8073
+            },
+            {
+              "text": "度",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8073,
+              "end_time": 8218
+            },
+            {
+              "text": "是",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 8218,
+              "end_time": 8364
+            },
+            {
+              "text": "多",
+              "begin_index": 43,
+              "end_index": 44,
+              "begin_time": 8364,
+              "end_time": 8509
+            },
+            {
+              "text": "少。",
+              "begin_index": 44,
+              "end_index": 45,
+              "begin_time": 8509,
+              "end_time": 8655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 49,
+        "output_tokens": 122,
+        "total_tokens": 171,
+        "characters": 92
+      },
+      "request_id": "da437c3f-ce1e-95c1-939e-6a8d68d5484d",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": 42,
+  "section": "08 定级效果",
+  "text": "最后看效果。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 1.3818333333333332,
+  "events": [
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "normalized_text": "最后看效果。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "最"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "后"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "看"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "效"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "果。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "最后看效果。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "最"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "后"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "看"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "效"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "果。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 25,
+        "characters": 11,
+        "output_tokens": 19,
+        "input_tokens": 6
+      },
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "normalized_text": "最后看效果。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "最"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "后"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "看"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "效"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "果。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "最后看效果。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 25,
+        "characters": 11,
+        "output_tokens": 19,
+        "input_tokens": 6
+      },
+      "request_id": "11acd931-5602-9606-a431-64246b386a3b",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2346 @@
+{
+  "id": 9,
+  "section": "02 上传数据，确认保护对象",
+  "text": "我们重点确认两件事：哪些信息已经公开，哪些信息需要保护。需要保护的列，就设为“保护对象”。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.345458333333333,
+  "events": [
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "normalized_text": "我们重点确认两件事：哪些信息已经公开，哪些信息需要保护。需要保护的列，就设为“保护对象”。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们重点确认两件事：哪些信息已经公开，哪些信息需要保护。需要保护的列，就设为“保护对象”。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5236,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "要"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "保"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "护"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5236,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "要"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "保"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "护"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5673,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "列"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，就"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5236,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "要"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "保"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "护"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5673,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "列"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，就"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "设"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6400,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "为"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "“保"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5236,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "要"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "保"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "护"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5673,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "列"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，就"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "设"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6400,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "为"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "“保"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "护"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "对"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "象”。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 145,
+        "characters": 83,
+        "output_tokens": 101,
+        "input_tokens": 44
+      },
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "normalized_text": "我们重点确认两件事：哪些信息已经公开，哪些信息需要保护。需要保护的列，就设为“保护对象”。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 145,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "我"
+            },
+            {
+              "end_time": 291,
+              "begin_time": 145,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "们"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "重"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "点"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "确"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "认"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "两"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "件"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "事"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "：哪"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "些"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "信"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "息"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "已"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "经"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "公"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2836,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "开"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3273,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，哪"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3418,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "些"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "信"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "息"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "需"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4145,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "保"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4727,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "护"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "。需"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5236,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "要"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "保"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "护"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5673,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "的"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "列"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，就"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6182,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "设"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6400,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "为"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6545,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "“保"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6691,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "护"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "对"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "象”。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "我们重点确认两件事：哪些信息已经公开，哪些信息需要保护。需要保护的列，就设为“保护对象”。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 145,
+        "characters": 83,
+        "output_tokens": 101,
+        "input_tokens": 44
+      },
+      "request_id": "750ea150-71f1-9b30-8b74-104f9759c92a",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

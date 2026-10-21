@@ -1,0 +1,861 @@
+{
+  "id": 52,
+  "section": "10 结尾",
+  "text": "用字段推断敏感度，把组合上的风险落到每个字段。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 5.018166666666667,
+  "events": [
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "normalized_text": "用字段推断敏感度，把组合上的风险落到每个字段。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "用字段推断敏感度，把组合上的风险落到每个字段。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "，把"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "，把"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "，把"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "风"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "，把"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "风"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "险"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "落"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4073,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "到"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "每"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "个"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "字"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "段。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 92,
+        "characters": 44,
+        "output_tokens": 69,
+        "input_tokens": 23
+      },
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "normalized_text": "用字段推断敏感度，把组合上的风险落到每个字段。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "用"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "字"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "段"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "推"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "断"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "敏"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "感"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "度"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2327,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "，把"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "组"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "合"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 2982,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "上"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "风"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "险"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "落"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4073,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "到"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "每"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "个"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4509,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "字"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "段。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "用字段推断敏感度，把组合上的风险落到每个字段。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 92,
+        "characters": 44,
+        "output_tokens": 69,
+        "input_tokens": 23
+      },
+      "request_id": "71d1d255-2f1f-9dcc-a4e7-369f87640c88",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

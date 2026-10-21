@@ -1,0 +1,4103 @@
+{
+  "id": 37,
+  "section": "07 二次定级：强化学习整体权衡",
+  "text": "效用函数有三部分：M 大的字段留在低等级要扣安全分，调高等级要扣可用性分，仍成立的越线组合按超线幅度扣分。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 11.563625,
+  "events": [
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "normalized_text": "效用函数有三部分：M大的字段留在低等级要扣安全分，调高等级要扣可用性分，仍成立的越线组合按超线幅度扣分。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "效用函数有三部分：M 大的字段留在低等级要扣安全分，调高等级要扣可用性分，仍成立的越线组合按超线幅度扣分。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "越"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9236,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "线"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "组"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "越"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9236,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "线"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "组"
+            },
+            {
+              "end_time": 9818,
+              "begin_time": 9600,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "合"
+            },
+            {
+              "end_time": 10182,
+              "begin_time": 9964,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "按"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "越"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9236,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "线"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "组"
+            },
+            {
+              "end_time": 9818,
+              "begin_time": 9600,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "合"
+            },
+            {
+              "end_time": 10182,
+              "begin_time": 9964,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "按"
+            },
+            {
+              "end_time": 10400,
+              "begin_time": 10182,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "超"
+            },
+            {
+              "end_time": 10618,
+              "begin_time": 10400,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "线"
+            },
+            {
+              "end_time": 10836,
+              "begin_time": 10618,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "幅"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "越"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9236,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "线"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "组"
+            },
+            {
+              "end_time": 9818,
+              "begin_time": 9600,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "合"
+            },
+            {
+              "end_time": 10182,
+              "begin_time": 9964,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "按"
+            },
+            {
+              "end_time": 10400,
+              "begin_time": 10182,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "超"
+            },
+            {
+              "end_time": 10618,
+              "begin_time": 10400,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "线"
+            },
+            {
+              "end_time": 10836,
+              "begin_time": 10618,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "幅"
+            },
+            {
+              "end_time": 10982,
+              "begin_time": 10836,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "度"
+            },
+            {
+              "end_time": 11200,
+              "begin_time": 10982,
+              "end_index": 47,
+              "begin_index": 46,
+              "text": "扣"
+            },
+            {
+              "end_time": 11345,
+              "begin_time": 11200,
+              "end_index": 48,
+              "begin_index": 47,
+              "text": "分。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 211,
+        "characters": 100,
+        "output_tokens": 159,
+        "input_tokens": 52
+      },
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "normalized_text": "效用函数有三部分：M大的字段留在低等级要扣安全分，调高等级要扣可用性分，仍成立的越线组合按超线幅度扣分。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "效"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "用"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "函"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "数"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "有"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1164,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "三"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "部"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "分"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "：M"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2473,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "大"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "的"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "字"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "段"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "留"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "在"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "低"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "等"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "级"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "要"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "扣"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "安"
+            },
+            {
+              "end_time": 5164,
+              "begin_time": 4945,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "全"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5164,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "分"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5673,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "，调"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 5964,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "高"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6182,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "等"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6327,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "级"
+            },
+            {
+              "end_time": 6836,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "要"
+            },
+            {
+              "end_time": 7055,
+              "begin_time": 6836,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "扣"
+            },
+            {
+              "end_time": 7273,
+              "begin_time": 7055,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "可"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7273,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "用"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "性"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "分"
+            },
+            {
+              "end_time": 8655,
+              "begin_time": 8364,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "，仍"
+            },
+            {
+              "end_time": 8873,
+              "begin_time": 8655,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "成"
+            },
+            {
+              "end_time": 9018,
+              "begin_time": 8873,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "立"
+            },
+            {
+              "end_time": 9091,
+              "begin_time": 9018,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "的"
+            },
+            {
+              "end_time": 9236,
+              "begin_time": 9091,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "越"
+            },
+            {
+              "end_time": 9455,
+              "begin_time": 9236,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "线"
+            },
+            {
+              "end_time": 9600,
+              "begin_time": 9455,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "组"
+            },
+            {
+              "end_time": 9818,
+              "begin_time": 9600,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "合"
+            },
+            {
+              "end_time": 10182,
+              "begin_time": 9964,
+              "end_index": 42,
+              "begin_index": 41,
+              "text": "按"
+            },
+            {
+              "end_time": 10400,
+              "begin_time": 10182,
+              "end_index": 43,
+              "begin_index": 42,
+              "text": "超"
+            },
+            {
+              "end_time": 10618,
+              "begin_time": 10400,
+              "end_index": 44,
+              "begin_index": 43,
+              "text": "线"
+            },
+            {
+              "end_time": 10836,
+              "begin_time": 10618,
+              "end_index": 45,
+              "begin_index": 44,
+              "text": "幅"
+            },
+            {
+              "end_time": 10982,
+              "begin_time": 10836,
+              "end_index": 46,
+              "begin_index": 45,
+              "text": "度"
+            },
+            {
+              "end_time": 11200,
+              "begin_time": 10982,
+              "end_index": 47,
+              "begin_index": 46,
+              "text": "扣"
+            },
+            {
+              "end_time": 11345,
+              "begin_time": 11200,
+              "end_index": 48,
+              "begin_index": 47,
+              "text": "分。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "效用函数有三部分：M 大的字段留在低等级要扣安全分，调高等级要扣可用性分，仍成立的越线组合按超线幅度扣分。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 211,
+        "characters": 100,
+        "output_tokens": 159,
+        "input_tokens": 52
+      },
+      "request_id": "1767ae73-a64c-9314-adec-f5fc9bf66c57",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

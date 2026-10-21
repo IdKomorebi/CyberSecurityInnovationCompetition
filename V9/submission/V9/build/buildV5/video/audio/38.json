@@ -1,0 +1,1640 @@
+{
+  "id": 38,
+  "section": "08 结尾",
+  "text": "这就是面向聚合推断威胁的数据定级与共享审查系统。谢谢观看。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 6.763625,
+  "events": [
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "normalized_text": "这就是面向聚合推断威胁的数据定级与共享审查系统。谢谢观看。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这就是面向聚合推断威胁的数据定级与共享审查系统。谢谢观看。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "审"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "查"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "审"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "查"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "系"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "审"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "查"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "系"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "统"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。谢"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "谢"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "审"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "查"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "系"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "统"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。谢"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "谢"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6255,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "观"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6400,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "看"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 122,
+        "characters": 56,
+        "output_tokens": 93,
+        "input_tokens": 29
+      },
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "normalized_text": "这就是面向聚合推断威胁的数据定级与共享审查系统。谢谢观看。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "就"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "是"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "面"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "向"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "聚"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "合"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "推"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "断"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "威"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "胁"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3418,
+              "begin_time": 3200,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "定"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "级"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3782,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "与"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4073,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "共"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "享"
+            },
+            {
+              "end_time": 4800,
+              "begin_time": 4582,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "审"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4800,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "查"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5018,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "系"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "统"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。谢"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "谢"
+            },
+            {
+              "end_time": 6400,
+              "begin_time": 6255,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "观"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6400,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "看"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6545,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这就是面向聚合推断威胁的数据定级与共享审查系统。谢谢观看。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 122,
+        "characters": 56,
+        "output_tokens": 93,
+        "input_tokens": 29
+      },
+      "request_id": "ee1d8bd9-7d24-93e3-9f61-017469c75560",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

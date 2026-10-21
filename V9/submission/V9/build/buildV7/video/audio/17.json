@@ -1,0 +1,810 @@
+{
+  "id": 17,
+  "section": "02 新建任务与全流程",
+  "text": "首先是任务管理页，用来新建和切换定级任务。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 3.781833333333333,
+  "events": [
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "首先是任务管理页，用来新建和切换定级任务。",
+        "normalized_text": "首先是任务管理页，用来新建和切换定级任务。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            },
+            {
+              "text": "页",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "，用",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "来",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1964,
+              "end_time": 2109
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            },
+            {
+              "text": "页",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "，用",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "来",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "新",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "建",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "和",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2473,
+              "end_time": 2618
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            },
+            {
+              "text": "页",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "，用",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "来",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "新",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "建",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "和",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "切",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2618,
+              "end_time": 2836
+            },
+            {
+              "text": "换",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "定",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3200
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            },
+            {
+              "text": "页",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "，用",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "来",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "新",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "建",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "和",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "切",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2618,
+              "end_time": 2836
+            },
+            {
+              "text": "换",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "定",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3200
+            },
+            {
+              "text": "级",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "任",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "务。",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3491,
+              "end_time": 3636
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 21,
+        "output_tokens": 52,
+        "total_tokens": 73,
+        "characters": 40
+      },
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "首先是任务管理页，用来新建和切换定级任务。",
+        "normalized_text": "首先是任务管理页，用来新建和切换定级任务。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "首",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 291
+            },
+            {
+              "text": "先",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 509
+            },
+            {
+              "text": "是",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 509,
+              "end_time": 655
+            },
+            {
+              "text": "任",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 945
+            },
+            {
+              "text": "务",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 945,
+              "end_time": 1018
+            },
+            {
+              "text": "管",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1236
+            },
+            {
+              "text": "理",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1236,
+              "end_time": 1382
+            },
+            {
+              "text": "页",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1382,
+              "end_time": 1600
+            },
+            {
+              "text": "，用",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "来",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "新",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2109,
+              "end_time": 2255
+            },
+            {
+              "text": "建",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2255,
+              "end_time": 2473
+            },
+            {
+              "text": "和",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2473,
+              "end_time": 2618
+            },
+            {
+              "text": "切",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2618,
+              "end_time": 2836
+            },
+            {
+              "text": "换",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "定",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2982,
+              "end_time": 3200
+            },
+            {
+              "text": "级",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "任",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "务。",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3491,
+              "end_time": 3636
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 21,
+        "output_tokens": 52,
+        "total_tokens": 73,
+        "characters": 40
+      },
+      "request_id": "0d97e5e8-6f5a-987f-bd4d-ddc19a6be880",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

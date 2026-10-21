@@ -1,0 +1,71 @@
+{
+  "source": "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/video/work/recording/page@7039a24cc066c71b5e9ead4d19c205f8.webm",
+  "sync_offset": 1.16,
+  "continuous_ranges": [
+    [
+      0,
+      185.6902581928298
+    ],
+    [
+      195.05901416763663,
+      670.6344422129914
+    ]
+  ],
+  "cuts": [
+    {
+      "start": 185.6902581928298,
+      "end": 195.05901416763663,
+      "reason": "省略目录起草的后台等待"
+    }
+  ],
+  "args": [
+    "-y",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/video/work/recording/page@7039a24cc066c71b5e9ead4d19c205f8.webm",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/video/配音.wav",
+    "-f",
+    "ffmetadata",
+    "-i",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/video/work/chapters.ffmeta",
+    "-filter_complex_threads",
+    "2",
+    "-filter_complex",
+    "[0:v]trim=start=1.160000:end=186.850258,setpts=PTS-STARTPTS[v0];[0:v]trim=start=196.219014:end=671.794442,setpts=PTS-STARTPTS[v1];[v0][v1]concat=n=2:v=1:a=0[vj];[vj]scale=1920:960:flags=lanczos,pad=1920:1080:0:0:color=0x101D35,setsar=1,ass=/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/video/work/captions.ass[out]",
+    "-map",
+    "[out]",
+    "-map",
+    "1:a:0",
+    "-map_chapters",
+    "2",
+    "-af",
+    "loudnorm=I=-16:TP=-1.5:LRA=9",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-crf",
+    "20",
+    "-threads",
+    "6",
+    "-r",
+    "30",
+    "-pix_fmt",
+    "yuv420p",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "160k",
+    "-ar",
+    "48000",
+    "-ac",
+    "1",
+    "-t",
+    "661.2656862381846",
+    "-movflags",
+    "+faststart",
+    "-map_metadata",
+    "-1",
+    "/data1/duhaocun/projects/CyberSecurityInnovationCompetition/V9/submission/V9/build/buildV7/演示视频.mp4"
+  ]
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1700" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+<title id="title">字段推断风险与越线组合的关系</title><desc id="desc">上半图以 NEM 风电预测示例区分字段 M 与实际越线组合。中部用三条关系说明二者一致：成员 M 之和约束组合精度；关键字段等价于属于最小越线组合；组合的不可约增益不超过任何成员在相应预算下的 M。下部说明二者在定级中承担不同作用。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<circle cx="37" cy="31" r="13" fill="#7052b5" stroke="#7052b5" stroke-width="1.5"/>
+<text x="31.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="60" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段层面：最有利背景下的增益</tspan></text>
+<circle cx="540" cy="31" r="13" fill="#bf4a49" stroke="#bf4a49" stroke-width="1.5"/>
+<text x="534.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="563" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">集合层面：实际越线组合</tspan></text>
+<path d="M505 64L505 339" stroke="#d7e0e9" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
+<text x="40" y="82" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">在允许的背景中，取最大新增能力</tspan></text>
+<text x="40" y="126" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电单独</tspan></text>
+<rect x="157" y="107" width="67.161" height="26" rx="3" fill="#2463b6" stroke="none" stroke-width="1.5"/>
+<text x="238.161" y="128" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.183</tspan></text>
+<text x="40" y="186" font-size="21" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">背景</tspan></text>
+<rect x="157" y="167" width="81.84100000000001" height="26" rx="3" fill="#a6b4c5" stroke="none" stroke-width="1.5"/>
+<text x="252.841" y="188" font-size="23" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.223</tspan></text>
+<text x="40" y="246" font-size="20" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">背景</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">+</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan></text>
+<rect x="157" y="227" width="81.84100000000001" height="26" rx="2" fill="#a6b4c5" stroke="none" stroke-width="1.5"/>
+<rect x="240.841" y="227" width="213.796" height="26" rx="2" fill="#7052b5" stroke="none" stroke-width="1.5"/>
+<path d="M238.841 268v8h215.796v-8" stroke="#7052b5" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="272.73900000000003" y="303" font-size="26" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">M = 0.588</tspan></text>
+<text x="40" y="337" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">背景：可用容量</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏预测；</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">K = 3</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">。</tspan></text>
+<text x="547" y="82" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">接收方可获取字段，但无权获取目标</tspan></text>
+<circle cx="606" cy="131" r="29" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="585.0" y="138" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan></text>
+<path d="M606 162L754 214" stroke="#d5a3a1" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="754" cy="131" r="29" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="733.0" y="138" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量</tspan></text>
+<path d="M754 162L754 214" stroke="#d5a3a1" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="902" cy="131" r="29" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="881.0" y="138" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏</tspan></text>
+<path d="M902 162L754 214" stroke="#d5a3a1" stroke-width="1.6" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="650.96484375" y="244" font-size="29" fill="#bf4a49" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(S) = 0.811</tspan></text>
+<rect x="565" y="289" width="371" height="15" rx="3" fill="#f0f3f7" stroke="none" stroke-width="1.5"/>
+<rect x="565" y="289" width="300.88100000000003" height="15" rx="3" fill="#bf4a49" stroke="none" stroke-width="1.5"/>
+<path d="M824.7 273L824.7 313" stroke="#182b45" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="565" y="337" font-size="22" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">已超过公众判定线</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 0.7</tspan></text>
+<path d="M25 359L975 359" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="37" y="391" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">共同前提：</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">V </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">单调，</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">V(∅) = 0</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">。前两条关系限定组合规模</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> ≤ K + 1</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">。</tspan></text>
+<text x="37" y="434" font-size="22" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">① </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">总量约束</tspan></text>
+<rect x="40" y="449" width="64" height="12" rx="2" fill="#2463b6" stroke="none" stroke-width="1.5"/>
+<rect x="107" y="449" width="84" height="12" rx="2" fill="#087e86" stroke="none" stroke-width="1.5"/>
+<rect x="194" y="449" width="71" height="12" rx="2" fill="#7052b5" stroke="none" stroke-width="1.5"/>
+<rect x="40" y="474" width="174" height="12" rx="2" fill="#9fb4ce" stroke="none" stroke-width="1.5"/>
+<text x="292" y="460" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">ΣM</tspan></text>
+<text x="292" y="487" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V</tspan></text>
+<text x="376" y="445" font-size="28" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(A) ≤ Σᵢ∈A Mᵢ⁽ᴷ⁾</tspan></text>
+<text x="376" y="483" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">成员风险之和，为组合推断能力提供上界。</tspan></text>
+<path d="M37 505L960 505" stroke="#d7e0e9" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="37" y="543" font-size="22" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">② </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">关键字段</tspan></text>
+<path d="M43 578L307 578" stroke="#d7e0e9" stroke-width="5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M43 578L174 578" stroke="#8795a7" stroke-width="9" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M174 578L281 578" stroke="#7052b5" stroke-width="9" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M222 558L222 596" stroke="#bf4a49" stroke-width="1.8" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="4 3"/>
+<text x="215.26953125" y="620" font-size="22" fill="#bf4a49" font-weight="500" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">θ</tspan></text>
+<text x="376" y="554" font-size="25" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">关键字段</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> ⇔ </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">属于某个最小越线组合</tspan></text>
+<text x="376" y="592" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">加入该字段，能让一个未越线背景越过判定线。</tspan></text>
+<path d="M37 637L960 637" stroke="#d7e0e9" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="37" y="675" font-size="22" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">③ </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">协同增益</tspan></text>
+<rect x="43" y="693" width="159" height="13" rx="2" fill="#b8c4d1" stroke="none" stroke-width="1.5"/>
+<rect x="204" y="693" width="90" height="13" rx="2" fill="#087e86" stroke="none" stroke-width="1.5"/>
+<path d="M204 717v8h90v-8" stroke="#087e86" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="201.5" y="754" font-size="19" fill="#087e86" font-weight="500" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">不可约增益</tspan></text>
+<text x="376" y="687" font-size="24" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(E) − max V(E′) ≤ minⱼ Mⱼ⁽|ᴱ|⁻¹⁾</tspan></text>
+<text x="376" y="725" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">E′ </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">为真子集，</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">|E| ≥ 2</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">；强协同需要每个成员的</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> M </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">足够大。</tspan></text>
+<path d="M25 774L975 774" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="40" y="815" font-size="23" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> M → </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">等级下限与安全收益</tspan></text>
+<text x="541" y="815" font-size="23" fill="#bf4a49" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">越线组合</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> → </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">聚合推断惩罚</tspan></text>
+</svg>

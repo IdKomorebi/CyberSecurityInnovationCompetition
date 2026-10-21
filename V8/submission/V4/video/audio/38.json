@@ -1,0 +1,1442 @@
+{
+  "id": 38,
+  "section": "07 二次定级：强化学习整体权衡",
+  "text": "每一步采样 128 套方案，按组内的相对好坏更新策略。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 5.6,
+  "events": [
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "normalized_text": "每一步采样、一百二十八、套方案，按组内的相对好坏更新策略。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "每一步采样 128 套方案，按组内的相对好坏更新策略。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "内"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "相"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "内"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "相"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "好"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "坏"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "内"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "相"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "好"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "坏"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "更"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "新"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "策"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "内"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "相"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "好"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "坏"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "更"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "新"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "策"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "略。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 106,
+        "characters": 47,
+        "output_tokens": 77,
+        "input_tokens": 29
+      },
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "normalized_text": "每一步采样、一百二十八、套方案，按组内的相对好坏更新策略。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "每"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "一"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "步"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "采"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "样"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "、一"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "百"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1600,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "二"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "十"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "八"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "、套"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "方"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "案"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3127,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "，按"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3273,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "组"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3491,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "内"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3709,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "的"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "相"
+            },
+            {
+              "end_time": 4291,
+              "begin_time": 4073,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "对"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4291,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "好"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4509,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "坏"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "更"
+            },
+            {
+              "end_time": 5018,
+              "begin_time": 4945,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "新"
+            },
+            {
+              "end_time": 5236,
+              "begin_time": 5018,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "策"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5236,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "略。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "每一步采样 128 套方案，按组内的相对好坏更新策略。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 106,
+        "characters": 47,
+        "output_tokens": 77,
+        "input_tokens": 29
+      },
+      "request_id": "9b326f01-ad63-964f-b26a-f8bf185f0c6e",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

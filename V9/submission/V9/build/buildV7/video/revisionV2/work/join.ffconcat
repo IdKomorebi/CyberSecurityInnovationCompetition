@@ -1,0 +1,6 @@
+ffconcat version 1.0
+file 'original_00.mp4'
+duration 24.266666667
+file 'replacement.mp4'
+duration 16.666666667
+file 'original_02.mp4'

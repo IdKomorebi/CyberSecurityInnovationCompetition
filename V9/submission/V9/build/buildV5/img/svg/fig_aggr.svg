@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="974" viewBox="0 0 1000 487" role="img" aria-labelledby="title desc">
+<title id="title">同一组公开字段的两个视角</title><desc id="desc">NEM 燃气机组 PPCCGT：三个字段合并越线，风电预测在背景下的最大增量明显高于单独推断。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<text x="25" y="33" font-size="26" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">同一组公开字段的两个视角</tspan></text>
+<text x="25" y="61" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">NEM 2024 · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">燃气机组</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> PPCCGT </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">为</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 2 </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">级保护对象</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> · </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">社会公众判定线</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 0.7</tspan></text>
+<rect x="20" y="85" width="505" height="357" rx="12" fill="#f9fbfe" stroke="#d7e0e9" stroke-width="1.5"/>
+<rect x="545" y="85" width="435" height="357" rx="12" fill="#f9fbfe" stroke="#d7e0e9" stroke-width="1.5"/>
+<text x="38" y="115" font-size="19" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">① </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">组合视角：三项凑齐后越线</tspan></text>
+<text x="563" y="115" font-size="18" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">② </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段视角：背景放大新增字段的作用</tspan></text>
+<path d="M130 321L130 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M130 321L273 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M273 321L130 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M273 321L416 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M416 321L273 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M416 321L416 289" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M130 230L273 199" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M273 230L273 199" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M416 230L273 199" stroke="#d7e0e9" stroke-width="1.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="65" y="320" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="98.0" y="345" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">可用容量</tspan></text>
+<text x="96.78515625" y="371" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.045</tspan></text>
+<rect x="208" y="320" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="241.0" y="345" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电预测</tspan></text>
+<text x="239.78515625" y="371" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.183</tspan></text>
+<rect x="351" y="320" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="384.0" y="345" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏预测</tspan></text>
+<text x="382.78515625" y="371" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.186</tspan></text>
+<rect x="65" y="229" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="85.7265625" y="254" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan></text>
+<text x="96.78515625" y="280" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.478</tspan></text>
+<rect x="208" y="229" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="228.7265625" y="254" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏</tspan></text>
+<text x="239.78515625" y="280" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.223</tspan></text>
+<rect x="351" y="229" width="130" height="62" rx="9" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="371.7265625" y="254" font-size="16" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏</tspan></text>
+<text x="382.78515625" y="280" font-size="21" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.511</tspan></text>
+<rect x="208" y="139" width="130" height="62" rx="9" fill="#fff5f5" stroke="#bf4a49" stroke-width="1.5"/>
+<text x="241.0" y="164" font-size="16" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">三项凑齐</tspan></text>
+<text x="239.78515625" y="190" font-size="21" fill="#bf4a49" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.811</tspan></text>
+<text x="40" y="412" font-size="15" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">全部单项与两两组合不过线；三项合并越线。</tspan></text>
+<text x="565" y="152" font-size="16" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电预测单独使用</tspan></text>
+<text x="901.90625" y="152" font-size="19" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.183</tspan></text>
+<rect x="565" y="165" width="395" height="16" rx="5" fill="#e1e8f0" stroke="none" stroke-width="1.5"/>
+<rect x="565" y="165" width="72.285" height="16" rx="5" fill="#2463b6" stroke="none" stroke-width="1.5"/>
+<text x="565" y="223" font-size="16" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">只有背景：可用容量</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏预测</tspan></text>
+<text x="901.90625" y="223" font-size="19" fill="#8e9eb1" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.223</tspan></text>
+<rect x="565" y="236" width="395" height="16" rx="5" fill="#e1e8f0" stroke="none" stroke-width="1.5"/>
+<rect x="565" y="236" width="88.08500000000001" height="16" rx="5" fill="#8e9eb1" stroke="none" stroke-width="1.5"/>
+<text x="565" y="294" font-size="16" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">背景</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电预测</tspan></text>
+<text x="901.90625" y="294" font-size="19" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.811</tspan></text>
+<rect x="565" y="307" width="395" height="16" rx="5" fill="#e1e8f0" stroke="none" stroke-width="1.5"/>
+<rect x="565" y="307" width="320.345" height="16" rx="5" fill="#7052b5" stroke="none" stroke-width="1.5"/>
+<rect x="562" y="345" width="401" height="76" rx="9" fill="#f2edff" stroke="#d6c9f1" stroke-width="1.5"/>
+<text x="579" y="374" font-size="22" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">M = 0.811 − 0.223 = 0.588</tspan></text>
+<text x="579" y="401" font-size="14" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">新增风电预测的作用，明显高于单独的</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 0.183</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">。</tspan></text>
+<text x="25" y="470" font-size="16" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量、需求与发电调度之间的联系，使公开字段包含机组出力信息；推断能力由数据验证。</tspan></text>
+</svg>

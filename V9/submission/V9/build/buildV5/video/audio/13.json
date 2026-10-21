@@ -1,0 +1,1068 @@
+{
+  "id": 13,
+  "section": "04 聚合推断风险之一：字段推断风险 M",
+  "text": "刚才的单独推断，是看只拿到这一个字段，能推出多少。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 4.727291666666667,
+  "events": [
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "normalized_text": "刚才的单独推断，是看只拿到这一个字段，能推出多少。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "刚才的单独推断，是看只拿到这一个字段，能推出多少。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "一"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "个"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "字"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "一"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "个"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "字"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "段"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "推"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "出"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "一"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "个"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "字"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "段"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "推"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "出"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "少。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 90,
+        "characters": 47,
+        "output_tokens": 65,
+        "input_tokens": 25
+      },
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "normalized_text": "刚才的单独推断，是看只拿到这一个字段，能推出多少。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "刚"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "才"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "的"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "单"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 800,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "独"
+            },
+            {
+              "end_time": 1309,
+              "begin_time": 1091,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "推"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "断"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "看"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "只"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "拿"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2691,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2982,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "这"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "一"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3127,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "个"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "字"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "段"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3636,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "推"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 4000,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "出"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "多"
+            },
+            {
+              "end_time": 4509,
+              "begin_time": 4364,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "少。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "刚才的单独推断，是看只拿到这一个字段，能推出多少。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 90,
+        "characters": 47,
+        "output_tokens": 65,
+        "input_tokens": 25
+      },
+      "request_id": "09ffa26c-552c-9ca1-9879-11266f99fa84",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

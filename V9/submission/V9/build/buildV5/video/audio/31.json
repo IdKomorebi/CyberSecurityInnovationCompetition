@@ -1,0 +1,2059 @@
+{
+  "id": 31,
+  "section": "06 二次定级",
+  "text": "在这个案例中，联合评估学到的方案与整数规划算出的最优解完全相同。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.127291666666666,
+  "events": [
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "normalized_text": "在这个案例中，联合评估学到的方案与整数规划算出的最优解完全相同。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "在这个案例中，联合评估学到的方案与整数规划算出的最优解完全相同。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "最"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "优"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "最"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "优"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "解"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "最"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "优"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "解"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 5964,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "完"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6255,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "全"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "相"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "最"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "优"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "解"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 5964,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "完"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6255,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "全"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "相"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "同。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 130,
+        "characters": 62,
+        "output_tokens": 98,
+        "input_tokens": 32
+      },
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "normalized_text": "在这个案例中，联合评估学到的方案与整数规划算出的最优解完全相同。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 145,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "在"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "这"
+            },
+            {
+              "end_time": 727,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "个"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 727,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "案"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "例"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "中"
+            },
+            {
+              "end_time": 1818,
+              "begin_time": 1527,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "，联"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1818,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "合"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2036,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "评"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "估"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "学"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "到"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2764,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "的"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "方"
+            },
+            {
+              "end_time": 3273,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "案"
+            },
+            {
+              "end_time": 3636,
+              "begin_time": 3418,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "与"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3636,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "整"
+            },
+            {
+              "end_time": 4145,
+              "begin_time": 3927,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "数"
+            },
+            {
+              "end_time": 4364,
+              "begin_time": 4145,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "规"
+            },
+            {
+              "end_time": 4582,
+              "begin_time": 4364,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "划"
+            },
+            {
+              "end_time": 4873,
+              "begin_time": 4655,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "算"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4873,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "出"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "的"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "最"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5455,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "优"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5673,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "解"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 5964,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "完"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6255,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "全"
+            },
+            {
+              "end_time": 6691,
+              "begin_time": 6473,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "相"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6691,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "同。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "在这个案例中，联合评估学到的方案与整数规划算出的最优解完全相同。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 130,
+        "characters": 62,
+        "output_tokens": 98,
+        "input_tokens": 32
+      },
+      "request_id": "f0d38e7a-e3c6-949f-9b35-8bec2fa7075c",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

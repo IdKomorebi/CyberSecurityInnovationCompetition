@@ -1,0 +1,85 @@
+{
+  "baseline": "../buildV3",
+  "report_pages": 105,
+  "combined_pages": 106,
+  "replaced_figures": [
+    {
+      "figure": "fig_batch",
+      "pdf_page": 29,
+      "rect": [
+        90.05000305175781,
+        77.70079040527344,
+        529.4000244140625,
+        327.25079345703125
+      ]
+    },
+    {
+      "figure": "fig_gate",
+      "pdf_page": 31,
+      "rect": [
+        90.05000305175781,
+        77.70077514648438,
+        529.4000244140625,
+        292.55078125
+      ]
+    },
+    {
+      "figure": "fig_readout",
+      "pdf_page": 34,
+      "rect": [
+        90.05000305175781,
+        77.70075988769531,
+        529.4000244140625,
+        311.9007568359375
+      ]
+    },
+    {
+      "figure": "fig_grpo3",
+      "pdf_page": 50,
+      "rect": [
+        90.05000305175781,
+        123.50077819824219,
+        529.4000244140625,
+        373.9507751464844
+      ]
+    },
+    {
+      "figure": "fig_whole",
+      "pdf_page": 54,
+      "rect": [
+        90.05000305175781,
+        77.70077514648438,
+        529.4000244140625,
+        283.80078125
+      ]
+    }
+  ],
+  "docx_changed_entries_only": [
+    "word/media/image12.jpg",
+    "word/media/image15.jpg",
+    "word/media/image18.jpg",
+    "word/media/image31.jpg",
+    "word/media/image35.jpg"
+  ],
+  "pdf_text_and_positions_identical": true,
+  "unchanged_pages_pixel_identical": 100,
+  "changed_pages_pixels_outside_figure_identical": true,
+  "preserved_image_files": 42,
+  "screenshots_byte_identical": [
+    "ui_aggr.jpg",
+    "ui_combos.jpg",
+    "ui_effect.jpg",
+    "ui_grade1.jpg",
+    "ui_regrade.jpg",
+    "ui_review.jpg",
+    "ui_tasks.jpg",
+    "ui_wizard_catalog.jpg"
+  ],
+  "markdown_body_and_captions_identical_except_image_paths": true,
+  "source_report_sha256": "baff97984409ed9bd078c77f81cfcedf5dad776586eb4d018881c0cd2553eb9c",
+  "voice_segments": 38,
+  "voice_characters_excluding_punctuation": 1438,
+  "svg_text_within_canvas_verified": 5,
+  "gallery_images_load_verified": 5,
+  "narration_numbers_checked_against_buildV3_samples": true
+}

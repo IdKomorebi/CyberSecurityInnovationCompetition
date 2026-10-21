@@ -1,0 +1,465 @@
+{
+  "id": 2,
+  "section": "01 开场",
+  "text": "但接收方拿到的，是一批字段。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 2.763625,
+  "events": [
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "normalized_text": "但接收方拿到的，是一批字段。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "但接收方拿到的，是一批字段。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "接"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 655,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "收"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "方"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "接"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 655,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "收"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "方"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "拿"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "到"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "接"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 655,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "收"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "方"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "拿"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "到"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "一"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "接"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 655,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "收"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "方"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "拿"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "到"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "一"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "批"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "字"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "段。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 52,
+        "characters": 26,
+        "output_tokens": 38,
+        "input_tokens": 14
+      },
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "normalized_text": "但接收方拿到的，是一批字段。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 364,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "但"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 364,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "接"
+            },
+            {
+              "end_time": 873,
+              "begin_time": 655,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "收"
+            },
+            {
+              "end_time": 1018,
+              "begin_time": 873,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "方"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1018,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "拿"
+            },
+            {
+              "end_time": 1382,
+              "begin_time": 1236,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "到"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1382,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "，是"
+            },
+            {
+              "end_time": 2036,
+              "begin_time": 1891,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "一"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2036,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "批"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "字"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "段。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "但接收方拿到的，是一批字段。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 52,
+        "characters": 26,
+        "output_tokens": 38,
+        "input_tokens": 14
+      },
+      "request_id": "a22c5347-ca61-9b7d-984b-6091c37eb9b7",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

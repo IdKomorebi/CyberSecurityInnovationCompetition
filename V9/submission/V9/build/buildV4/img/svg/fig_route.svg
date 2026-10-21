@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1270" viewBox="0 0 1000 635" role="img" aria-labelledby="title desc">
+<title id="title">技术路线：从字段风险到整套等级</title><desc id="desc">三个阶段依次为字段本身、聚合推断风险、定级与效果。一次等级与单独推断为起点；字段推断风险 M 和最小越线组合共同进入二次定级；通过整体核对与效果复核得到等级和风险变化。推断精度是贯穿三个阶段的共同尺度。图中条形及等级为示意。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<circle cx="37" cy="32" r="13" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<text x="31.78125" y="38" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="60" y="39" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段本身</tspan></text>
+<circle cx="365" cy="32" r="13" fill="#7052b5" stroke="#7052b5" stroke-width="1.5"/>
+<text x="359.78125" y="38" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="388" y="39" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">聚合推断风险</tspan></text>
+<circle cx="694" cy="32" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="688.78125" y="38" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<text x="717" y="39" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">定级与效果</tspan></text>
+<path d="M328 70L328 529" stroke="#d7e0e9" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
+<path d="M657 70L657 529" stroke="#d7e0e9" stroke-width="1" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="3 6"/>
+<text x="42" y="89" font-size="24" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">一次定级</tspan></text>
+<path d="M49 111H98L115 128V193H49Z" stroke="#2463b6" stroke-width="2" fill="white" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M98 111V128H115" stroke="#2463b6" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 141.0L101 141.0" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 153.66666666666666L92 153.66666666666666" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 166.33333333333334L101 166.33333333333334" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M62 179.0L92 179.0" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="41.0" y="224" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段目录</tspan></text>
+<path d="M131 155L172 155" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<rect x="185" y="172" width="20" height="19" rx="2" fill="#2463b6" stroke="none" stroke-width="1.5"/>
+<text x="188.390625" y="216" font-size="19" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<rect x="212" y="153" width="20" height="38" rx="2" fill="#087e86" stroke="none" stroke-width="1.5"/>
+<text x="215.390625" y="216" font-size="19" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="239" y="134" width="20" height="57" rx="2" fill="#7052b5" stroke="none" stroke-width="1.5"/>
+<text x="242.390625" y="216" font-size="19" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<rect x="266" y="115" width="20" height="76" rx="2" fill="#b56a16" stroke="none" stroke-width="1.5"/>
+<text x="269.390625" y="216" font-size="19" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="181.748046875" y="248" font-size="22" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">一次等级</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> Lᵢ</tspan></text>
+<text x="42" y="300" font-size="24" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">单独推断</tspan></text>
+<circle cx="67" cy="348" r="23" fill="white" stroke="#2463b6" stroke-width="2"/>
+<text x="63.400390625" y="355" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">i</tspan></text>
+<path d="M100 348L143 348" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<path d="M158 336.5L203 325.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 336.5L203 348.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 336.5L203 371.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 359.5L203 325.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 359.5L203 348.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M158 359.5L203 371.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M203 325.0L248 348.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M203 348.0L248 348.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M203 371.0L248 348.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="158" cy="336.5" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="158" cy="359.5" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="203" cy="325.0" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="203" cy="348.0" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="203" cy="371.0" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="248" cy="348.0" r="5" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<text x="113.453125" y="415" font-size="31" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V({i})</tspan></text>
+<text x="68.0" y="454" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">单个字段能推断多少</tspan></text>
+<text x="47.0" y="502" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">确定起点：等级与单独能力</tspan></text>
+<path d="M298 275L355 275" stroke="#52647a" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<text x="370" y="89" font-size="24" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段推断风险</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> M</tspan></text>
+<circle cx="398" cy="145" r="16" fill="white" stroke="#8795a7" stroke-width="2"/>
+<text x="390.9140625" y="152" font-size="21" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<circle cx="440" cy="145" r="16" fill="white" stroke="#8795a7" stroke-width="2"/>
+<text x="432.484375" y="152" font-size="21" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<circle cx="419" cy="188" r="16" fill="white" stroke="#8795a7" stroke-width="2"/>
+<text x="412.775390625" y="195" font-size="21" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<text x="464.431640625" y="174" font-size="30" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">+</tspan></text>
+<circle cx="528" cy="168" r="23" fill="white" stroke="#7052b5" stroke-width="2"/>
+<text x="524.400390625" y="175" font-size="21" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">i</tspan></text>
+<path d="M565 168L606 168" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<text x="605.5703125" y="178" font-size="29" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">M</tspan></text>
+<text x="419.0" y="224" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">在最有利背景下</tspan></text>
+<text x="370.0" y="255" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">这个字段最多增加多少能力</tspan></text>
+<text x="370" y="300" font-size="24" fill="#bf4a49" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">最小越线组合</tspan></text>
+<path d="M401 336Q494 295 586 336L555 406Q495 435 434 406Z" stroke="#e5b7b5" stroke-width="1.6" fill="#fcf0ef" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="433" cy="354" r="19" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="425.9140625" y="361" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<circle cx="554" cy="354" r="19" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="546.484375" y="361" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<circle cx="494" cy="399" r="19" fill="white" stroke="#bf4a49" stroke-width="2"/>
+<text x="487.775390625" y="406" font-size="21" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<text x="427.87109375" y="454" font-size="29" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(S) &gt; θ</tspan></text>
+<text x="385.0" y="502" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">哪些字段不能同时开放</tspan></text>
+<path d="M628 275L685 275" stroke="#52647a" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<text x="698" y="89" font-size="24" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">二次定级</tspan></text>
+<rect x="710" y="119" width="39" height="39" rx="4" fill="white" stroke="#2463b6" stroke-width="1.5"/>
+<text x="722.193359375" y="146.69" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<rect x="755" y="119" width="39" height="39" rx="4" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="767.193359375" y="146.69" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="800" y="119" width="39" height="39" rx="4" fill="white" stroke="#087e86" stroke-width="1.5"/>
+<text x="812.193359375" y="146.69" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<rect x="845" y="119" width="39" height="39" rx="4" fill="white" stroke="#2463b6" stroke-width="1.5"/>
+<text x="857.193359375" y="146.69" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<rect x="890" y="119" width="39" height="39" rx="4" fill="white" stroke="#7052b5" stroke-width="1.5"/>
+<text x="902.193359375" y="146.69" font-size="21" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<path d="M825 171L825 208" stroke="#087e86" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<text x="720.123046875" y="243" font-size="22" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">综合效用</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">强化学习</tspan></text>
+<text x="737.0" y="278" font-size="22" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">联合调整整套等级</tspan></text>
+<text x="698" y="324" font-size="24" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">整体核对与效果复核</tspan></text>
+<text x="709" y="365" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">调整前</tspan></text>
+<path d="M797 359L941 359" stroke="#bf7c79" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="709" y="407" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">调整后</tspan></text>
+<path d="M797 401L851 401" stroke="#087e86" stroke-width="14" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="709.5" y="454" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">比较整体推断能力的变化</tspan></text>
+<text x="705.0" y="502" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">输出等级、依据与复核结果</tspan></text>
+<path d="M25 543L975 543" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="45" y="585" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">统一尺度</tspan></text>
+<text x="181" y="585" font-size="26" fill="#2463b6" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">推断精度</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> V(S)</tspan></text>
+<path d="M384 578L436 578" stroke="#2463b6" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<text x="457" y="585" font-size="23" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">只用组合</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> S </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">训练模型，在留出数据上验证</tspan></text>
+<text x="45" y="620" font-size="19" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">输入：数据表、字段目录、保护对象与共享规则。图中等级与条形长度仅作流程示意。</tspan></text>
+</svg>

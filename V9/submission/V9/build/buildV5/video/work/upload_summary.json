@@ -1,0 +1,12 @@
+{
+  "task": "u20261018191552",
+  "model": "DeepSeek-V4.1-Flash",
+  "draft_tokens": 3918,
+  "status_at_video_delivery": "运行中",
+  "protected_fields": [
+    "total_losses",
+    "total_gen",
+    "gross_actual_interchange_mw",
+    "net_actual_interchange_mw"
+  ]
+}

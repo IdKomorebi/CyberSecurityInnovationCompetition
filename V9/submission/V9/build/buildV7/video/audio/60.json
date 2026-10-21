@@ -1,0 +1,2772 @@
+{
+  "id": 60,
+  "section": "07 定级效果",
+  "text": "系统把社会公众能拿到的字段全部合起来重新训练，并换一种模型复测，取两者中较高的结果。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.781833333333333,
+  "events": [
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "系统把社会公众能拿到的字段全部合起来重新训练，并换一种模型复测，取两者中较高的结果。",
+        "normalized_text": "系统把社会公众能拿到的字段全部合起来重新训练，并换一种模型复测，取两者中较高的结果。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "测",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5527,
+              "end_time": 5745
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "测",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5527,
+              "end_time": 5745
+            },
+            {
+              "text": "，取",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "两",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "者",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6618
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "测",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5527,
+              "end_time": 5745
+            },
+            {
+              "text": "，取",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "两",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "者",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6618
+            },
+            {
+              "text": "中",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6618,
+              "end_time": 6764
+            },
+            {
+              "text": "较",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6764,
+              "end_time": 6982
+            },
+            {
+              "text": "高",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            },
+            {
+              "text": "的",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7127,
+              "end_time": 7273
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "测",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5527,
+              "end_time": 5745
+            },
+            {
+              "text": "，取",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "两",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "者",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6618
+            },
+            {
+              "text": "中",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6618,
+              "end_time": 6764
+            },
+            {
+              "text": "较",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6764,
+              "end_time": 6982
+            },
+            {
+              "text": "高",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            },
+            {
+              "text": "的",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7127,
+              "end_time": 7273
+            },
+            {
+              "text": "结",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7418
+            },
+            {
+              "text": "果。",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7418,
+              "end_time": 7564
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 107,
+        "total_tokens": 149,
+        "characters": 81
+      },
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "系统把社会公众能拿到的字段全部合起来重新训练，并换一种模型复测，取两者中较高的结果。",
+        "normalized_text": "系统把社会公众能拿到的字段全部合起来重新训练，并换一种模型复测，取两者中较高的结果。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "系",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 145,
+              "end_time": 291
+            },
+            {
+              "text": "统",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "把",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "社",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 655,
+              "end_time": 873
+            },
+            {
+              "text": "会",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 945
+            },
+            {
+              "text": "公",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 945,
+              "end_time": 1091
+            },
+            {
+              "text": "众",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1091,
+              "end_time": 1309
+            },
+            {
+              "text": "能",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "拿",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1673
+            },
+            {
+              "text": "到",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1673,
+              "end_time": 1818
+            },
+            {
+              "text": "的",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1818,
+              "end_time": 1964
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 1964,
+              "end_time": 2109
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2109,
+              "end_time": 2327
+            },
+            {
+              "text": "全",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2473,
+              "end_time": 2691
+            },
+            {
+              "text": "部",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2691,
+              "end_time": 2836
+            },
+            {
+              "text": "合",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2836,
+              "end_time": 3055
+            },
+            {
+              "text": "起",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3055,
+              "end_time": 3200
+            },
+            {
+              "text": "来",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3200,
+              "end_time": 3345
+            },
+            {
+              "text": "重",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3345,
+              "end_time": 3491
+            },
+            {
+              "text": "新",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "训",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "练",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "，并",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4291,
+              "end_time": 4509
+            },
+            {
+              "text": "换",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4509,
+              "end_time": 4727
+            },
+            {
+              "text": "一",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4727,
+              "end_time": 4873
+            },
+            {
+              "text": "种",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4873,
+              "end_time": 5018
+            },
+            {
+              "text": "模",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5018,
+              "end_time": 5236
+            },
+            {
+              "text": "型",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "复",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "测",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5527,
+              "end_time": 5745
+            },
+            {
+              "text": "，取",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6109,
+              "end_time": 6327
+            },
+            {
+              "text": "两",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6327,
+              "end_time": 6473
+            },
+            {
+              "text": "者",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6473,
+              "end_time": 6618
+            },
+            {
+              "text": "中",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6618,
+              "end_time": 6764
+            },
+            {
+              "text": "较",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6764,
+              "end_time": 6982
+            },
+            {
+              "text": "高",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6982,
+              "end_time": 7127
+            },
+            {
+              "text": "的",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7127,
+              "end_time": 7273
+            },
+            {
+              "text": "结",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7273,
+              "end_time": 7418
+            },
+            {
+              "text": "果。",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7418,
+              "end_time": 7564
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 107,
+        "total_tokens": 149,
+        "characters": 81
+      },
+      "request_id": "f9af451a-16d9-9460-ad57-e8034a82cd46",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

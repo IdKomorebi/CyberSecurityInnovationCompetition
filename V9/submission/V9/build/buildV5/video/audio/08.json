@@ -1,0 +1,2227 @@
+{
+  "id": 8,
+  "section": "02 新建任务",
+  "text": "大模型起草字段目录，需要保护哪些数据由我们确认，之后后台自动完成全部步骤。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.054541666666666,
+  "events": [
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "normalized_text": "大模型起草字段目录，需要保护哪些数据由我们确认，之后后台自动完成全部步骤。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "大模型起草字段目录，需要保护哪些数据由我们确认，之后后台自动完成全部步骤。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "台"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "台"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "自"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "动"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "完"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "台"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "自"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "动"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "完"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "成"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6255,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "全"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6545,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "部"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6618,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "步"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "台"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "自"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "动"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "完"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "成"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6255,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "全"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6545,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "部"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6618,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "步"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6764,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "骤。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 134,
+        "characters": 71,
+        "output_tokens": 97,
+        "input_tokens": 37
+      },
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "normalized_text": "大模型起草字段目录，需要保护哪些数据由我们确认，之后后台自动完成全部步骤。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 291,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "大"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 291,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "模"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "型"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 800,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "起"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1164,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "草"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "字"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "段"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1745,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "目"
+            },
+            {
+              "end_time": 2327,
+              "begin_time": 1964,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "录"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2327,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "，需"
+            },
+            {
+              "end_time": 2618,
+              "begin_time": 2545,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "要"
+            },
+            {
+              "end_time": 2836,
+              "begin_time": 2618,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "保"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2836,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "护"
+            },
+            {
+              "end_time": 3055,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "哪"
+            },
+            {
+              "end_time": 3200,
+              "begin_time": 3055,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "些"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3200,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "数"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "据"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "由"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3709,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "我"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "们"
+            },
+            {
+              "end_time": 4073,
+              "begin_time": 3927,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "确"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 4073,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "认"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "，之"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "后"
+            },
+            {
+              "end_time": 5527,
+              "begin_time": 5309,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "后"
+            },
+            {
+              "end_time": 5673,
+              "begin_time": 5527,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "台"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5673,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "自"
+            },
+            {
+              "end_time": 5964,
+              "begin_time": 5818,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "动"
+            },
+            {
+              "end_time": 6109,
+              "begin_time": 5964,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "完"
+            },
+            {
+              "end_time": 6255,
+              "begin_time": 6109,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "成"
+            },
+            {
+              "end_time": 6545,
+              "begin_time": 6255,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "全"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6545,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "部"
+            },
+            {
+              "end_time": 6764,
+              "begin_time": 6618,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "步"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6764,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "骤。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "大模型起草字段目录，需要保护哪些数据由我们确认，之后后台自动完成全部步骤。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 134,
+        "characters": 71,
+        "output_tokens": 97,
+        "input_tokens": 37
+      },
+      "request_id": "b74528ae-757e-97d3-a06d-d978e1cdf053",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

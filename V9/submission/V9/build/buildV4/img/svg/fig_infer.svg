@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1380" viewBox="0 0 1000 690" role="img" aria-labelledby="title desc">
+<title id="title">推断验证与字段推断风险</title><desc id="desc">只用组合内字段训练独立推断模型，在未参与训练的数据上验证。多随机种子平均并取单调闭包后，形成推断精度表，分别用于字段风险与越线组合分析。曲线为示意，表内数值来自 NEM 示例。</desc>
+<defs>
+<marker id="arrow182b45" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#182b45" stroke-width="1.5"/></marker>
+<marker id="arrow52647a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#52647a" stroke-width="1.5"/></marker>
+<marker id="arrow2463b6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#2463b6" stroke-width="1.5"/></marker>
+<marker id="arrow087e86" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#087e86" stroke-width="1.5"/></marker>
+<marker id="arrow7052b5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#7052b5" stroke-width="1.5"/></marker>
+<marker id="arrowb56a16" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#b56a16" stroke-width="1.5"/></marker>
+<marker id="arrowbf4a49" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#bf4a49" stroke-width="1.5"/></marker>
+<marker id="arrow8795a7" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#8795a7" stroke-width="1.5"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M-1 1L1-1M0 6L6 0M5 7L7 5" stroke="#d1d9e4" stroke-width="1"/></pattern>
+</defs>
+<rect width="1000" height="100%" fill="white"/>
+<circle cx="37" cy="31" r="13" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<text x="31.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">1</tspan></text>
+<text x="60" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">只提供组合内字段</tspan></text>
+<circle cx="363" cy="31" r="13" fill="#2463b6" stroke="#2463b6" stroke-width="1.5"/>
+<text x="357.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">2</tspan></text>
+<text x="386" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">独立训练推断模型</tspan></text>
+<circle cx="702" cy="31" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="696.78125" y="37" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">3</tspan></text>
+<text x="725" y="38" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">在未见数据上验证</tspan></text>
+<text x="38" y="84" font-size="23" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">组合</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> S = {a, c, e}</tspan></text>
+<text x="51.251953125" y="118" font-size="20" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">a</tspan></text>
+<text x="86.841796875" y="118" font-size="20" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">b</tspan></text>
+<text x="124.072265625" y="118" font-size="20" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">c</tspan></text>
+<text x="158.841796875" y="118" font-size="20" fill="#8795a7" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">d</tspan></text>
+<text x="195.216796875" y="118" font-size="20" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">e</tspan></text>
+<text x="261.830078125" y="118" font-size="22" fill="#b56a16" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">y</tspan></text>
+<rect x="43" y="132" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="132" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="132" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="132" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="132" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="147" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="147" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="147" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="147" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="147" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="162" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="162" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="162" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="162" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="162" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="177" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="177" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="177" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="177" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="177" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="192" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="192" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="192" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="192" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="192" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="207" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="207" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="207" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="207" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="207" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="222" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="222" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="222" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="222" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="222" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="237" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="237" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="237" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="237" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="237" width="33" height="12" rx="2" fill="#2463b6" stroke="white" stroke-width="1.5"/>
+<path d="M38 129h-5v123h5M223 129h5v123h-5" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="257" y="132" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="147" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="162" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="177" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="192" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="207" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="222" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="237" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<path d="M252 129h-5v123h5M284 129h5v123h-5" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="43" y="276" font-size="21" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">训练数据</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 80%</tspan></text>
+<rect x="43" y="296" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="296" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="296" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="296" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="296" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<rect x="43" y="311" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<rect x="79" y="311" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="115" y="311" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<rect x="151" y="311" width="33" height="12" rx="2" fill="url(#hatch)" stroke="white" stroke-width="1.5"/>
+<rect x="187" y="311" width="33" height="12" rx="2" fill="#087e86" stroke="white" stroke-width="1.5"/>
+<path d="M38 293h-5v33h5M223 293h5v33h-5" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="257" y="296" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<rect x="257" y="311" width="24" height="12" rx="2" fill="#b56a16" stroke="white" stroke-width="1.5"/>
+<path d="M252 293h-5v33h5M284 293h5v33h-5" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="43" y="359" font-size="21" fill="#087e86" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">留出数据</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 20%</tspan></text>
+<path d="M300 174L349 174" stroke="#2463b6" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<path d="M372 147.0L441 120.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 147.0L441 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 147.0L441 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 147.0L441 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 147.0L441 228.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 174.0L441 120.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 174.0L441 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 174.0L441 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 174.0L441 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 174.0L441 228.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 201.0L441 120.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 201.0L441 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 201.0L441 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 201.0L441 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M372 201.0L441 228.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 120.0L510 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 120.0L510 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 120.0L510 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 147.0L510 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 147.0L510 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 147.0L510 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 174.0L510 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 174.0L510 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 174.0L510 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 201.0L510 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 201.0L510 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 201.0L510 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 228.0L510 147.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 228.0L510 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M441 228.0L510 201.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M510 147.0L579 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M510 174.0L579 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M510 201.0L579 174.0" stroke="#d7e0e9" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="372" cy="147.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="372" cy="174.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="372" cy="201.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="441" cy="120.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="441" cy="147.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="441" cy="174.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="441" cy="201.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="441" cy="228.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="510" cy="147.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="510" cy="174.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="510" cy="201.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<circle cx="579" cy="174.0" r="7" fill="white" stroke="#2463b6" stroke-width="1.8"/>
+<text x="370.0" y="87" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">每个组合各自学习参数</tspan></text>
+<text x="411.44921875" y="266" font-size="25" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">训练得到</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> fₛ</tspan></text>
+<text x="381.5" y="303" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">不接收组合外的字段</tspan></text>
+<path d="M598 174L691 174" stroke="#2463b6" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow2463b6)"/>
+<path d="M300 318H657V210H691" stroke="#087e86" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow087e86)"/>
+<text x="395.0" y="359" font-size="21" fill="#087e86" font-weight="500" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">留出行仅用于验证</tspan></text>
+<path d="M716 246L964 246" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<path d="M716 246L716 111" stroke="#52647a" stroke-width="1.3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow52647a)"/>
+<path d="M724.0 213.8L746.4 195.7L768.8 206.0L791.2 169.9L813.6 148.0L836.0 167.3L858.4 153.1L880.8 184.1L903.2 164.7L925.6 136.4L948.0 150.5" stroke="#2463b6" stroke-width="2.7" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M724.0 208.6L746.4 202.1L768.8 200.8L791.2 176.3L813.6 154.4L836.0 163.4L858.4 159.6L880.8 177.6L903.2 168.6L925.6 144.1L948.0 146.7" stroke="#087e86" stroke-width="2.7" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path d="M721 92L750 92" stroke="#2463b6" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="759" y="99" font-size="20" fill="#2463b6" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">真实值</tspan></text>
+<path d="M842 92L871 92" stroke="#087e86" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4"/>
+<text x="880" y="99" font-size="20" fill="#087e86" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">预测值</tspan></text>
+<text x="780.0" y="281" font-size="19" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">预测曲线示意</tspan></text>
+<text x="798.46875" y="325" font-size="32" fill="#087e86" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(S)</tspan></text>
+<text x="749.140625" y="360" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">留出</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> R²</tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">，负值取</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> 0</tspan></text>
+<path d="M25 389L975 389" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="37" cy="423" r="13" fill="#7052b5" stroke="#7052b5" stroke-width="1.5"/>
+<text x="31.78125" y="429" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">4</tspan></text>
+<text x="60" y="430" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">形成统一的推断精度表</tspan></text>
+<circle cx="561" cy="423" r="13" fill="#087e86" stroke="#087e86" stroke-width="1.5"/>
+<text x="555.78125" y="429" font-size="15" fill="white" font-weight="700" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">5</tspan></text>
+<text x="584" y="430" font-size="23" fill="#182b45" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">支撑两部分风险</tspan></text>
+<text x="47" y="475" font-size="21" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">组合（</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif">NEM </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">示例）</tspan></text>
+<text x="374.42578125" y="475" font-size="21" fill="#52647a" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">V(S)</tspan></text>
+<path d="M43 488L439 488" stroke="#d7e0e9" stroke-width="1.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="47" y="524" font-size="22" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan></text>
+<text x="349.0859375" y="524" font-size="24" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.183</tspan></text>
+<text x="47" y="566" font-size="22" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量</tspan></text>
+<text x="349.0859375" y="566" font-size="24" fill="#2463b6" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.478</tspan></text>
+<text x="47" y="608" font-size="22" fill="#182b45" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">风电</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">容量</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> + </tspan><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">光伏</tspan></text>
+<text x="349.0859375" y="608" font-size="24" fill="#bf4a49" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">0.811</tspan></text>
+<path d="M461 551H510V500H563M510 551V593H563" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<path d="M510 500L563 500" stroke="#7052b5" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow7052b5)"/>
+<circle cx="592" cy="500" r="20" fill="white" stroke="#7052b5" stroke-width="2"/>
+<text x="588.400390625" y="507" font-size="21" fill="#7052b5" font-weight="600" text-anchor="start"><tspan font-family="DejaVu Sans,Arial,sans-serif">i</tspan></text>
+<text x="630" y="495" font-size="25" fill="#7052b5" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">字段推断风险</tspan><tspan font-family="DejaVu Sans,Arial,sans-serif"> M</tspan></text>
+<text x="630" y="529" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">取背景下最大的新增能力</tspan></text>
+<circle cx="583" cy="586" r="11" fill="white" stroke="#bf4a49" stroke-width="1.7"/>
+<circle cx="603" cy="586" r="11" fill="white" stroke="#bf4a49" stroke-width="1.7"/>
+<circle cx="593" cy="606" r="11" fill="white" stroke="#bf4a49" stroke-width="1.7"/>
+<text x="630" y="588" font-size="25" fill="#bf4a49" font-weight="700" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">最小越线组合</tspan></text>
+<text x="630" y="622" font-size="21" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">越线，去掉任一字段即不过线</tspan></text>
+<text x="43" y="666" font-size="20" fill="#52647a" font-weight="400" text-anchor="start"><tspan font-family="Noto Sans CJK SC,Microsoft YaHei,PingFang SC,sans-serif">统一口径：多随机种子取平均，再取单调闭包；快速估计用于筛选，重新训练用于确认。</tspan></text>
+</svg>

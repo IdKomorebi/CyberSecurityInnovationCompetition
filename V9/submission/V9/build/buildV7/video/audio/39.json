@@ -1,0 +1,1131 @@
+{
+  "id": 39,
+  "section": "04 聚合推断风险之一：协同与字段推断风险 M",
+  "text": "K 等于 2 时允许两个背景字段，选择南澳可用发电容量和南澳光伏出力预测，协同作用为 0.405；K 等于 3 时仍是如此，说明已经饱和。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 11.490916666666667,
+  "events": [
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "K 等于 2 时允许两个背景字段，选择南澳可用发电容量和南澳光伏出力预测，协同作用为 0.405；K 等于 3 时仍是如此，说明已经饱和。",
+        "normalized_text": "K等于、二、时允许两个背景字段，选择南澳可用发电容量和南澳光伏出力预测，协同作用为、零点四零五；K等于、三、时仍是如此，说明已经饱和。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "K",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 0,
+              "end_time": 202
+            },
+            {
+              "text": "等",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 202,
+              "end_time": 404
+            },
+            {
+              "text": "于",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 404,
+              "end_time": 605
+            },
+            {
+              "text": "、二",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 605,
+              "end_time": 806
+            },
+            {
+              "text": "、时",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 806,
+              "end_time": 1008
+            },
+            {
+              "text": "允",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1008,
+              "end_time": 1210
+            },
+            {
+              "text": "许",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1210,
+              "end_time": 1411
+            },
+            {
+              "text": "两",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1411,
+              "end_time": 1613
+            },
+            {
+              "text": "个",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1613,
+              "end_time": 1815
+            },
+            {
+              "text": "背",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1815,
+              "end_time": 2016
+            },
+            {
+              "text": "景",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2016,
+              "end_time": 2217
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2217,
+              "end_time": 2419
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2419,
+              "end_time": 2621
+            },
+            {
+              "text": "，选",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2621,
+              "end_time": 2823
+            },
+            {
+              "text": "择",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2823,
+              "end_time": 3024
+            },
+            {
+              "text": "南",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3024,
+              "end_time": 3225
+            },
+            {
+              "text": "澳",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3225,
+              "end_time": 3427
+            },
+            {
+              "text": "可",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3427,
+              "end_time": 3629
+            },
+            {
+              "text": "用",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3629,
+              "end_time": 3830
+            },
+            {
+              "text": "发",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3830,
+              "end_time": 4032
+            },
+            {
+              "text": "电",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4032,
+              "end_time": 4234
+            },
+            {
+              "text": "容",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4234,
+              "end_time": 4435
+            },
+            {
+              "text": "量",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4435,
+              "end_time": 4636
+            },
+            {
+              "text": "和",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4636,
+              "end_time": 4838
+            },
+            {
+              "text": "南",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4838,
+              "end_time": 5040
+            },
+            {
+              "text": "澳",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5040,
+              "end_time": 5242
+            },
+            {
+              "text": "光",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5242,
+              "end_time": 5443
+            },
+            {
+              "text": "伏",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5443,
+              "end_time": 5645
+            },
+            {
+              "text": "出",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5645,
+              "end_time": 5846
+            },
+            {
+              "text": "力",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5846,
+              "end_time": 6048
+            },
+            {
+              "text": "预",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6048,
+              "end_time": 6249
+            },
+            {
+              "text": "测",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6249,
+              "end_time": 6451
+            },
+            {
+              "text": "，协",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6451,
+              "end_time": 6653
+            },
+            {
+              "text": "同",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6653,
+              "end_time": 6855
+            },
+            {
+              "text": "作",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6855,
+              "end_time": 7055
+            },
+            {
+              "text": "用",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 7055,
+              "end_time": 7257
+            },
+            {
+              "text": "为",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7257,
+              "end_time": 7459
+            },
+            {
+              "text": "、零",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7459,
+              "end_time": 7661
+            },
+            {
+              "text": "点",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7661,
+              "end_time": 7862
+            },
+            {
+              "text": "四",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7862,
+              "end_time": 8064
+            },
+            {
+              "text": "零",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 8064,
+              "end_time": 8265
+            },
+            {
+              "text": "五",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8265,
+              "end_time": 8467
+            },
+            {
+              "text": "；K",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 8467,
+              "end_time": 8668
+            },
+            {
+              "text": "等",
+              "begin_index": 43,
+              "end_index": 44,
+              "begin_time": 8668,
+              "end_time": 8870
+            },
+            {
+              "text": "于",
+              "begin_index": 44,
+              "end_index": 45,
+              "begin_time": 8870,
+              "end_time": 9072
+            },
+            {
+              "text": "、三",
+              "begin_index": 45,
+              "end_index": 46,
+              "begin_time": 9072,
+              "end_time": 9274
+            },
+            {
+              "text": "、时",
+              "begin_index": 46,
+              "end_index": 47,
+              "begin_time": 9274,
+              "end_time": 9475
+            },
+            {
+              "text": "仍",
+              "begin_index": 47,
+              "end_index": 48,
+              "begin_time": 9475,
+              "end_time": 9676
+            },
+            {
+              "text": "是",
+              "begin_index": 48,
+              "end_index": 49,
+              "begin_time": 9676,
+              "end_time": 9878
+            },
+            {
+              "text": "如",
+              "begin_index": 49,
+              "end_index": 50,
+              "begin_time": 9878,
+              "end_time": 10080
+            },
+            {
+              "text": "此",
+              "begin_index": 50,
+              "end_index": 51,
+              "begin_time": 10080,
+              "end_time": 10281
+            },
+            {
+              "text": "，说",
+              "begin_index": 51,
+              "end_index": 52,
+              "begin_time": 10281,
+              "end_time": 10483
+            },
+            {
+              "text": "明",
+              "begin_index": 52,
+              "end_index": 53,
+              "begin_time": 10483,
+              "end_time": 10685
+            },
+            {
+              "text": "已",
+              "begin_index": 53,
+              "end_index": 54,
+              "begin_time": 10685,
+              "end_time": 10886
+            },
+            {
+              "text": "经",
+              "begin_index": 54,
+              "end_index": 55,
+              "begin_time": 10886,
+              "end_time": 11087
+            },
+            {
+              "text": "饱",
+              "begin_index": 55,
+              "end_index": 56,
+              "begin_time": 11087,
+              "end_time": 11289
+            },
+            {
+              "text": "和。",
+              "begin_index": 56,
+              "end_index": 57,
+              "begin_time": 11289,
+              "end_time": 11491
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 67,
+        "output_tokens": 158,
+        "total_tokens": 225,
+        "characters": 117
+      },
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "K 等于 2 时允许两个背景字段，选择南澳可用发电容量和南澳光伏出力预测，协同作用为 0.405；K 等于 3 时仍是如此，说明已经饱和。",
+        "normalized_text": "K等于、二、时允许两个背景字段，选择南澳可用发电容量和南澳光伏出力预测，协同作用为、零点四零五；K等于、三、时仍是如此，说明已经饱和。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "K",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 0,
+              "end_time": 202
+            },
+            {
+              "text": "等",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 202,
+              "end_time": 404
+            },
+            {
+              "text": "于",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 404,
+              "end_time": 605
+            },
+            {
+              "text": "、二",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 605,
+              "end_time": 806
+            },
+            {
+              "text": "、时",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 806,
+              "end_time": 1008
+            },
+            {
+              "text": "允",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1008,
+              "end_time": 1210
+            },
+            {
+              "text": "许",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1210,
+              "end_time": 1411
+            },
+            {
+              "text": "两",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1411,
+              "end_time": 1613
+            },
+            {
+              "text": "个",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1613,
+              "end_time": 1815
+            },
+            {
+              "text": "背",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1815,
+              "end_time": 2016
+            },
+            {
+              "text": "景",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2016,
+              "end_time": 2217
+            },
+            {
+              "text": "字",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2217,
+              "end_time": 2419
+            },
+            {
+              "text": "段",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2419,
+              "end_time": 2621
+            },
+            {
+              "text": "，选",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2621,
+              "end_time": 2823
+            },
+            {
+              "text": "择",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2823,
+              "end_time": 3024
+            },
+            {
+              "text": "南",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3024,
+              "end_time": 3225
+            },
+            {
+              "text": "澳",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3225,
+              "end_time": 3427
+            },
+            {
+              "text": "可",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3427,
+              "end_time": 3629
+            },
+            {
+              "text": "用",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3629,
+              "end_time": 3830
+            },
+            {
+              "text": "发",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3830,
+              "end_time": 4032
+            },
+            {
+              "text": "电",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4032,
+              "end_time": 4234
+            },
+            {
+              "text": "容",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4234,
+              "end_time": 4435
+            },
+            {
+              "text": "量",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4435,
+              "end_time": 4636
+            },
+            {
+              "text": "和",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4636,
+              "end_time": 4838
+            },
+            {
+              "text": "南",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4838,
+              "end_time": 5040
+            },
+            {
+              "text": "澳",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5040,
+              "end_time": 5242
+            },
+            {
+              "text": "光",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5242,
+              "end_time": 5443
+            },
+            {
+              "text": "伏",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5443,
+              "end_time": 5645
+            },
+            {
+              "text": "出",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5645,
+              "end_time": 5846
+            },
+            {
+              "text": "力",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5846,
+              "end_time": 6048
+            },
+            {
+              "text": "预",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 6048,
+              "end_time": 6249
+            },
+            {
+              "text": "测",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6249,
+              "end_time": 6451
+            },
+            {
+              "text": "，协",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6451,
+              "end_time": 6653
+            },
+            {
+              "text": "同",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6653,
+              "end_time": 6855
+            },
+            {
+              "text": "作",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6855,
+              "end_time": 7055
+            },
+            {
+              "text": "用",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 7055,
+              "end_time": 7257
+            },
+            {
+              "text": "为",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7257,
+              "end_time": 7459
+            },
+            {
+              "text": "、零",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7459,
+              "end_time": 7661
+            },
+            {
+              "text": "点",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7661,
+              "end_time": 7862
+            },
+            {
+              "text": "四",
+              "begin_index": 39,
+              "end_index": 40,
+              "begin_time": 7862,
+              "end_time": 8064
+            },
+            {
+              "text": "零",
+              "begin_index": 40,
+              "end_index": 41,
+              "begin_time": 8064,
+              "end_time": 8265
+            },
+            {
+              "text": "五",
+              "begin_index": 41,
+              "end_index": 42,
+              "begin_time": 8265,
+              "end_time": 8467
+            },
+            {
+              "text": "；K",
+              "begin_index": 42,
+              "end_index": 43,
+              "begin_time": 8467,
+              "end_time": 8668
+            },
+            {
+              "text": "等",
+              "begin_index": 43,
+              "end_index": 44,
+              "begin_time": 8668,
+              "end_time": 8870
+            },
+            {
+              "text": "于",
+              "begin_index": 44,
+              "end_index": 45,
+              "begin_time": 8870,
+              "end_time": 9072
+            },
+            {
+              "text": "、三",
+              "begin_index": 45,
+              "end_index": 46,
+              "begin_time": 9072,
+              "end_time": 9274
+            },
+            {
+              "text": "、时",
+              "begin_index": 46,
+              "end_index": 47,
+              "begin_time": 9274,
+              "end_time": 9475
+            },
+            {
+              "text": "仍",
+              "begin_index": 47,
+              "end_index": 48,
+              "begin_time": 9475,
+              "end_time": 9676
+            },
+            {
+              "text": "是",
+              "begin_index": 48,
+              "end_index": 49,
+              "begin_time": 9676,
+              "end_time": 9878
+            },
+            {
+              "text": "如",
+              "begin_index": 49,
+              "end_index": 50,
+              "begin_time": 9878,
+              "end_time": 10080
+            },
+            {
+              "text": "此",
+              "begin_index": 50,
+              "end_index": 51,
+              "begin_time": 10080,
+              "end_time": 10281
+            },
+            {
+              "text": "，说",
+              "begin_index": 51,
+              "end_index": 52,
+              "begin_time": 10281,
+              "end_time": 10483
+            },
+            {
+              "text": "明",
+              "begin_index": 52,
+              "end_index": 53,
+              "begin_time": 10483,
+              "end_time": 10685
+            },
+            {
+              "text": "已",
+              "begin_index": 53,
+              "end_index": 54,
+              "begin_time": 10685,
+              "end_time": 10886
+            },
+            {
+              "text": "经",
+              "begin_index": 54,
+              "end_index": 55,
+              "begin_time": 10886,
+              "end_time": 11087
+            },
+            {
+              "text": "饱",
+              "begin_index": 55,
+              "end_index": 56,
+              "begin_time": 11087,
+              "end_time": 11289
+            },
+            {
+              "text": "和。",
+              "begin_index": 56,
+              "end_index": 57,
+              "begin_time": 11289,
+              "end_time": 11491
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 67,
+        "output_tokens": 158,
+        "total_tokens": 225,
+        "characters": 117
+      },
+      "request_id": "fb09d82d-0a85-97a9-a52f-fb87bff056f6",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

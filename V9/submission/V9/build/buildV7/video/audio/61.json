@@ -1,0 +1,807 @@
+{
+  "id": 61,
+  "section": "07 定级效果",
+  "text": "燃煤机组从 0.83 降到 0.64，水电机组从 0.77 降到 0.41，都降到了判定线以下。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 7.709083333333333,
+  "events": [
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "燃煤机组从 0.83 降到 0.64，水电机组从 0.77 降到 0.41，都降到了判定线以下。",
+        "normalized_text": "燃煤机组从零点八三降到零点六四，水电机组从零点七七降到零点四一，都降到了判定线以下。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "燃",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "燃",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "燃",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "煤",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "机",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 633
+            },
+            {
+              "text": "组",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 633,
+              "end_time": 829
+            },
+            {
+              "text": "从",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 829,
+              "end_time": 1026
+            },
+            {
+              "text": "零",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1026,
+              "end_time": 1223
+            },
+            {
+              "text": "点",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1223,
+              "end_time": 1419
+            },
+            {
+              "text": "八",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1419,
+              "end_time": 1615
+            },
+            {
+              "text": "三",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1615,
+              "end_time": 1813
+            },
+            {
+              "text": "降",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1813,
+              "end_time": 2009
+            },
+            {
+              "text": "到",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2009,
+              "end_time": 2205
+            },
+            {
+              "text": "零",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2205,
+              "end_time": 2402
+            },
+            {
+              "text": "点",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2402,
+              "end_time": 2598
+            },
+            {
+              "text": "六",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2598,
+              "end_time": 2795
+            },
+            {
+              "text": "四",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2795,
+              "end_time": 2992
+            },
+            {
+              "text": "，水",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2992,
+              "end_time": 3188
+            },
+            {
+              "text": "电",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3188,
+              "end_time": 3385
+            },
+            {
+              "text": "机",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3385,
+              "end_time": 3581
+            },
+            {
+              "text": "组",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3581,
+              "end_time": 3778
+            },
+            {
+              "text": "从",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3778,
+              "end_time": 3975
+            },
+            {
+              "text": "零",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3975,
+              "end_time": 4171
+            },
+            {
+              "text": "点",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4171,
+              "end_time": 4367
+            },
+            {
+              "text": "七",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4367,
+              "end_time": 4565
+            },
+            {
+              "text": "七",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4565,
+              "end_time": 4761
+            },
+            {
+              "text": "降",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4761,
+              "end_time": 4957
+            },
+            {
+              "text": "到",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4957,
+              "end_time": 5154
+            },
+            {
+              "text": "零",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5154,
+              "end_time": 5350
+            },
+            {
+              "text": "点",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5350,
+              "end_time": 5547
+            },
+            {
+              "text": "四",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5547,
+              "end_time": 5744
+            },
+            {
+              "text": "一",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5744,
+              "end_time": 5940
+            },
+            {
+              "text": "，都",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5940,
+              "end_time": 6136
+            },
+            {
+              "text": "降",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6136,
+              "end_time": 6333
+            },
+            {
+              "text": "到",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6333,
+              "end_time": 6530
+            },
+            {
+              "text": "了",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6530,
+              "end_time": 6726
+            },
+            {
+              "text": "判",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6726,
+              "end_time": 6923
+            },
+            {
+              "text": "定",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6923,
+              "end_time": 7119
+            },
+            {
+              "text": "线",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7119,
+              "end_time": 7316
+            },
+            {
+              "text": "以",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7316,
+              "end_time": 7513
+            },
+            {
+              "text": "下。",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7513,
+              "end_time": 7709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 106,
+        "total_tokens": 148,
+        "characters": 71
+      },
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "燃煤机组从 0.83 降到 0.64，水电机组从 0.77 降到 0.41，都降到了判定线以下。",
+        "normalized_text": "燃煤机组从零点八三降到零点六四，水电机组从零点七七降到零点四一，都降到了判定线以下。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "燃",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "煤",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 436
+            },
+            {
+              "text": "机",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 436,
+              "end_time": 633
+            },
+            {
+              "text": "组",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 633,
+              "end_time": 829
+            },
+            {
+              "text": "从",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 829,
+              "end_time": 1026
+            },
+            {
+              "text": "零",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1026,
+              "end_time": 1223
+            },
+            {
+              "text": "点",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1223,
+              "end_time": 1419
+            },
+            {
+              "text": "八",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1419,
+              "end_time": 1615
+            },
+            {
+              "text": "三",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1615,
+              "end_time": 1813
+            },
+            {
+              "text": "降",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1813,
+              "end_time": 2009
+            },
+            {
+              "text": "到",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 2009,
+              "end_time": 2205
+            },
+            {
+              "text": "零",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2205,
+              "end_time": 2402
+            },
+            {
+              "text": "点",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2402,
+              "end_time": 2598
+            },
+            {
+              "text": "六",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2598,
+              "end_time": 2795
+            },
+            {
+              "text": "四",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2795,
+              "end_time": 2992
+            },
+            {
+              "text": "，水",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 2992,
+              "end_time": 3188
+            },
+            {
+              "text": "电",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3188,
+              "end_time": 3385
+            },
+            {
+              "text": "机",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3385,
+              "end_time": 3581
+            },
+            {
+              "text": "组",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3581,
+              "end_time": 3778
+            },
+            {
+              "text": "从",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3778,
+              "end_time": 3975
+            },
+            {
+              "text": "零",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 3975,
+              "end_time": 4171
+            },
+            {
+              "text": "点",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4171,
+              "end_time": 4367
+            },
+            {
+              "text": "七",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4367,
+              "end_time": 4565
+            },
+            {
+              "text": "七",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4565,
+              "end_time": 4761
+            },
+            {
+              "text": "降",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4761,
+              "end_time": 4957
+            },
+            {
+              "text": "到",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 4957,
+              "end_time": 5154
+            },
+            {
+              "text": "零",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5154,
+              "end_time": 5350
+            },
+            {
+              "text": "点",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5350,
+              "end_time": 5547
+            },
+            {
+              "text": "四",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5547,
+              "end_time": 5744
+            },
+            {
+              "text": "一",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5744,
+              "end_time": 5940
+            },
+            {
+              "text": "，都",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5940,
+              "end_time": 6136
+            },
+            {
+              "text": "降",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 6136,
+              "end_time": 6333
+            },
+            {
+              "text": "到",
+              "begin_index": 32,
+              "end_index": 33,
+              "begin_time": 6333,
+              "end_time": 6530
+            },
+            {
+              "text": "了",
+              "begin_index": 33,
+              "end_index": 34,
+              "begin_time": 6530,
+              "end_time": 6726
+            },
+            {
+              "text": "判",
+              "begin_index": 34,
+              "end_index": 35,
+              "begin_time": 6726,
+              "end_time": 6923
+            },
+            {
+              "text": "定",
+              "begin_index": 35,
+              "end_index": 36,
+              "begin_time": 6923,
+              "end_time": 7119
+            },
+            {
+              "text": "线",
+              "begin_index": 36,
+              "end_index": 37,
+              "begin_time": 7119,
+              "end_time": 7316
+            },
+            {
+              "text": "以",
+              "begin_index": 37,
+              "end_index": 38,
+              "begin_time": 7316,
+              "end_time": 7513
+            },
+            {
+              "text": "下。",
+              "begin_index": 38,
+              "end_index": 39,
+              "begin_time": 7513,
+              "end_time": 7709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 42,
+        "output_tokens": 106,
+        "total_tokens": 148,
+        "characters": 71
+      },
+      "request_id": "a42ba6e8-490d-9ed8-8c31-fa9169e20989",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

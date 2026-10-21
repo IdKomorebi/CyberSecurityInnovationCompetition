@@ -1,0 +1,2509 @@
+{
+  "id": 3,
+  "section": "01 开场",
+  "text": "这是美国 PJM 电网的公开数据，实际网损是电网企业的内部数据，社会公众无权获取。",
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 8.290916666666666,
+  "events": [
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "normalized_text": "这是美国P J M电网的公开数据，实际网损是电网企业的内部数据，社会公众无权获取。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这是美国 PJM 电网的公开数据，实际网损是电网企业的内部数据，社会公众无权获取。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "据"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "据"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6618,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，社"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6909,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "会"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "公"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "据"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6618,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，社"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6909,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "会"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "公"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "众"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "无"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "权"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "据"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6618,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，社"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6909,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "会"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "公"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "众"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "无"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "权"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "获"
+            },
+            {
+              "end_time": 8073,
+              "begin_time": 7927,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "取。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 153,
+        "characters": 74,
+        "output_tokens": 114,
+        "input_tokens": 39
+      },
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "normalized_text": "这是美国P J M电网的公开数据，实际网损是电网企业的内部数据，社会公众无权获取。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 436,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "是"
+            },
+            {
+              "end_time": 582,
+              "begin_time": 436,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "美"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 582,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "国"
+            },
+            {
+              "end_time": 1164,
+              "begin_time": 945,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "P"
+            },
+            {
+              "end_time": 1527,
+              "begin_time": 1309,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": " J"
+            },
+            {
+              "end_time": 1964,
+              "begin_time": 1600,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": " M"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1964,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "电"
+            },
+            {
+              "end_time": 2255,
+              "begin_time": 2109,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "网"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2255,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "的"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "公"
+            },
+            {
+              "end_time": 2691,
+              "begin_time": 2545,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "开"
+            },
+            {
+              "end_time": 2909,
+              "begin_time": 2691,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "数"
+            },
+            {
+              "end_time": 3491,
+              "begin_time": 2909,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "据"
+            },
+            {
+              "end_time": 3782,
+              "begin_time": 3491,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "，实"
+            },
+            {
+              "end_time": 3927,
+              "begin_time": 3782,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "际"
+            },
+            {
+              "end_time": 4218,
+              "begin_time": 3927,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "网"
+            },
+            {
+              "end_time": 4436,
+              "begin_time": 4218,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "损"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4436,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "是"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4800,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "电"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "网"
+            },
+            {
+              "end_time": 5382,
+              "begin_time": 5091,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "企"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5382,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "业"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "的"
+            },
+            {
+              "end_time": 5745,
+              "begin_time": 5600,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "内"
+            },
+            {
+              "end_time": 5891,
+              "begin_time": 5745,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "部"
+            },
+            {
+              "end_time": 6036,
+              "begin_time": 5891,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "数"
+            },
+            {
+              "end_time": 6182,
+              "begin_time": 6036,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "据"
+            },
+            {
+              "end_time": 6909,
+              "begin_time": 6618,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "，社"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6909,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "会"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "公"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7127,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "众"
+            },
+            {
+              "end_time": 7564,
+              "begin_time": 7345,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "无"
+            },
+            {
+              "end_time": 7782,
+              "begin_time": 7564,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "权"
+            },
+            {
+              "end_time": 7927,
+              "begin_time": 7782,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "获"
+            },
+            {
+              "end_time": 8073,
+              "begin_time": 7927,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "取。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这是美国 PJM 电网的公开数据，实际网损是电网企业的内部数据，社会公众无权获取。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 153,
+        "characters": 74,
+        "output_tokens": 114,
+        "input_tokens": 39
+      },
+      "request_id": "ea46b6a9-3d7c-9fed-8f36-436d4eabe3f2",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

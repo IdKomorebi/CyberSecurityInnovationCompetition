@@ -1,0 +1,1797 @@
+{
+  "id": 30,
+  "section": "03 字段本身：一次定级与单独推断",
+  "text": "可以看到，最高的是南澳出清价，推断精度 0.58，没有超过 0.7 的判定线。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://maas.qianwenaiapi.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 6.254541666666666,
+  "events": [
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-begin",
+        "original_text": "可以看到，最高的是南澳出清价，推断精度 0.58，没有超过 0.7 的判定线。",
+        "normalized_text": "可以看到，最高的是南澳出清价，推断精度零点五八，没有超过零点七的判定线。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "八",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4218
+            },
+            {
+              "text": "，没",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4655
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "八",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4218
+            },
+            {
+              "text": "，没",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "有",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4655,
+              "end_time": 4727
+            },
+            {
+              "text": "超",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "过",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "零",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5091,
+              "end_time": 5236
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "八",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4218
+            },
+            {
+              "text": "，没",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "有",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4655,
+              "end_time": 4727
+            },
+            {
+              "text": "超",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "过",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "零",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5091,
+              "end_time": 5236
+            },
+            {
+              "text": "点",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "七",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "的",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5527,
+              "end_time": 5600
+            },
+            {
+              "text": "判",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5600,
+              "end_time": 5745
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "八",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4218
+            },
+            {
+              "text": "，没",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "有",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4655,
+              "end_time": 4727
+            },
+            {
+              "text": "超",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "过",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "零",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5091,
+              "end_time": 5236
+            },
+            {
+              "text": "点",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "七",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "的",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5527,
+              "end_time": 5600
+            },
+            {
+              "text": "判",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "定",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "线。",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 6036
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-synthesis",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": []
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 36,
+        "output_tokens": 86,
+        "total_tokens": 122,
+        "characters": 64
+      },
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "type": "sentence-end",
+        "original_text": "可以看到，最高的是南澳出清价，推断精度 0.58，没有超过 0.7 的判定线。",
+        "normalized_text": "可以看到，最高的是南澳出清价，推断精度零点五八，没有超过零点七的判定线。",
+        "finish_reason": "null",
+        "sentence": {
+          "index": 0,
+          "words": [
+            {
+              "text": "可",
+              "begin_index": 0,
+              "end_index": 1,
+              "begin_time": 73,
+              "end_time": 218
+            },
+            {
+              "text": "以",
+              "begin_index": 1,
+              "end_index": 2,
+              "begin_time": 218,
+              "end_time": 291
+            },
+            {
+              "text": "看",
+              "begin_index": 2,
+              "end_index": 3,
+              "begin_time": 291,
+              "end_time": 436
+            },
+            {
+              "text": "到",
+              "begin_index": 3,
+              "end_index": 4,
+              "begin_time": 436,
+              "end_time": 655
+            },
+            {
+              "text": "，最",
+              "begin_index": 4,
+              "end_index": 5,
+              "begin_time": 873,
+              "end_time": 1018
+            },
+            {
+              "text": "高",
+              "begin_index": 5,
+              "end_index": 6,
+              "begin_time": 1018,
+              "end_time": 1164
+            },
+            {
+              "text": "的",
+              "begin_index": 6,
+              "end_index": 7,
+              "begin_time": 1164,
+              "end_time": 1309
+            },
+            {
+              "text": "是",
+              "begin_index": 7,
+              "end_index": 8,
+              "begin_time": 1309,
+              "end_time": 1527
+            },
+            {
+              "text": "南",
+              "begin_index": 8,
+              "end_index": 9,
+              "begin_time": 1527,
+              "end_time": 1745
+            },
+            {
+              "text": "澳",
+              "begin_index": 9,
+              "end_index": 10,
+              "begin_time": 1745,
+              "end_time": 1964
+            },
+            {
+              "text": "出",
+              "begin_index": 10,
+              "end_index": 11,
+              "begin_time": 1964,
+              "end_time": 2182
+            },
+            {
+              "text": "清",
+              "begin_index": 11,
+              "end_index": 12,
+              "begin_time": 2182,
+              "end_time": 2327
+            },
+            {
+              "text": "价",
+              "begin_index": 12,
+              "end_index": 13,
+              "begin_time": 2327,
+              "end_time": 2545
+            },
+            {
+              "text": "，推",
+              "begin_index": 13,
+              "end_index": 14,
+              "begin_time": 2836,
+              "end_time": 2982
+            },
+            {
+              "text": "断",
+              "begin_index": 14,
+              "end_index": 15,
+              "begin_time": 2982,
+              "end_time": 3127
+            },
+            {
+              "text": "精",
+              "begin_index": 15,
+              "end_index": 16,
+              "begin_time": 3127,
+              "end_time": 3273
+            },
+            {
+              "text": "度",
+              "begin_index": 16,
+              "end_index": 17,
+              "begin_time": 3273,
+              "end_time": 3491
+            },
+            {
+              "text": "零",
+              "begin_index": 17,
+              "end_index": 18,
+              "begin_time": 3491,
+              "end_time": 3709
+            },
+            {
+              "text": "点",
+              "begin_index": 18,
+              "end_index": 19,
+              "begin_time": 3709,
+              "end_time": 3855
+            },
+            {
+              "text": "五",
+              "begin_index": 19,
+              "end_index": 20,
+              "begin_time": 3855,
+              "end_time": 4000
+            },
+            {
+              "text": "八",
+              "begin_index": 20,
+              "end_index": 21,
+              "begin_time": 4000,
+              "end_time": 4218
+            },
+            {
+              "text": "，没",
+              "begin_index": 21,
+              "end_index": 22,
+              "begin_time": 4436,
+              "end_time": 4655
+            },
+            {
+              "text": "有",
+              "begin_index": 22,
+              "end_index": 23,
+              "begin_time": 4655,
+              "end_time": 4727
+            },
+            {
+              "text": "超",
+              "begin_index": 23,
+              "end_index": 24,
+              "begin_time": 4727,
+              "end_time": 4945
+            },
+            {
+              "text": "过",
+              "begin_index": 24,
+              "end_index": 25,
+              "begin_time": 4945,
+              "end_time": 5091
+            },
+            {
+              "text": "零",
+              "begin_index": 25,
+              "end_index": 26,
+              "begin_time": 5091,
+              "end_time": 5236
+            },
+            {
+              "text": "点",
+              "begin_index": 26,
+              "end_index": 27,
+              "begin_time": 5236,
+              "end_time": 5382
+            },
+            {
+              "text": "七",
+              "begin_index": 27,
+              "end_index": 28,
+              "begin_time": 5382,
+              "end_time": 5527
+            },
+            {
+              "text": "的",
+              "begin_index": 28,
+              "end_index": 29,
+              "begin_time": 5527,
+              "end_time": 5600
+            },
+            {
+              "text": "判",
+              "begin_index": 29,
+              "end_index": 30,
+              "begin_time": 5600,
+              "end_time": 5745
+            },
+            {
+              "text": "定",
+              "begin_index": 30,
+              "end_index": 31,
+              "begin_time": 5745,
+              "end_time": 5891
+            },
+            {
+              "text": "线。",
+              "begin_index": 31,
+              "end_index": 32,
+              "begin_time": 5891,
+              "end_time": 6036
+            }
+          ]
+        }
+      }
+    },
+    {
+      "usage": {
+        "input_tokens": 36,
+        "output_tokens": 86,
+        "total_tokens": 122,
+        "characters": 64
+      },
+      "request_id": "8568b31e-d151-9796-ba4d-55e34ab50982",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

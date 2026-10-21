@@ -1,0 +1,2698 @@
+{
+  "id": 4,
+  "section": "01 为什么要考虑字段之间的关联",
+  "text": "这里用训练好的神经网络模型的准确率，衡量推断能力。设定 0.7 为阈值，超过它，就认为能够推出。",
+  "input_rate": 1.1,
+  "model": "qwen-audio-3.1-tts-flash",
+  "voice": "longanlingxin_v3.1",
+  "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/audio/tts/SpeechSynthesizer",
+  "duration": 8.072708333333333,
+  "events": [
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "normalized_text": "这里用训练好的神经网络模型的准确率，衡量推断能力。设定零点七为阈值，超过它，就认为能够推出。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这里用训练好的神经网络模型的准确率，衡量推断能力。设定 0.7 为阈值，超过它，就认为能够推出。",
+        "type": "sentence-begin"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "七"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "为"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "阈"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "七"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "为"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "阈"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5600,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "值"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，超"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6327,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "过"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "七"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "为"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "阈"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5600,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "值"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，超"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6327,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "过"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6473,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "它"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "，就"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "认"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7127,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "为"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "七"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "为"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "阈"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5600,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "值"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，超"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6327,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "过"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6473,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "它"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "，就"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "认"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7127,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "为"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "能"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "够"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "推"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "出。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "sentence": {
+          "words": [],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "type": "sentence-synthesis"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 157,
+        "characters": 86,
+        "output_tokens": 111,
+        "input_tokens": 46
+      },
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "normalized_text": "这里用训练好的神经网络模型的准确率，衡量推断能力。设定零点七为阈值，超过它，就认为能够推出。",
+        "sentence": {
+          "words": [
+            {
+              "end_time": 218,
+              "begin_time": 73,
+              "end_index": 1,
+              "begin_index": 0,
+              "text": "这"
+            },
+            {
+              "end_time": 364,
+              "begin_time": 218,
+              "end_index": 2,
+              "begin_index": 1,
+              "text": "里"
+            },
+            {
+              "end_time": 509,
+              "begin_time": 364,
+              "end_index": 3,
+              "begin_index": 2,
+              "text": "用"
+            },
+            {
+              "end_time": 655,
+              "begin_time": 509,
+              "end_index": 4,
+              "begin_index": 3,
+              "text": "训"
+            },
+            {
+              "end_time": 800,
+              "begin_time": 655,
+              "end_index": 5,
+              "begin_index": 4,
+              "text": "练"
+            },
+            {
+              "end_time": 945,
+              "begin_time": 800,
+              "end_index": 6,
+              "begin_index": 5,
+              "text": "好"
+            },
+            {
+              "end_time": 1091,
+              "begin_time": 945,
+              "end_index": 7,
+              "begin_index": 6,
+              "text": "的"
+            },
+            {
+              "end_time": 1236,
+              "begin_time": 1091,
+              "end_index": 8,
+              "begin_index": 7,
+              "text": "神"
+            },
+            {
+              "end_time": 1455,
+              "begin_time": 1236,
+              "end_index": 9,
+              "begin_index": 8,
+              "text": "经"
+            },
+            {
+              "end_time": 1600,
+              "begin_time": 1455,
+              "end_index": 10,
+              "begin_index": 9,
+              "text": "网"
+            },
+            {
+              "end_time": 1745,
+              "begin_time": 1600,
+              "end_index": 11,
+              "begin_index": 10,
+              "text": "络"
+            },
+            {
+              "end_time": 1891,
+              "begin_time": 1745,
+              "end_index": 12,
+              "begin_index": 11,
+              "text": "模"
+            },
+            {
+              "end_time": 2109,
+              "begin_time": 1891,
+              "end_index": 13,
+              "begin_index": 12,
+              "text": "型"
+            },
+            {
+              "end_time": 2182,
+              "begin_time": 2109,
+              "end_index": 14,
+              "begin_index": 13,
+              "text": "的"
+            },
+            {
+              "end_time": 2400,
+              "begin_time": 2182,
+              "end_index": 15,
+              "begin_index": 14,
+              "text": "准"
+            },
+            {
+              "end_time": 2545,
+              "begin_time": 2400,
+              "end_index": 16,
+              "begin_index": 15,
+              "text": "确"
+            },
+            {
+              "end_time": 2764,
+              "begin_time": 2545,
+              "end_index": 17,
+              "begin_index": 16,
+              "text": "率"
+            },
+            {
+              "end_time": 3127,
+              "begin_time": 2982,
+              "end_index": 18,
+              "begin_index": 17,
+              "text": "，衡"
+            },
+            {
+              "end_time": 3345,
+              "begin_time": 3127,
+              "end_index": 19,
+              "begin_index": 18,
+              "text": "量"
+            },
+            {
+              "end_time": 3564,
+              "begin_time": 3345,
+              "end_index": 20,
+              "begin_index": 19,
+              "text": "推"
+            },
+            {
+              "end_time": 3709,
+              "begin_time": 3564,
+              "end_index": 21,
+              "begin_index": 20,
+              "text": "断"
+            },
+            {
+              "end_time": 3855,
+              "begin_time": 3709,
+              "end_index": 22,
+              "begin_index": 21,
+              "text": "能"
+            },
+            {
+              "end_time": 4000,
+              "begin_time": 3855,
+              "end_index": 23,
+              "begin_index": 22,
+              "text": "力"
+            },
+            {
+              "end_time": 4655,
+              "begin_time": 4364,
+              "end_index": 24,
+              "begin_index": 23,
+              "text": "。设"
+            },
+            {
+              "end_time": 4727,
+              "begin_time": 4655,
+              "end_index": 25,
+              "begin_index": 24,
+              "text": "定"
+            },
+            {
+              "end_time": 4945,
+              "begin_time": 4727,
+              "end_index": 26,
+              "begin_index": 25,
+              "text": "零"
+            },
+            {
+              "end_time": 5091,
+              "begin_time": 4945,
+              "end_index": 27,
+              "begin_index": 26,
+              "text": "点"
+            },
+            {
+              "end_time": 5309,
+              "begin_time": 5091,
+              "end_index": 28,
+              "begin_index": 27,
+              "text": "七"
+            },
+            {
+              "end_time": 5455,
+              "begin_time": 5309,
+              "end_index": 29,
+              "begin_index": 28,
+              "text": "为"
+            },
+            {
+              "end_time": 5600,
+              "begin_time": 5455,
+              "end_index": 30,
+              "begin_index": 29,
+              "text": "阈"
+            },
+            {
+              "end_time": 5818,
+              "begin_time": 5600,
+              "end_index": 31,
+              "begin_index": 30,
+              "text": "值"
+            },
+            {
+              "end_time": 6327,
+              "begin_time": 6109,
+              "end_index": 32,
+              "begin_index": 31,
+              "text": "，超"
+            },
+            {
+              "end_time": 6473,
+              "begin_time": 6327,
+              "end_index": 33,
+              "begin_index": 32,
+              "text": "过"
+            },
+            {
+              "end_time": 6618,
+              "begin_time": 6473,
+              "end_index": 34,
+              "begin_index": 33,
+              "text": "它"
+            },
+            {
+              "end_time": 6982,
+              "begin_time": 6836,
+              "end_index": 35,
+              "begin_index": 34,
+              "text": "，就"
+            },
+            {
+              "end_time": 7127,
+              "begin_time": 6982,
+              "end_index": 36,
+              "begin_index": 35,
+              "text": "认"
+            },
+            {
+              "end_time": 7200,
+              "begin_time": 7127,
+              "end_index": 37,
+              "begin_index": 36,
+              "text": "为"
+            },
+            {
+              "end_time": 7345,
+              "begin_time": 7200,
+              "end_index": 38,
+              "begin_index": 37,
+              "text": "能"
+            },
+            {
+              "end_time": 7491,
+              "begin_time": 7345,
+              "end_index": 39,
+              "begin_index": 38,
+              "text": "够"
+            },
+            {
+              "end_time": 7636,
+              "begin_time": 7491,
+              "end_index": 40,
+              "begin_index": 39,
+              "text": "推"
+            },
+            {
+              "end_time": 7855,
+              "begin_time": 7636,
+              "end_index": 41,
+              "begin_index": 40,
+              "text": "出。"
+            }
+          ],
+          "index": 0
+        },
+        "finish_reason": "null",
+        "original_text": "这里用训练好的神经网络模型的准确率，衡量推断能力。设定 0.7 为阈值，超过它，就认为能够推出。",
+        "type": "sentence-end"
+      }
+    },
+    {
+      "usage": {
+        "total_tokens": 157,
+        "characters": 86,
+        "output_tokens": 111,
+        "input_tokens": 46
+      },
+      "request_id": "d0162bc9-3471-90d5-8a39-94aa1b8b57f2",
+      "output": {
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

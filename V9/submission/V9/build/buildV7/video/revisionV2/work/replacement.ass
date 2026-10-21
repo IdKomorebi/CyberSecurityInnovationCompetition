@@ -1,0 +1,17 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Noto Sans CJK SC,54,&H00FFFFFF,&H00FFFFFF,&H60101D35,&H00101D35,-1,0,0,0,100,100,0,0,1,1,0,2,60,60,18,1
+Style: Label,Noto Sans CJK SC,20,&H00E4BFA8,&H00FFFFFF,&H00101D35,&H00101D35,0,0,0,0,100,100,0,0,1,0,0,7,30,30,968,1
+Style: Scope,Noto Sans CJK SC,20,&H00E4BFA8,&H00FFFFFF,&H00101D35,&H00101D35,0,0,0,0,100,100,0,0,1,0,0,9,30,30,968,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 1,0:00:01.44,0:00:04.48,Caption,,0,0,0,,我们用公开字段训练预测这个目标的模型，
+Dialogue: 1,0:00:04.49,0:00:07.25,Caption,,0,0,0,,用推断精度衡量能不能推出来。
+Dialogue: 1,0:00:07.26,0:00:11.68,Caption,,0,0,0,,推断精度用训练好的神经网络预测模型的准确程度表示：
+Dialogue: 1,0:00:11.70,0:00:14.55,Caption,,0,0,0,,0 表示完全推不出，1 表示完全还原。
